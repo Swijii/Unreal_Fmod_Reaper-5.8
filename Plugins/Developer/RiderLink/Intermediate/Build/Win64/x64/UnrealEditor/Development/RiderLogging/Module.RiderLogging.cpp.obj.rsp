@@ -1,0 +1,11 @@
+"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLogging/Module.RiderLogging.cpp"
+@"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLogging/RiderLogging.Shared.rsp"
+/FI"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLogging/Definitions.h"
+/Fo"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLogging/Module.RiderLogging.cpp.obj"
+/experimental:log "C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLogging/Module.RiderLogging.cpp.sarif"
+/sourceDependencies "C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLogging/Module.RiderLogging.cpp.dep.json"
+/nologo
+/TP
+/GR
+/std:c++20
+/wd5054

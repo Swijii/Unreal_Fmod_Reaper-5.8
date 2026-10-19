@@ -12,14 +12,16 @@
 #define FMODSTUDIO_FMODCallbackHandler_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Interface UFMODCallbackHandler *************************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODCallbackHandler_NoRegister();
+struct Z_Construct_UClass_UFMODCallbackHandler_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODCallbackHandler(ETypeConstructPhase);
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	FMODSTUDIO_API UFMODCallbackHandler(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -31,39 +33,37 @@ FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODCallbackHandler_NoRegister();
 	virtual ~UFMODCallbackHandler() = default;
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h_15_GENERATED_UINTERFACE_BODY() \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h_15_GENERATED_UINTERFACE_BODY() \
 private: \
-	static void StaticRegisterNativesUFMODCallbackHandler(); \
-	friend struct Z_Construct_UClass_UFMODCallbackHandler_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODCallbackHandler_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODCallbackHandler_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODCallbackHandler(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODCallbackHandler, UInterface, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Interface), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODCallbackHandler_NoRegister) \
+	DECLARE_CLASS2(UFMODCallbackHandler, UInterface, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Interface), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODCallbackHandler) \
 	DECLARE_SERIALIZER(UFMODCallbackHandler)
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h_15_GENERATED_BODY \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h_15_GENERATED_BODY \
 	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h_15_GENERATED_UINTERFACE_BODY() \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h_15_GENERATED_UINTERFACE_BODY() \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h_15_INCLASS_IINTERFACE_NO_PURE_DECLS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h_15_INCLASS_IINTERFACE_NO_PURE_DECLS \
 protected: \
 	virtual ~IFMODCallbackHandler() {} \
 public: \
 	typedef UFMODCallbackHandler UClassType; \
 	typedef IFMODCallbackHandler ThisClass; \
-	virtual UObject* _getUObject() const { return nullptr; }
+	[[deprecated("Do not call _getUObject(), use Cast.")]] virtual UObject* _getUObject() const { return nullptr; }
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h_12_PROLOG
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h_20_GENERATED_BODY \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h_12_PROLOG
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h_15_INCLASS_IINTERFACE_NO_PURE_DECLS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h_15_INCLASS_IINTERFACE_NO_PURE_DECLS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -73,6 +73,6 @@ class UFMODCallbackHandler;
 // ********** End Interface UFMODCallbackHandler ***************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h
+#define CURRENT_FILE_ID FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Public_FMOD_FMODCallbackHandler_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -12,25 +12,25 @@
 #define FMODSTUDIOEDITOR_FMODAmbientSoundActorFactory_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UFMODAmbientSoundActorFactory ********************************************
-FMODSTUDIOEDITOR_API UClass* Z_Construct_UClass_UFMODAmbientSoundActorFactory_NoRegister();
+struct Z_Construct_UClass_UFMODAmbientSoundActorFactory_Statics;
+FMODSTUDIOEDITOR_API UClass* Z_Construct_UClass_UFMODAmbientSoundActorFactory(ETypeConstructPhase);
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h_13_INCLASS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h_13_INCLASS \
 private: \
-	static void StaticRegisterNativesUFMODAmbientSoundActorFactory(); \
-	friend struct Z_Construct_UClass_UFMODAmbientSoundActorFactory_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIOEDITOR_API UClass* Z_Construct_UClass_UFMODAmbientSoundActorFactory_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODAmbientSoundActorFactory_Statics; \
+	friend FMODSTUDIOEDITOR_API UClass* ::Z_Construct_UClass_UFMODAmbientSoundActorFactory(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODAmbientSoundActorFactory, UActorFactory, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/FMODStudioEditor"), Z_Construct_UClass_UFMODAmbientSoundActorFactory_NoRegister) \
+	DECLARE_CLASS2(UFMODAmbientSoundActorFactory, UActorFactory, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/FMODStudioEditor"), Z_Construct_UClass_UFMODAmbientSoundActorFactory) \
 	DECLARE_SERIALIZER(UFMODAmbientSoundActorFactory)
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h_13_STANDARD_CONSTRUCTORS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	FMODSTUDIOEDITOR_API UFMODAmbientSoundActorFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFMODAmbientSoundActorFactory) \
@@ -42,12 +42,12 @@ public: \
 	FMODSTUDIOEDITOR_API virtual ~UFMODAmbientSoundActorFactory();
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h_10_PROLOG
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h_13_GENERATED_BODY_LEGACY \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h_10_PROLOG
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h_13_INCLASS \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h_13_STANDARD_CONSTRUCTORS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h_13_INCLASS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -57,6 +57,6 @@ class UFMODAmbientSoundActorFactory;
 // ********** End Class UFMODAmbientSoundActorFactory **********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h
+#define CURRENT_FILE_ID FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -7,23 +7,24 @@
 #include "UObject/GeneratedCppIncludes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeFMODStudioEditor_init() {}
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");
 	static FPackageRegistrationInfo Z_Registration_Info_UPackage__Script_FMODStudioEditor;
-	FORCENOINLINE UPackage* Z_Construct_UPackage__Script_FMODStudioEditor()
+	FORCENOINLINE UPackage* Z_Construct_UPackage__Script_FMODStudioEditor(ETypeConstructPhase)
 	{
 		if (!Z_Registration_Info_UPackage__Script_FMODStudioEditor.OuterSingleton)
 		{
-			static const UECodeGen_Private::FPackageParams PackageParams = {
-				"/Script/FMODStudioEditor",
-				nullptr,
-				0,
-				PKG_CompiledIn | 0x00000040,
-				0xBC8A2429,
-				0x0FCC897A,
-				METADATA_PARAMS(0, nullptr)
-			};
-			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_FMODStudioEditor.OuterSingleton, PackageParams);
-		}
-		return Z_Registration_Info_UPackage__Script_FMODStudioEditor.OuterSingleton;
+		static const UECodeGen_Private::FPackageParams PackageParams = {
+			"/Script/FMODStudioEditor",
+			nullptr,
+			0,
+			PKG_CompiledIn | 0x00000040,
+			0xAC1F82CC,
+			0x40D74E3B,
+			METADATA_PARAMS(0, nullptr)
+		};
+		UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_FMODStudioEditor.OuterSingleton, PackageParams);
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_FMODStudioEditor(Z_Construct_UPackage__Script_FMODStudioEditor, TEXT("/Script/FMODStudioEditor"), Z_Registration_Info_UPackage__Script_FMODStudioEditor, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xBC8A2429, 0x0FCC897A));
+	return Z_Registration_Info_UPackage__Script_FMODStudioEditor.OuterSingleton;
+}
+static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_FMODStudioEditor(Z_Construct_UPackage__Script_FMODStudioEditor, TEXT("/Script/FMODStudioEditor"), Z_Registration_Info_UPackage__Script_FMODStudioEditor, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xAC1F82CC, 0x40D74E3B));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

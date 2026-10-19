@@ -12,26 +12,26 @@
 #define FMODSTUDIO_FMODEventParameterTrack_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UFMODEventParameterTrack *************************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventParameterTrack_NoRegister();
+struct Z_Construct_UClass_UFMODEventParameterTrack_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventParameterTrack(ETypeConstructPhase);
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_16_INCLASS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_16_INCLASS \
 private: \
-	static void StaticRegisterNativesUFMODEventParameterTrack(); \
-	friend struct Z_Construct_UClass_UFMODEventParameterTrack_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventParameterTrack_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODEventParameterTrack_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODEventParameterTrack(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODEventParameterTrack, UMovieSceneNameableTrack, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODEventParameterTrack_NoRegister) \
+	DECLARE_CLASS2(UFMODEventParameterTrack, UMovieSceneNameableTrack, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODEventParameterTrack) \
 	DECLARE_SERIALIZER(UFMODEventParameterTrack) \
-	virtual UObject* _getUObject() const override { return const_cast<UFMODEventParameterTrack*>(this); }
+	[[deprecated("Do not call _getUObject(), use Cast.")]] virtual UObject* _getUObject() const override { return const_cast<UFMODEventParameterTrack*>(this); }
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_16_STANDARD_CONSTRUCTORS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	FMODSTUDIO_API UFMODEventParameterTrack(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFMODEventParameterTrack) \
@@ -43,12 +43,12 @@ public: \
 	FMODSTUDIO_API virtual ~UFMODEventParameterTrack();
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_13_PROLOG
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_16_GENERATED_BODY_LEGACY \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_13_PROLOG
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_16_INCLASS \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_16_STANDARD_CONSTRUCTORS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_16_INCLASS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -58,6 +58,6 @@ class UFMODEventParameterTrack;
 // ********** End Class UFMODEventParameterTrack ***************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h
+#define CURRENT_FILE_ID FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

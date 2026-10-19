@@ -12,25 +12,25 @@
 #define FMODSTUDIO_FMODEvent_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UFMODEvent ***************************************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEvent_NoRegister();
+struct Z_Construct_UClass_UFMODEvent_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEvent(ETypeConstructPhase);
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_INCLASS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_INCLASS \
 private: \
-	static void StaticRegisterNativesUFMODEvent(); \
-	friend struct Z_Construct_UClass_UFMODEvent_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEvent_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODEvent_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODEvent(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODEvent, UFMODAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODEvent_NoRegister) \
+	DECLARE_CLASS2(UFMODEvent, UFMODAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODEvent) \
 	DECLARE_SERIALIZER(UFMODEvent)
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_STANDARD_CONSTRUCTORS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UFMODEvent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFMODEvent) \
@@ -42,12 +42,12 @@ public: \
 	NO_API virtual ~UFMODEvent();
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_13_PROLOG
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_GENERATED_BODY_LEGACY \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_13_PROLOG
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_INCLASS \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_STANDARD_CONSTRUCTORS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_INCLASS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -57,6 +57,6 @@ class UFMODEvent;
 // ********** End Class UFMODEvent *****************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h
+#define CURRENT_FILE_ID FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

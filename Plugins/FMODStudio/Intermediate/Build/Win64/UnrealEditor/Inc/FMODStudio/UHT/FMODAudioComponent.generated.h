@@ -12,60 +12,39 @@
 #define FMODSTUDIO_FMODAudioComponent_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
+#include "Templates/IsUEnumClass.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
 class UFMODEvent;
 
 // ********** Begin ScriptStruct FFMODAttenuationDetails *******************************************
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_67_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FFMODAttenuationDetails_Statics; \
-	FMODSTUDIO_API static class UScriptStruct* StaticStruct();
+struct Z_Construct_UScriptStruct_FFMODAttenuationDetails_Statics;
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODAttenuationDetails(ETypeConstructPhase);
+
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_67_GENERATED_BODY \
+	friend struct ::Z_Construct_UScriptStruct_FFMODAttenuationDetails_Statics; \
+	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODAttenuationDetails(ETypeConstructPhase::Inner); }
 
 
 struct FFMODAttenuationDetails;
 // ********** End ScriptStruct FFMODAttenuationDetails *********************************************
 
 // ********** Begin ScriptStruct FFMODOcclusionDetails *********************************************
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_90_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FFMODOcclusionDetails_Statics; \
-	FMODSTUDIO_API static class UScriptStruct* StaticStruct();
+struct Z_Construct_UScriptStruct_FFMODOcclusionDetails_Statics;
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODOcclusionDetails(ETypeConstructPhase);
+
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_90_GENERATED_BODY \
+	friend struct ::Z_Construct_UScriptStruct_FFMODOcclusionDetails_Statics; \
+	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODOcclusionDetails(ETypeConstructPhase::Inner); }
 
 
 struct FFMODOcclusionDetails;
 // ********** End ScriptStruct FFMODOcclusionDetails ***********************************************
 
-// ********** Begin Delegate FOnEventStopped *******************************************************
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_109_DELEGATE \
-FMODSTUDIO_API void FOnEventStopped_DelegateWrapper(const FMulticastScriptDelegate& OnEventStopped);
-
-
-// ********** End Delegate FOnEventStopped *********************************************************
-
-// ********** Begin Delegate FOnSoundStopped *******************************************************
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_111_DELEGATE \
-FMODSTUDIO_API void FOnSoundStopped_DelegateWrapper(const FMulticastScriptDelegate& OnSoundStopped);
-
-
-// ********** End Delegate FOnSoundStopped *********************************************************
-
-// ********** Begin Delegate FOnTimelineMarker *****************************************************
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_113_DELEGATE \
-FMODSTUDIO_API void FOnTimelineMarker_DelegateWrapper(const FMulticastScriptDelegate& OnTimelineMarker, const FString& Name, int32 Position);
-
-
-// ********** End Delegate FOnTimelineMarker *******************************************************
-
-// ********** Begin Delegate FOnTimelineBeat *******************************************************
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_116_DELEGATE \
-FMODSTUDIO_API void FOnTimelineBeat_DelegateWrapper(const FMulticastScriptDelegate& OnTimelineBeat, int32 Bar, int32 Beat, int32 Position, float Tempo, int32 TimeSignatureUpper, int32 TimeSignatureLower);
-
-
-// ********** End Delegate FOnTimelineBeat *********************************************************
-
 // ********** Begin Class UFMODAudioComponent ******************************************************
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_139_RPC_WRAPPERS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_139_RPC_WRAPPERS \
 	DECLARE_FUNCTION(execSetProgrammerSoundName); \
 	DECLARE_FUNCTION(execGetTimelinePosition); \
 	DECLARE_FUNCTION(execSetTimelinePosition); \
@@ -87,20 +66,19 @@ FMODSTUDIO_API void FOnTimelineBeat_DelegateWrapper(const FMulticastScriptDelega
 	DECLARE_FUNCTION(execSetEvent);
 
 
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAudioComponent_NoRegister();
+struct Z_Construct_UClass_UFMODAudioComponent_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAudioComponent(ETypeConstructPhase);
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_139_INCLASS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_139_INCLASS \
 private: \
-	static void StaticRegisterNativesUFMODAudioComponent(); \
-	friend struct Z_Construct_UClass_UFMODAudioComponent_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAudioComponent_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODAudioComponent_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODAudioComponent(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODAudioComponent, USceneComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODAudioComponent_NoRegister) \
+	DECLARE_CLASS2(UFMODAudioComponent, USceneComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODAudioComponent) \
 	DECLARE_SERIALIZER(UFMODAudioComponent)
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_139_STANDARD_CONSTRUCTORS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_139_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UFMODAudioComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFMODAudioComponent) \
@@ -112,13 +90,13 @@ public: \
 	NO_API virtual ~UFMODAudioComponent();
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_136_PROLOG
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_139_GENERATED_BODY_LEGACY \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_136_PROLOG
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_139_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_139_RPC_WRAPPERS \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_139_INCLASS \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_139_STANDARD_CONSTRUCTORS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_139_RPC_WRAPPERS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_139_INCLASS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_139_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -128,7 +106,7 @@ class UFMODAudioComponent;
 // ********** End Class UFMODAudioComponent ********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h
+#define CURRENT_FILE_ID FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h
 
 // ********** Begin Enum EFMODEventProperty ********************************************************
 #define FOREACH_ENUM_EFMODEVENTPROPERTY(op) \

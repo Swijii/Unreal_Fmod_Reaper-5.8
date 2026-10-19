@@ -8,54 +8,30 @@
 #include "FMODAmbientSound.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_UOBJECT");
 void EmptyLinkFunctionForGeneratedCodeFMODAmbientSound() {}
 
 // ********** Begin Cross Module References ********************************************************
-ENGINE_API UClass* Z_Construct_UClass_AActor();
-FMODSTUDIO_API UClass* Z_Construct_UClass_AFMODAmbientSound();
-FMODSTUDIO_API UClass* Z_Construct_UClass_AFMODAmbientSound_NoRegister();
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAudioComponent_NoRegister();
-UPackage* Z_Construct_UPackage__Script_FMODStudio();
+ENGINE_API UClass* Z_Construct_UClass_AActor(ETypeConstructPhase);
 // ********** End Cross Module References **********************************************************
 
+// ********** Begin Same Module References *********************************************************
+UPackage* Z_Construct_UPackage__Script_FMODStudio(ETypeConstructPhase);
+FMODSTUDIO_API UClass* Z_Construct_UClass_AFMODAmbientSound(ETypeConstructPhase);
+FMODSTUDIO_API UClass* Z_Construct_UClass_AFMODAmbientSound(ETypeConstructPhase);
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAudioComponent(ETypeConstructPhase);
+// ********** End Same Module References ***********************************************************
+#define UHT_STRUCT_BASE(INIT) UE::CodeGen::ConstInit::TCompiledInObjectPtr<const FStructBaseChain>(UE::Private::AsStructBaseChain(INIT))
+
 // ********** Begin Class AFMODAmbientSound ********************************************************
-void AFMODAmbientSound::StaticRegisterNativesAFMODAmbientSound()
-{
-}
-FClassRegistrationInfo Z_Registration_Info_UClass_AFMODAmbientSound;
-UClass* AFMODAmbientSound::GetPrivateStaticClass()
-{
-	using TClass = AFMODAmbientSound;
-	if (!Z_Registration_Info_UClass_AFMODAmbientSound.InnerSingleton)
-	{
-		GetPrivateStaticClassBody(
-			StaticPackage(),
-			TEXT("FMODAmbientSound"),
-			Z_Registration_Info_UClass_AFMODAmbientSound.InnerSingleton,
-			StaticRegisterNativesAFMODAmbientSound,
-			sizeof(TClass),
-			alignof(TClass),
-			TClass::StaticClassFlags,
-			TClass::StaticClassCastFlags(),
-			TClass::StaticConfigName(),
-			(UClass::ClassConstructorType)InternalConstructor<TClass>,
-			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
-			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
-			&TClass::Super::StaticClass,
-			&TClass::WithinClass::StaticClass
-		);
-	}
-	return Z_Registration_Info_UClass_AFMODAmbientSound.InnerSingleton;
-}
-UClass* Z_Construct_UClass_AFMODAmbientSound_NoRegister()
-{
-	return AFMODAmbientSound::GetPrivateStaticClass();
-}
-struct Z_Construct_UClass_AFMODAmbientSound_Statics
+#ifdef UHT_STATICS
+#error UHT_STATICS already defined
+#endif
+#define UHT_STATICS Z_Construct_UClass_AFMODAmbientSound_Statics
+struct UHT_STATICS
 {
 #if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "AutoExpandCategories", "Audio" },
 		{ "ClassGroupNames", "Sounds" },
 #if !UE_BUILD_SHIPPING
@@ -81,62 +57,103 @@ struct Z_Construct_UClass_AFMODAmbientSound_Statics
 #endif
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Class AFMODAmbientSound constinit property declarations ************************
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_AudioComponent;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-	static UObject* (*const DependentSingletons[])();
+// ********** End Class AFMODAmbientSound constinit property declarations **************************
+	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AFMODAmbientSound>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
+}; // struct UHT_STATICS
+
+// ********** Begin Class AFMODAmbientSound Property Definitions ***********************************
+const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_AudioComponent = { "AudioComponent", nullptr, (EPropertyFlags)0x01140000000a001d, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, nullptr, nullptr, 1, STRUCT_OFFSET(AFMODAmbientSound, AudioComponent), Z_Construct_UClass_UFMODAudioComponent, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AudioComponent_MetaData), NewProp_AudioComponent_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_AudioComponent,
 };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFMODAmbientSound_Statics::NewProp_AudioComponent = { "AudioComponent", nullptr, (EPropertyFlags)0x01140000000a001d, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFMODAmbientSound, AudioComponent), Z_Construct_UClass_UFMODAudioComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AudioComponent_MetaData), NewProp_AudioComponent_MetaData) };
-const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFMODAmbientSound_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFMODAmbientSound_Statics::NewProp_AudioComponent,
+static_assert(UE_ARRAY_COUNT(UHT_STATICS::PropPointers) < 2048);
+// ********** End Class AFMODAmbientSound Property Definitions *************************************
+FTypeConstructFunc* UHT_STATICS::DependentSingletons[] = {
+	(FTypeConstructFunc*)Z_Construct_UClass_AActor,
+	(FTypeConstructFunc*)Z_Construct_UPackage__Script_FMODStudio,
 };
-static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AFMODAmbientSound_Statics::PropPointers) < 2048);
-UObject* (*const Z_Construct_UClass_AFMODAmbientSound_Statics::DependentSingletons[])() = {
-	(UObject* (*)())Z_Construct_UClass_AActor,
-	(UObject* (*)())Z_Construct_UPackage__Script_FMODStudio,
-};
-static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AFMODAmbientSound_Statics::DependentSingletons) < 16);
-const UECodeGen_Private::FClassParams Z_Construct_UClass_AFMODAmbientSound_Statics::ClassParams = {
-	&AFMODAmbientSound::StaticClass,
+static_assert(UE_ARRAY_COUNT(UHT_STATICS::DependentSingletons) < 16);
+const UECodeGen_Private::FClassParams UHT_STATICS::ClassParams = {
+	&Z_Construct_UClass_AFMODAmbientSound,
 	"Engine",
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
 	nullptr,
-	Z_Construct_UClass_AFMODAmbientSound_Statics::PropPointers,
+	UHT_STATICS::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
 	0,
-	UE_ARRAY_COUNT(Z_Construct_UClass_AFMODAmbientSound_Statics::PropPointers),
+	UE_ARRAY_COUNT(UHT_STATICS::PropPointers),
 	0,
-	0x009001A4u,
-	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AFMODAmbientSound_Statics::Class_MetaDataParams), Z_Construct_UClass_AFMODAmbientSound_Statics::Class_MetaDataParams)
+	0x009000A4u,
+	METADATA_PARAMS(UE_ARRAY_COUNT(UHT_STATICS::Type_MetaData), UHT_STATICS::Type_MetaData)
 };
-UClass* Z_Construct_UClass_AFMODAmbientSound()
+FClassRegistrationInfo Z_Registration_Info_UClass_AFMODAmbientSound;
+UClass* Z_Construct_UClass_AFMODAmbientSound(ETypeConstructPhase Phase)
 {
+	if (Phase == ETypeConstructPhase::Inner)
+	{
+		using TClass = AFMODAmbientSound;
+		if (!Z_Registration_Info_UClass_AFMODAmbientSound.InnerSingleton)
+		{
+			GetPrivateStaticClassBody(
+				TClass::StaticPackage(),
+				TEXT("FMODAmbientSound"),
+				Z_Registration_Info_UClass_AFMODAmbientSound.InnerSingleton,
+				nullptr,
+				DataSizeOf<TClass>(),
+				alignof(TClass),
+				TClass::StaticClassFlags,
+				TClass::StaticClassCastFlags(),
+				TClass::StaticConfigName(),
+				(UClass::ClassConstructorType)InternalConstructor<TClass>,
+				(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+				UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+				&TClass::Super::StaticClass,
+				&TClass::WithinClass::StaticClass
+			);
+		}
+		return Z_Registration_Info_UClass_AFMODAmbientSound.InnerSingleton;
+	}
 	if (!Z_Registration_Info_UClass_AFMODAmbientSound.OuterSingleton)
 	{
-		UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_AFMODAmbientSound.OuterSingleton, Z_Construct_UClass_AFMODAmbientSound_Statics::ClassParams);
+		UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_AFMODAmbientSound.OuterSingleton, UHT_STATICS::ClassParams);
 	}
 	return Z_Registration_Info_UClass_AFMODAmbientSound.OuterSingleton;
 }
-DEFINE_VTABLE_PTR_HELPER_CTOR(AFMODAmbientSound);
+#undef UHT_STATICS
+DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, AFMODAmbientSound);
 AFMODAmbientSound::~AFMODAmbientSound() {}
 // ********** End Class AFMODAmbientSound **********************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h__Script_FMODStudio_Statics
+#ifdef UHT_STATICS
+#error UHT_STATICS already defined
+#endif
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h__Script_FMODStudio_Statics
+struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AFMODAmbientSound, AFMODAmbientSound::StaticClass, TEXT("AFMODAmbientSound"), &Z_Registration_Info_UClass_AFMODAmbientSound, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFMODAmbientSound), 3091544683U) },
+		{ Z_Construct_UClass_AFMODAmbientSound, TEXT("AFMODAmbientSound"), &Z_Registration_Info_UClass_AFMODAmbientSound, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFMODAmbientSound), 1780666904U) },
 	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h__Script_FMODStudio_1346620842(TEXT("/Script/FMODStudio"),
-	Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h__Script_FMODStudio_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h__Script_FMODStudio_Statics::ClassInfo),
+}; // UHT_STATICS 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h__Script_FMODStudio_ae4bef75b6a1a9ff2631c7afc1be77fd54f3413b{
+	TEXT("/Script/FMODStudio"),
+	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,
-	nullptr, 0);
+	nullptr, 0,
+	nullptr, 0,
+};
+#undef UHT_STATICS
 // ********** End Registration *********************************************************************
+#undef UHT_STRUCT_BASE
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

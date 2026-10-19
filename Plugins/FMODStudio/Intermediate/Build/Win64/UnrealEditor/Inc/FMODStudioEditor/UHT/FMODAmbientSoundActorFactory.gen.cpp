@@ -8,53 +8,29 @@
 #include "FMODAmbientSoundActorFactory.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_UOBJECT");
 void EmptyLinkFunctionForGeneratedCodeFMODAmbientSoundActorFactory() {}
 
 // ********** Begin Cross Module References ********************************************************
-FMODSTUDIOEDITOR_API UClass* Z_Construct_UClass_UFMODAmbientSoundActorFactory();
-FMODSTUDIOEDITOR_API UClass* Z_Construct_UClass_UFMODAmbientSoundActorFactory_NoRegister();
-UNREALED_API UClass* Z_Construct_UClass_UActorFactory();
-UPackage* Z_Construct_UPackage__Script_FMODStudioEditor();
+UNREALED_API UClass* Z_Construct_UClass_UActorFactory(ETypeConstructPhase);
 // ********** End Cross Module References **********************************************************
 
+// ********** Begin Same Module References *********************************************************
+UPackage* Z_Construct_UPackage__Script_FMODStudioEditor(ETypeConstructPhase);
+FMODSTUDIOEDITOR_API UClass* Z_Construct_UClass_UFMODAmbientSoundActorFactory(ETypeConstructPhase);
+FMODSTUDIOEDITOR_API UClass* Z_Construct_UClass_UFMODAmbientSoundActorFactory(ETypeConstructPhase);
+// ********** End Same Module References ***********************************************************
+#define UHT_STRUCT_BASE(INIT) UE::CodeGen::ConstInit::TCompiledInObjectPtr<const FStructBaseChain>(UE::Private::AsStructBaseChain(INIT))
+
 // ********** Begin Class UFMODAmbientSoundActorFactory ********************************************
-void UFMODAmbientSoundActorFactory::StaticRegisterNativesUFMODAmbientSoundActorFactory()
-{
-}
-FClassRegistrationInfo Z_Registration_Info_UClass_UFMODAmbientSoundActorFactory;
-UClass* UFMODAmbientSoundActorFactory::GetPrivateStaticClass()
-{
-	using TClass = UFMODAmbientSoundActorFactory;
-	if (!Z_Registration_Info_UClass_UFMODAmbientSoundActorFactory.InnerSingleton)
-	{
-		GetPrivateStaticClassBody(
-			StaticPackage(),
-			TEXT("FMODAmbientSoundActorFactory"),
-			Z_Registration_Info_UClass_UFMODAmbientSoundActorFactory.InnerSingleton,
-			StaticRegisterNativesUFMODAmbientSoundActorFactory,
-			sizeof(TClass),
-			alignof(TClass),
-			TClass::StaticClassFlags,
-			TClass::StaticClassCastFlags(),
-			TClass::StaticConfigName(),
-			(UClass::ClassConstructorType)InternalConstructor<TClass>,
-			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
-			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
-			&TClass::Super::StaticClass,
-			&TClass::WithinClass::StaticClass
-		);
-	}
-	return Z_Registration_Info_UClass_UFMODAmbientSoundActorFactory.InnerSingleton;
-}
-UClass* Z_Construct_UClass_UFMODAmbientSoundActorFactory_NoRegister()
-{
-	return UFMODAmbientSoundActorFactory::GetPrivateStaticClass();
-}
-struct Z_Construct_UClass_UFMODAmbientSoundActorFactory_Statics
+#ifdef UHT_STATICS
+#error UHT_STATICS already defined
+#endif
+#define UHT_STATICS Z_Construct_UClass_UFMODAmbientSoundActorFactory_Statics
+struct UHT_STATICS
 {
 #if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** FMOD Ambient Sound Actor Factory.\n*/" },
 #endif
@@ -66,19 +42,22 @@ struct Z_Construct_UClass_UFMODAmbientSoundActorFactory_Statics
 #endif
 	};
 #endif // WITH_METADATA
-	static UObject* (*const DependentSingletons[])();
+
+// ********** Begin Class UFMODAmbientSoundActorFactory constinit property declarations ************
+// ********** End Class UFMODAmbientSoundActorFactory constinit property declarations **************
+	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UFMODAmbientSoundActorFactory>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
+}; // struct UHT_STATICS
+FTypeConstructFunc* UHT_STATICS::DependentSingletons[] = {
+	(FTypeConstructFunc*)Z_Construct_UClass_UActorFactory,
+	(FTypeConstructFunc*)Z_Construct_UPackage__Script_FMODStudioEditor,
 };
-UObject* (*const Z_Construct_UClass_UFMODAmbientSoundActorFactory_Statics::DependentSingletons[])() = {
-	(UObject* (*)())Z_Construct_UClass_UActorFactory,
-	(UObject* (*)())Z_Construct_UPackage__Script_FMODStudioEditor,
-};
-static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAmbientSoundActorFactory_Statics::DependentSingletons) < 16);
-const UECodeGen_Private::FClassParams Z_Construct_UClass_UFMODAmbientSoundActorFactory_Statics::ClassParams = {
-	&UFMODAmbientSoundActorFactory::StaticClass,
+static_assert(UE_ARRAY_COUNT(UHT_STATICS::DependentSingletons) < 16);
+const UECodeGen_Private::FClassParams UHT_STATICS::ClassParams = {
+	&Z_Construct_UClass_UFMODAmbientSoundActorFactory,
 	"Editor",
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
@@ -90,31 +69,66 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_UFMODAmbientSoundActorF
 	0,
 	0,
 	0x000830ACu,
-	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAmbientSoundActorFactory_Statics::Class_MetaDataParams), Z_Construct_UClass_UFMODAmbientSoundActorFactory_Statics::Class_MetaDataParams)
+	METADATA_PARAMS(UE_ARRAY_COUNT(UHT_STATICS::Type_MetaData), UHT_STATICS::Type_MetaData)
 };
-UClass* Z_Construct_UClass_UFMODAmbientSoundActorFactory()
+FClassRegistrationInfo Z_Registration_Info_UClass_UFMODAmbientSoundActorFactory;
+UClass* Z_Construct_UClass_UFMODAmbientSoundActorFactory(ETypeConstructPhase Phase)
 {
+	if (Phase == ETypeConstructPhase::Inner)
+	{
+		using TClass = UFMODAmbientSoundActorFactory;
+		if (!Z_Registration_Info_UClass_UFMODAmbientSoundActorFactory.InnerSingleton)
+		{
+			GetPrivateStaticClassBody(
+				TClass::StaticPackage(),
+				TEXT("FMODAmbientSoundActorFactory"),
+				Z_Registration_Info_UClass_UFMODAmbientSoundActorFactory.InnerSingleton,
+				nullptr,
+				DataSizeOf<TClass>(),
+				alignof(TClass),
+				TClass::StaticClassFlags,
+				TClass::StaticClassCastFlags(),
+				TClass::StaticConfigName(),
+				(UClass::ClassConstructorType)InternalConstructor<TClass>,
+				(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+				UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+				&TClass::Super::StaticClass,
+				&TClass::WithinClass::StaticClass
+			);
+		}
+		return Z_Registration_Info_UClass_UFMODAmbientSoundActorFactory.InnerSingleton;
+	}
 	if (!Z_Registration_Info_UClass_UFMODAmbientSoundActorFactory.OuterSingleton)
 	{
-		UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_UFMODAmbientSoundActorFactory.OuterSingleton, Z_Construct_UClass_UFMODAmbientSoundActorFactory_Statics::ClassParams);
+		UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_UFMODAmbientSoundActorFactory.OuterSingleton, UHT_STATICS::ClassParams);
 	}
 	return Z_Registration_Info_UClass_UFMODAmbientSoundActorFactory.OuterSingleton;
 }
-DEFINE_VTABLE_PTR_HELPER_CTOR(UFMODAmbientSoundActorFactory);
+#undef UHT_STATICS
+DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, UFMODAmbientSoundActorFactory);
 UFMODAmbientSoundActorFactory::~UFMODAmbientSoundActorFactory() {}
 // ********** End Class UFMODAmbientSoundActorFactory **********************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h__Script_FMODStudioEditor_Statics
+#ifdef UHT_STATICS
+#error UHT_STATICS already defined
+#endif
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h__Script_FMODStudioEditor_Statics
+struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODAmbientSoundActorFactory, UFMODAmbientSoundActorFactory::StaticClass, TEXT("UFMODAmbientSoundActorFactory"), &Z_Registration_Info_UClass_UFMODAmbientSoundActorFactory, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAmbientSoundActorFactory), 1075092657U) },
+		{ Z_Construct_UClass_UFMODAmbientSoundActorFactory, TEXT("UFMODAmbientSoundActorFactory"), &Z_Registration_Info_UClass_UFMODAmbientSoundActorFactory, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAmbientSoundActorFactory), 298159U) },
 	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h__Script_FMODStudioEditor_1952081468(TEXT("/Script/FMODStudioEditor"),
-	Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h__Script_FMODStudioEditor_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h__Script_FMODStudioEditor_Statics::ClassInfo),
+}; // UHT_STATICS 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h__Script_FMODStudioEditor_6863a7a75c2a015bd9482b6092b85ebe774d0f54{
+	TEXT("/Script/FMODStudioEditor"),
+	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,
-	nullptr, 0);
+	nullptr, 0,
+	nullptr, 0,
+};
+#undef UHT_STATICS
 // ********** End Registration *********************************************************************
+#undef UHT_STRUCT_BASE
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

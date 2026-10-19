@@ -12,14 +12,18 @@
 #define FMODSTUDIO_FMODEventParameterSectionTemplate_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin ScriptStruct FFMODEventParameterSectionTemplate ********************************
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterSectionTemplate_h_15_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FFMODEventParameterSectionTemplate_Statics; \
-	FMODSTUDIO_API static class UScriptStruct* StaticStruct(); \
+struct Z_Construct_UScriptStruct_FFMODEventParameterSectionTemplate_Statics;
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODEventParameterSectionTemplate(ETypeConstructPhase);
+
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterSectionTemplate_h_15_GENERATED_BODY \
+	friend struct ::Z_Construct_UScriptStruct_FFMODEventParameterSectionTemplate_Statics; \
+	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODEventParameterSectionTemplate(ETypeConstructPhase::Inner); } \
 	typedef FMovieSceneParameterSectionTemplate Super;
 
 
@@ -27,6 +31,6 @@ struct FFMODEventParameterSectionTemplate;
 // ********** End ScriptStruct FFMODEventParameterSectionTemplate **********************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterSectionTemplate_h
+#define CURRENT_FILE_ID FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterSectionTemplate_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

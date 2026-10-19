@@ -7,33 +7,34 @@
 #include "UObject/GeneratedCppIncludes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeFMODStudio_init() {}
-	FMODSTUDIO_API UFunction* Z_Construct_UDelegateFunction_FMODStudio_OnEventStopped__DelegateSignature();
-	FMODSTUDIO_API UFunction* Z_Construct_UDelegateFunction_FMODStudio_OnSoundStopped__DelegateSignature();
-	FMODSTUDIO_API UFunction* Z_Construct_UDelegateFunction_FMODStudio_OnTimelineBeat__DelegateSignature();
-	FMODSTUDIO_API UFunction* Z_Construct_UDelegateFunction_FMODStudio_OnTimelineMarker__DelegateSignature();
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");
+	FMODSTUDIO_API UFunction* Z_Construct_UDelegateFunction_FMODStudio_OnEventStopped__DelegateSignature(ETypeConstructPhase);
+	FMODSTUDIO_API UFunction* Z_Construct_UDelegateFunction_FMODStudio_OnSoundStopped__DelegateSignature(ETypeConstructPhase);
+	FMODSTUDIO_API UFunction* Z_Construct_UDelegateFunction_FMODStudio_OnTimelineBeat__DelegateSignature(ETypeConstructPhase);
+	FMODSTUDIO_API UFunction* Z_Construct_UDelegateFunction_FMODStudio_OnTimelineMarker__DelegateSignature(ETypeConstructPhase);
 	static FPackageRegistrationInfo Z_Registration_Info_UPackage__Script_FMODStudio;
-	FORCENOINLINE UPackage* Z_Construct_UPackage__Script_FMODStudio()
+	FORCENOINLINE UPackage* Z_Construct_UPackage__Script_FMODStudio(ETypeConstructPhase)
 	{
 		if (!Z_Registration_Info_UPackage__Script_FMODStudio.OuterSingleton)
 		{
-			static UObject* (*const SingletonFuncArray[])() = {
-				(UObject* (*)())Z_Construct_UDelegateFunction_FMODStudio_OnEventStopped__DelegateSignature,
-				(UObject* (*)())Z_Construct_UDelegateFunction_FMODStudio_OnSoundStopped__DelegateSignature,
-				(UObject* (*)())Z_Construct_UDelegateFunction_FMODStudio_OnTimelineBeat__DelegateSignature,
-				(UObject* (*)())Z_Construct_UDelegateFunction_FMODStudio_OnTimelineMarker__DelegateSignature,
-			};
-			static const UECodeGen_Private::FPackageParams PackageParams = {
-				"/Script/FMODStudio",
-				SingletonFuncArray,
-				UE_ARRAY_COUNT(SingletonFuncArray),
-				PKG_CompiledIn | 0x00000000,
-				0x14468C38,
-				0xC5572947,
-				METADATA_PARAMS(0, nullptr)
-			};
-			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_FMODStudio.OuterSingleton, PackageParams);
-		}
-		return Z_Registration_Info_UPackage__Script_FMODStudio.OuterSingleton;
+		static FTypeConstructFunc* SingletonFuncArray[] = {
+			(FTypeConstructFunc*)Z_Construct_UDelegateFunction_FMODStudio_OnEventStopped__DelegateSignature,
+			(FTypeConstructFunc*)Z_Construct_UDelegateFunction_FMODStudio_OnSoundStopped__DelegateSignature,
+			(FTypeConstructFunc*)Z_Construct_UDelegateFunction_FMODStudio_OnTimelineBeat__DelegateSignature,
+			(FTypeConstructFunc*)Z_Construct_UDelegateFunction_FMODStudio_OnTimelineMarker__DelegateSignature,
+		};
+		static const UECodeGen_Private::FPackageParams PackageParams = {
+			"/Script/FMODStudio",
+			SingletonFuncArray,
+			UE_ARRAY_COUNT(SingletonFuncArray),
+			PKG_CompiledIn | 0x00000000,
+			0xDC63DBAD,
+			0xA571E3B8,
+			METADATA_PARAMS(0, nullptr)
+		};
+		UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_FMODStudio.OuterSingleton, PackageParams);
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_FMODStudio(Z_Construct_UPackage__Script_FMODStudio, TEXT("/Script/FMODStudio"), Z_Registration_Info_UPackage__Script_FMODStudio, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x14468C38, 0xC5572947));
+	return Z_Registration_Info_UPackage__Script_FMODStudio.OuterSingleton;
+}
+static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_FMODStudio(Z_Construct_UPackage__Script_FMODStudio, TEXT("/Script/FMODStudio"), Z_Registration_Info_UPackage__Script_FMODStudio, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xDC63DBAD, 0xA571E3B8));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

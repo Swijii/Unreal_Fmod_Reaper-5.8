@@ -8,54 +8,30 @@
 #include "FMODAsset.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_UOBJECT");
 void EmptyLinkFunctionForGeneratedCodeFMODAsset() {}
 
 // ********** Begin Cross Module References ********************************************************
-COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
-COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FGuid();
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAsset();
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAsset_NoRegister();
-UPackage* Z_Construct_UPackage__Script_FMODStudio();
+COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FGuid(ETypeConstructPhase);
+COREUOBJECT_API UClass* Z_Construct_UClass_UObject(ETypeConstructPhase);
 // ********** End Cross Module References **********************************************************
 
+// ********** Begin Same Module References *********************************************************
+UPackage* Z_Construct_UPackage__Script_FMODStudio(ETypeConstructPhase);
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAsset(ETypeConstructPhase);
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAsset(ETypeConstructPhase);
+// ********** End Same Module References ***********************************************************
+#define UHT_STRUCT_BASE(INIT) UE::CodeGen::ConstInit::TCompiledInObjectPtr<const FStructBaseChain>(UE::Private::AsStructBaseChain(INIT))
+
 // ********** Begin Class UFMODAsset ***************************************************************
-void UFMODAsset::StaticRegisterNativesUFMODAsset()
-{
-}
-FClassRegistrationInfo Z_Registration_Info_UClass_UFMODAsset;
-UClass* UFMODAsset::GetPrivateStaticClass()
-{
-	using TClass = UFMODAsset;
-	if (!Z_Registration_Info_UClass_UFMODAsset.InnerSingleton)
-	{
-		GetPrivateStaticClassBody(
-			StaticPackage(),
-			TEXT("FMODAsset"),
-			Z_Registration_Info_UClass_UFMODAsset.InnerSingleton,
-			StaticRegisterNativesUFMODAsset,
-			sizeof(TClass),
-			alignof(TClass),
-			TClass::StaticClassFlags,
-			TClass::StaticClassCastFlags(),
-			TClass::StaticConfigName(),
-			(UClass::ClassConstructorType)InternalConstructor<TClass>,
-			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
-			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
-			&TClass::Super::StaticClass,
-			&TClass::WithinClass::StaticClass
-		);
-	}
-	return Z_Registration_Info_UClass_UFMODAsset.InnerSingleton;
-}
-UClass* Z_Construct_UClass_UFMODAsset_NoRegister()
-{
-	return UFMODAsset::GetPrivateStaticClass();
-}
-struct Z_Construct_UClass_UFMODAsset_Statics
+#ifdef UHT_STATICS
+#error UHT_STATICS already defined
+#endif
+#define UHT_STATICS Z_Construct_UClass_UFMODAsset_Statics
+struct UHT_STATICS
 {
 #if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * FMOD Asset.\n */" },
@@ -76,62 +52,103 @@ struct Z_Construct_UClass_UFMODAsset_Statics
 #endif
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Class UFMODAsset constinit property declarations *******************************
 	static const UECodeGen_Private::FStructPropertyParams NewProp_AssetGuid;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-	static UObject* (*const DependentSingletons[])();
+// ********** End Class UFMODAsset constinit property declarations *********************************
+	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UFMODAsset>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
+}; // struct UHT_STATICS
+
+// ********** Begin Class UFMODAsset Property Definitions ******************************************
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_AssetGuid = { "AssetGuid", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAsset, AssetGuid), Z_Construct_UScriptStruct_FGuid, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AssetGuid_MetaData), NewProp_AssetGuid_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_AssetGuid,
 };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UFMODAsset_Statics::NewProp_AssetGuid = { "AssetGuid", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAsset, AssetGuid), Z_Construct_UScriptStruct_FGuid, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AssetGuid_MetaData), NewProp_AssetGuid_MetaData) };
-const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UFMODAsset_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODAsset_Statics::NewProp_AssetGuid,
+static_assert(UE_ARRAY_COUNT(UHT_STATICS::PropPointers) < 2048);
+// ********** End Class UFMODAsset Property Definitions ********************************************
+FTypeConstructFunc* UHT_STATICS::DependentSingletons[] = {
+	(FTypeConstructFunc*)Z_Construct_UClass_UObject,
+	(FTypeConstructFunc*)Z_Construct_UPackage__Script_FMODStudio,
 };
-static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAsset_Statics::PropPointers) < 2048);
-UObject* (*const Z_Construct_UClass_UFMODAsset_Statics::DependentSingletons[])() = {
-	(UObject* (*)())Z_Construct_UClass_UObject,
-	(UObject* (*)())Z_Construct_UPackage__Script_FMODStudio,
-};
-static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAsset_Statics::DependentSingletons) < 16);
-const UECodeGen_Private::FClassParams Z_Construct_UClass_UFMODAsset_Statics::ClassParams = {
-	&UFMODAsset::StaticClass,
+static_assert(UE_ARRAY_COUNT(UHT_STATICS::DependentSingletons) < 16);
+const UECodeGen_Private::FClassParams UHT_STATICS::ClassParams = {
+	&Z_Construct_UClass_UFMODAsset,
 	nullptr,
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
 	nullptr,
-	Z_Construct_UClass_UFMODAsset_Statics::PropPointers,
+	UHT_STATICS::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
 	0,
-	UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAsset_Statics::PropPointers),
+	UE_ARRAY_COUNT(UHT_STATICS::PropPointers),
 	0,
 	0x001000A0u,
-	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAsset_Statics::Class_MetaDataParams), Z_Construct_UClass_UFMODAsset_Statics::Class_MetaDataParams)
+	METADATA_PARAMS(UE_ARRAY_COUNT(UHT_STATICS::Type_MetaData), UHT_STATICS::Type_MetaData)
 };
-UClass* Z_Construct_UClass_UFMODAsset()
+FClassRegistrationInfo Z_Registration_Info_UClass_UFMODAsset;
+UClass* Z_Construct_UClass_UFMODAsset(ETypeConstructPhase Phase)
 {
+	if (Phase == ETypeConstructPhase::Inner)
+	{
+		using TClass = UFMODAsset;
+		if (!Z_Registration_Info_UClass_UFMODAsset.InnerSingleton)
+		{
+			GetPrivateStaticClassBody(
+				TClass::StaticPackage(),
+				TEXT("FMODAsset"),
+				Z_Registration_Info_UClass_UFMODAsset.InnerSingleton,
+				nullptr,
+				DataSizeOf<TClass>(),
+				alignof(TClass),
+				TClass::StaticClassFlags,
+				TClass::StaticClassCastFlags(),
+				TClass::StaticConfigName(),
+				(UClass::ClassConstructorType)InternalConstructor<TClass>,
+				(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+				UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+				&TClass::Super::StaticClass,
+				&TClass::WithinClass::StaticClass
+			);
+		}
+		return Z_Registration_Info_UClass_UFMODAsset.InnerSingleton;
+	}
 	if (!Z_Registration_Info_UClass_UFMODAsset.OuterSingleton)
 	{
-		UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_UFMODAsset.OuterSingleton, Z_Construct_UClass_UFMODAsset_Statics::ClassParams);
+		UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_UFMODAsset.OuterSingleton, UHT_STATICS::ClassParams);
 	}
 	return Z_Registration_Info_UClass_UFMODAsset.OuterSingleton;
 }
-DEFINE_VTABLE_PTR_HELPER_CTOR(UFMODAsset);
+#undef UHT_STATICS
+DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, UFMODAsset);
 UFMODAsset::~UFMODAsset() {}
 // ********** End Class UFMODAsset *****************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAsset_h__Script_FMODStudio_Statics
+#ifdef UHT_STATICS
+#error UHT_STATICS already defined
+#endif
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAsset_h__Script_FMODStudio_Statics
+struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODAsset, UFMODAsset::StaticClass, TEXT("UFMODAsset"), &Z_Registration_Info_UClass_UFMODAsset, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAsset), 2275591136U) },
+		{ Z_Construct_UClass_UFMODAsset, TEXT("UFMODAsset"), &Z_Registration_Info_UClass_UFMODAsset, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAsset), 1789148450U) },
 	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAsset_h__Script_FMODStudio_3766419318(TEXT("/Script/FMODStudio"),
-	Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAsset_h__Script_FMODStudio_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAsset_h__Script_FMODStudio_Statics::ClassInfo),
+}; // UHT_STATICS 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAsset_h__Script_FMODStudio_112af94eeb3c4ca0a9b611367f28c67e271b088d{
+	TEXT("/Script/FMODStudio"),
+	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,
-	nullptr, 0);
+	nullptr, 0,
+	nullptr, 0,
+};
+#undef UHT_STATICS
 // ********** End Registration *********************************************************************
+#undef UHT_STRUCT_BASE
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -12,25 +12,25 @@
 #define FMODSTUDIO_FMODAudioLinkSettingsFactory_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UFMODAudioLinkSettingsFactory ********************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAudioLinkSettingsFactory_NoRegister();
+struct Z_Construct_UClass_UFMODAudioLinkSettingsFactory_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAudioLinkSettingsFactory(ETypeConstructPhase);
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODAudioLinkEditor_Private_FMODAudioLinkSettingsFactory_h_14_INCLASS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODAudioLinkEditor_Private_FMODAudioLinkSettingsFactory_h_14_INCLASS \
 private: \
-	static void StaticRegisterNativesUFMODAudioLinkSettingsFactory(); \
-	friend struct Z_Construct_UClass_UFMODAudioLinkSettingsFactory_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAudioLinkSettingsFactory_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODAudioLinkSettingsFactory_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODAudioLinkSettingsFactory(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODAudioLinkSettingsFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODAudioLinkSettingsFactory_NoRegister) \
+	DECLARE_CLASS2(UFMODAudioLinkSettingsFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODAudioLinkSettingsFactory) \
 	DECLARE_SERIALIZER(UFMODAudioLinkSettingsFactory)
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODAudioLinkEditor_Private_FMODAudioLinkSettingsFactory_h_14_STANDARD_CONSTRUCTORS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODAudioLinkEditor_Private_FMODAudioLinkSettingsFactory_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	FMODSTUDIO_API UFMODAudioLinkSettingsFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFMODAudioLinkSettingsFactory) \
@@ -42,12 +42,12 @@ public: \
 	FMODSTUDIO_API virtual ~UFMODAudioLinkSettingsFactory();
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODAudioLinkEditor_Private_FMODAudioLinkSettingsFactory_h_11_PROLOG
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODAudioLinkEditor_Private_FMODAudioLinkSettingsFactory_h_14_GENERATED_BODY_LEGACY \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODAudioLinkEditor_Private_FMODAudioLinkSettingsFactory_h_11_PROLOG
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODAudioLinkEditor_Private_FMODAudioLinkSettingsFactory_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODAudioLinkEditor_Private_FMODAudioLinkSettingsFactory_h_14_INCLASS \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODAudioLinkEditor_Private_FMODAudioLinkSettingsFactory_h_14_STANDARD_CONSTRUCTORS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODAudioLinkEditor_Private_FMODAudioLinkSettingsFactory_h_14_INCLASS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODAudioLinkEditor_Private_FMODAudioLinkSettingsFactory_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -57,6 +57,6 @@ class UFMODAudioLinkSettingsFactory;
 // ********** End Class UFMODAudioLinkSettingsFactory **********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODAudioLinkEditor_Private_FMODAudioLinkSettingsFactory_h
+#define CURRENT_FILE_ID FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODAudioLinkEditor_Private_FMODAudioLinkSettingsFactory_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

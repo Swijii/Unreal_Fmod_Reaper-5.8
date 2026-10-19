@@ -8,53 +8,29 @@
 #include "FMODBank.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_UOBJECT");
 void EmptyLinkFunctionForGeneratedCodeFMODBank() {}
 
 // ********** Begin Cross Module References ********************************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAsset();
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODBank();
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODBank_NoRegister();
-UPackage* Z_Construct_UPackage__Script_FMODStudio();
 // ********** End Cross Module References **********************************************************
 
+// ********** Begin Same Module References *********************************************************
+UPackage* Z_Construct_UPackage__Script_FMODStudio(ETypeConstructPhase);
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAsset(ETypeConstructPhase);
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODBank(ETypeConstructPhase);
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODBank(ETypeConstructPhase);
+// ********** End Same Module References ***********************************************************
+#define UHT_STRUCT_BASE(INIT) UE::CodeGen::ConstInit::TCompiledInObjectPtr<const FStructBaseChain>(UE::Private::AsStructBaseChain(INIT))
+
 // ********** Begin Class UFMODBank ****************************************************************
-void UFMODBank::StaticRegisterNativesUFMODBank()
-{
-}
-FClassRegistrationInfo Z_Registration_Info_UClass_UFMODBank;
-UClass* UFMODBank::GetPrivateStaticClass()
-{
-	using TClass = UFMODBank;
-	if (!Z_Registration_Info_UClass_UFMODBank.InnerSingleton)
-	{
-		GetPrivateStaticClassBody(
-			StaticPackage(),
-			TEXT("FMODBank"),
-			Z_Registration_Info_UClass_UFMODBank.InnerSingleton,
-			StaticRegisterNativesUFMODBank,
-			sizeof(TClass),
-			alignof(TClass),
-			TClass::StaticClassFlags,
-			TClass::StaticClassCastFlags(),
-			TClass::StaticConfigName(),
-			(UClass::ClassConstructorType)InternalConstructor<TClass>,
-			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
-			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
-			&TClass::Super::StaticClass,
-			&TClass::WithinClass::StaticClass
-		);
-	}
-	return Z_Registration_Info_UClass_UFMODBank.InnerSingleton;
-}
-UClass* Z_Construct_UClass_UFMODBank_NoRegister()
-{
-	return UFMODBank::GetPrivateStaticClass();
-}
-struct Z_Construct_UClass_UFMODBank_Statics
+#ifdef UHT_STATICS
+#error UHT_STATICS already defined
+#endif
+#define UHT_STATICS Z_Construct_UClass_UFMODBank_Statics
+struct UHT_STATICS
 {
 #if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * FMOD Bank Asset.\n */" },
 #endif
@@ -65,19 +41,22 @@ struct Z_Construct_UClass_UFMODBank_Statics
 #endif
 	};
 #endif // WITH_METADATA
-	static UObject* (*const DependentSingletons[])();
+
+// ********** Begin Class UFMODBank constinit property declarations ********************************
+// ********** End Class UFMODBank constinit property declarations **********************************
+	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UFMODBank>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
+}; // struct UHT_STATICS
+FTypeConstructFunc* UHT_STATICS::DependentSingletons[] = {
+	(FTypeConstructFunc*)Z_Construct_UClass_UFMODAsset,
+	(FTypeConstructFunc*)Z_Construct_UPackage__Script_FMODStudio,
 };
-UObject* (*const Z_Construct_UClass_UFMODBank_Statics::DependentSingletons[])() = {
-	(UObject* (*)())Z_Construct_UClass_UFMODAsset,
-	(UObject* (*)())Z_Construct_UPackage__Script_FMODStudio,
-};
-static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBank_Statics::DependentSingletons) < 16);
-const UECodeGen_Private::FClassParams Z_Construct_UClass_UFMODBank_Statics::ClassParams = {
-	&UFMODBank::StaticClass,
+static_assert(UE_ARRAY_COUNT(UHT_STATICS::DependentSingletons) < 16);
+const UECodeGen_Private::FClassParams UHT_STATICS::ClassParams = {
+	&Z_Construct_UClass_UFMODBank,
 	nullptr,
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
@@ -89,31 +68,66 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_UFMODBank_Statics::Clas
 	0,
 	0,
 	0x001000A0u,
-	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBank_Statics::Class_MetaDataParams), Z_Construct_UClass_UFMODBank_Statics::Class_MetaDataParams)
+	METADATA_PARAMS(UE_ARRAY_COUNT(UHT_STATICS::Type_MetaData), UHT_STATICS::Type_MetaData)
 };
-UClass* Z_Construct_UClass_UFMODBank()
+FClassRegistrationInfo Z_Registration_Info_UClass_UFMODBank;
+UClass* Z_Construct_UClass_UFMODBank(ETypeConstructPhase Phase)
 {
+	if (Phase == ETypeConstructPhase::Inner)
+	{
+		using TClass = UFMODBank;
+		if (!Z_Registration_Info_UClass_UFMODBank.InnerSingleton)
+		{
+			GetPrivateStaticClassBody(
+				TClass::StaticPackage(),
+				TEXT("FMODBank"),
+				Z_Registration_Info_UClass_UFMODBank.InnerSingleton,
+				nullptr,
+				DataSizeOf<TClass>(),
+				alignof(TClass),
+				TClass::StaticClassFlags,
+				TClass::StaticClassCastFlags(),
+				TClass::StaticConfigName(),
+				(UClass::ClassConstructorType)InternalConstructor<TClass>,
+				(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+				UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+				&TClass::Super::StaticClass,
+				&TClass::WithinClass::StaticClass
+			);
+		}
+		return Z_Registration_Info_UClass_UFMODBank.InnerSingleton;
+	}
 	if (!Z_Registration_Info_UClass_UFMODBank.OuterSingleton)
 	{
-		UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_UFMODBank.OuterSingleton, Z_Construct_UClass_UFMODBank_Statics::ClassParams);
+		UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_UFMODBank.OuterSingleton, UHT_STATICS::ClassParams);
 	}
 	return Z_Registration_Info_UClass_UFMODBank.OuterSingleton;
 }
-DEFINE_VTABLE_PTR_HELPER_CTOR(UFMODBank);
+#undef UHT_STATICS
+DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, UFMODBank);
 UFMODBank::~UFMODBank() {}
 // ********** End Class UFMODBank ******************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBank_h__Script_FMODStudio_Statics
+#ifdef UHT_STATICS
+#error UHT_STATICS already defined
+#endif
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBank_h__Script_FMODStudio_Statics
+struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODBank, UFMODBank::StaticClass, TEXT("UFMODBank"), &Z_Registration_Info_UClass_UFMODBank, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODBank), 1061765940U) },
+		{ Z_Construct_UClass_UFMODBank, TEXT("UFMODBank"), &Z_Registration_Info_UClass_UFMODBank, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODBank), 2208211361U) },
 	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBank_h__Script_FMODStudio_708521279(TEXT("/Script/FMODStudio"),
-	Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBank_h__Script_FMODStudio_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBank_h__Script_FMODStudio_Statics::ClassInfo),
+}; // UHT_STATICS 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBank_h__Script_FMODStudio_d76b8f1a7aaa0966f1db02031abd32c2493d29f7{
+	TEXT("/Script/FMODStudio"),
+	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,
-	nullptr, 0);
+	nullptr, 0,
+	nullptr, 0,
+};
+#undef UHT_STATICS
 // ********** End Registration *********************************************************************
+#undef UHT_STRUCT_BASE
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

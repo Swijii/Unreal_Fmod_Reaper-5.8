@@ -12,14 +12,19 @@
 #define FMODSTUDIO_FMODEventControlSection_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
+#include "Templates/IsUEnumClass.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin ScriptStruct FFMODEventControlChannel ******************************************
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_25_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FFMODEventControlChannel_Statics; \
-	FMODSTUDIO_API static class UScriptStruct* StaticStruct(); \
+struct Z_Construct_UScriptStruct_FFMODEventControlChannel_Statics;
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODEventControlChannel(ETypeConstructPhase);
+
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_25_GENERATED_BODY \
+	friend struct ::Z_Construct_UScriptStruct_FFMODEventControlChannel_Statics; \
+	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODEventControlChannel(ETypeConstructPhase::Inner); } \
 	typedef FMovieSceneByteChannel Super;
 
 
@@ -27,20 +32,19 @@ struct FFMODEventControlChannel;
 // ********** End ScriptStruct FFMODEventControlChannel ********************************************
 
 // ********** Begin Class UFMODEventControlSection *************************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventControlSection_NoRegister();
+struct Z_Construct_UClass_UFMODEventControlSection_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventControlSection(ETypeConstructPhase);
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_53_INCLASS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_53_INCLASS \
 private: \
-	static void StaticRegisterNativesUFMODEventControlSection(); \
-	friend struct Z_Construct_UClass_UFMODEventControlSection_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventControlSection_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODEventControlSection_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODEventControlSection(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODEventControlSection, UMovieSceneSection, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODEventControlSection_NoRegister) \
+	DECLARE_CLASS2(UFMODEventControlSection, UMovieSceneSection, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODEventControlSection) \
 	DECLARE_SERIALIZER(UFMODEventControlSection)
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_53_STANDARD_CONSTRUCTORS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_53_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	FMODSTUDIO_API UFMODEventControlSection(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFMODEventControlSection) \
@@ -52,12 +56,12 @@ public: \
 	FMODSTUDIO_API virtual ~UFMODEventControlSection();
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_50_PROLOG
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_53_GENERATED_BODY_LEGACY \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_50_PROLOG
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_53_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_53_INCLASS \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_53_STANDARD_CONSTRUCTORS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_53_INCLASS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_53_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -67,7 +71,7 @@ class UFMODEventControlSection;
 // ********** End Class UFMODEventControlSection ***************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h
+#define CURRENT_FILE_ID FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h
 
 // ********** Begin Enum EFMODEventControlKey ******************************************************
 #define FOREACH_ENUM_EFMODEVENTCONTROLKEY(op) \
@@ -77,7 +81,7 @@ class UFMODEventControlSection;
 
 enum class EFMODEventControlKey : uint8;
 template<> struct TIsUEnumClass<EFMODEventControlKey> { enum { Value = true }; };
-template<> FMODSTUDIO_API UEnum* StaticEnum<EFMODEventControlKey>();
+template<> UE_NODEBUG FMODSTUDIO_NON_ATTRIBUTED_API UEnum* StaticEnum<EFMODEventControlKey>();
 // ********** End Enum EFMODEventControlKey ********************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

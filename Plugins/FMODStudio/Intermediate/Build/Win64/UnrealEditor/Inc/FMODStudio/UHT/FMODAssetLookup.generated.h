@@ -12,14 +12,18 @@
 #define FMODSTUDIO_FMODAssetLookup_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin ScriptStruct FFMODAssetLookupRow ***********************************************
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_FMODAssetLookup_h_12_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FFMODAssetLookupRow_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+struct Z_Construct_UScriptStruct_FFMODAssetLookupRow_Statics;
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODAssetLookupRow(ETypeConstructPhase);
+
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_FMODAssetLookup_h_12_GENERATED_BODY \
+	friend struct ::Z_Construct_UScriptStruct_FFMODAssetLookupRow_Statics; \
+	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODAssetLookupRow(ETypeConstructPhase::Inner); } \
 	typedef FTableRowBase Super;
 
 
@@ -27,6 +31,6 @@ struct FFMODAssetLookupRow;
 // ********** End ScriptStruct FFMODAssetLookupRow *************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_FMODAssetLookup_h
+#define CURRENT_FILE_ID FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_FMODAssetLookup_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

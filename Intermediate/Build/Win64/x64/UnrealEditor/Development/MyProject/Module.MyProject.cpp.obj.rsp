@@ -1,0 +1,14 @@
+"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Module.MyProject.cpp"
+@"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyProject.Shared.rsp"
+/FI"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/FI"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Definitions.MyProject.h"
+/Yu"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/Fp"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
+/Fo"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Module.MyProject.cpp.obj"
+/experimental:log "C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Module.MyProject.cpp.sarif"
+/sourceDependencies "C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Module.MyProject.cpp.dep.json"
+/nologo
+/TP
+/GR-
+/std:c++20
+/wd5054

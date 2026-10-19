@@ -12,25 +12,25 @@
 #define FMODSTUDIOEDITOR_FMODGenerateAssetsCommandlet_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UFMODGenerateAssetsCommandlet ********************************************
-FMODSTUDIOEDITOR_API UClass* Z_Construct_UClass_UFMODGenerateAssetsCommandlet_NoRegister();
+struct Z_Construct_UClass_UFMODGenerateAssetsCommandlet_Statics;
+FMODSTUDIOEDITOR_API UClass* Z_Construct_UClass_UFMODGenerateAssetsCommandlet(ETypeConstructPhase);
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_15_INCLASS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_15_INCLASS \
 private: \
-	static void StaticRegisterNativesUFMODGenerateAssetsCommandlet(); \
-	friend struct Z_Construct_UClass_UFMODGenerateAssetsCommandlet_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIOEDITOR_API UClass* Z_Construct_UClass_UFMODGenerateAssetsCommandlet_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODGenerateAssetsCommandlet_Statics; \
+	friend FMODSTUDIOEDITOR_API UClass* ::Z_Construct_UClass_UFMODGenerateAssetsCommandlet(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODGenerateAssetsCommandlet, UCommandlet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/FMODStudioEditor"), Z_Construct_UClass_UFMODGenerateAssetsCommandlet_NoRegister) \
+	DECLARE_CLASS2(UFMODGenerateAssetsCommandlet, UCommandlet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/FMODStudioEditor"), Z_Construct_UClass_UFMODGenerateAssetsCommandlet) \
 	DECLARE_SERIALIZER(UFMODGenerateAssetsCommandlet)
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_15_STANDARD_CONSTRUCTORS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UFMODGenerateAssetsCommandlet(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFMODGenerateAssetsCommandlet) \
@@ -42,12 +42,12 @@ public: \
 	NO_API virtual ~UFMODGenerateAssetsCommandlet();
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_12_PROLOG
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_15_GENERATED_BODY_LEGACY \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_12_PROLOG
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_15_INCLASS \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_15_STANDARD_CONSTRUCTORS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_15_INCLASS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -57,6 +57,6 @@ class UFMODGenerateAssetsCommandlet;
 // ********** End Class UFMODGenerateAssetsCommandlet **********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h
+#define CURRENT_FILE_ID FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

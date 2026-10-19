@@ -8,37 +8,36 @@
 #include "Sequencer/FMODEventControlSection.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_UOBJECT");
 void EmptyLinkFunctionForGeneratedCodeFMODEventControlSection() {}
 
 // ********** Begin Cross Module References ********************************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventControlSection();
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventControlSection_NoRegister();
-FMODSTUDIO_API UEnum* Z_Construct_UEnum_FMODStudio_EFMODEventControlKey();
-FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODEventControlChannel();
-MOVIESCENE_API UClass* Z_Construct_UClass_UMovieSceneSection();
-MOVIESCENE_API UScriptStruct* Z_Construct_UScriptStruct_FMovieSceneByteChannel();
-UPackage* Z_Construct_UPackage__Script_FMODStudio();
+MOVIESCENE_API UScriptStruct* Z_Construct_UScriptStruct_FMovieSceneByteChannel(ETypeConstructPhase);
+MOVIESCENE_API UClass* Z_Construct_UClass_UMovieSceneSection(ETypeConstructPhase);
 // ********** End Cross Module References **********************************************************
 
+// ********** Begin Same Module References *********************************************************
+UPackage* Z_Construct_UPackage__Script_FMODStudio(ETypeConstructPhase);
+FMODSTUDIO_API UEnum* Z_Construct_UEnum_FMODStudio_EFMODEventControlKey(ETypeConstructPhase);
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODEventControlChannel(ETypeConstructPhase);
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventControlSection(ETypeConstructPhase);
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventControlSection(ETypeConstructPhase);
+// ********** End Same Module References ***********************************************************
+#define UHT_STRUCT_BASE(INIT) UE::CodeGen::ConstInit::TCompiledInObjectPtr<const FStructBaseChain>(UE::Private::AsStructBaseChain(INIT))
+
 // ********** Begin Enum EFMODEventControlKey ******************************************************
-static FEnumRegistrationInfo Z_Registration_Info_UEnum_EFMODEventControlKey;
-static UEnum* EFMODEventControlKey_StaticEnum()
+#ifdef UHT_STATICS
+#error UHT_STATICS already defined
+#endif
+#define UHT_STATICS Z_Construct_UEnum_FMODStudio_EFMODEventControlKey_Statics
+template<> FMODSTUDIO_NON_ATTRIBUTED_API UEnum* StaticEnum<EFMODEventControlKey>()
 {
-	if (!Z_Registration_Info_UEnum_EFMODEventControlKey.OuterSingleton)
-	{
-		Z_Registration_Info_UEnum_EFMODEventControlKey.OuterSingleton = GetStaticEnum(Z_Construct_UEnum_FMODStudio_EFMODEventControlKey, (UObject*)Z_Construct_UPackage__Script_FMODStudio(), TEXT("EFMODEventControlKey"));
-	}
-	return Z_Registration_Info_UEnum_EFMODEventControlKey.OuterSingleton;
+	return Z_Construct_UEnum_FMODStudio_EFMODEventControlKey(ETypeConstructPhase::Outer);
 }
-template<> FMODSTUDIO_API UEnum* StaticEnum<EFMODEventControlKey>()
-{
-	return EFMODEventControlKey_StaticEnum();
-}
-struct Z_Construct_UEnum_FMODStudio_EFMODEventControlKey_Statics
+struct UHT_STATICS
 {
 #if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Defines the types of FMOD event control keys. */" },
 #endif
@@ -57,113 +56,106 @@ struct Z_Construct_UEnum_FMODStudio_EFMODEventControlKey_Statics
 		{ "EFMODEventControlKey::Pause", (int64)EFMODEventControlKey::Pause },
 	};
 	static const UECodeGen_Private::FEnumParams EnumParams;
-};
-const UECodeGen_Private::FEnumParams Z_Construct_UEnum_FMODStudio_EFMODEventControlKey_Statics::EnumParams = {
-	(UObject*(*)())Z_Construct_UPackage__Script_FMODStudio,
+}; // struct UHT_STATICS 
+const UECodeGen_Private::FEnumParams UHT_STATICS::EnumParams = {
+	(FTypeConstructFunc*)Z_Construct_UPackage__Script_FMODStudio,
 	nullptr,
 	"EFMODEventControlKey",
 	"EFMODEventControlKey",
-	Z_Construct_UEnum_FMODStudio_EFMODEventControlKey_Statics::Enumerators,
+	UHT_STATICS::Enumerators,
 	RF_Public|RF_Transient|RF_MarkAsNative,
-	UE_ARRAY_COUNT(Z_Construct_UEnum_FMODStudio_EFMODEventControlKey_Statics::Enumerators),
+	UE_ARRAY_COUNT(UHT_STATICS::Enumerators),
 	EEnumFlags::None,
 	(uint8)UEnum::ECppForm::EnumClass,
-	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_FMODStudio_EFMODEventControlKey_Statics::Enum_MetaDataParams), Z_Construct_UEnum_FMODStudio_EFMODEventControlKey_Statics::Enum_MetaDataParams)
+	(uint8)UEnum::EUnderlyingType::uint8,
+	METADATA_PARAMS(UE_ARRAY_COUNT(UHT_STATICS::Type_MetaData), UHT_STATICS::Type_MetaData)
 };
-UEnum* Z_Construct_UEnum_FMODStudio_EFMODEventControlKey()
+static FEnumRegistrationInfo ZRIE_EFMODEventControlKey;
+UEnum* Z_Construct_UEnum_FMODStudio_EFMODEventControlKey(ETypeConstructPhase Phase)
 {
-	if (!Z_Registration_Info_UEnum_EFMODEventControlKey.InnerSingleton)
+	if (Phase == ETypeConstructPhase::Outer)
 	{
-		UECodeGen_Private::ConstructUEnum(Z_Registration_Info_UEnum_EFMODEventControlKey.InnerSingleton, Z_Construct_UEnum_FMODStudio_EFMODEventControlKey_Statics::EnumParams);
+		if (!ZRIE_EFMODEventControlKey.OuterSingleton)
+		{
+			ZRIE_EFMODEventControlKey.OuterSingleton = GetStaticEnum(Z_Construct_UEnum_FMODStudio_EFMODEventControlKey, (UObject*)Z_Construct_UPackage__Script_FMODStudio(ETypeConstructPhase::Outer), TEXT("EFMODEventControlKey"));
+		}
+		return ZRIE_EFMODEventControlKey.OuterSingleton;
 	}
-	return Z_Registration_Info_UEnum_EFMODEventControlKey.InnerSingleton;
+	if (!ZRIE_EFMODEventControlKey.InnerSingleton)
+	{
+		UECodeGen_Private::ConstructUEnum(ZRIE_EFMODEventControlKey.InnerSingleton, UHT_STATICS::EnumParams);
+	}
+	return ZRIE_EFMODEventControlKey.InnerSingleton;
 }
+#undef UHT_STATICS
 // ********** End Enum EFMODEventControlKey ********************************************************
 
 // ********** Begin ScriptStruct FFMODEventControlChannel ******************************************
-static_assert(std::is_polymorphic<FFMODEventControlChannel>() == std::is_polymorphic<FMovieSceneByteChannel>(), "USTRUCT FFMODEventControlChannel cannot be polymorphic unless super FMovieSceneByteChannel is polymorphic");
-static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FFMODEventControlChannel;
-class UScriptStruct* FFMODEventControlChannel::StaticStruct()
+#ifdef UHT_STATICS
+#error UHT_STATICS already defined
+#endif
+#define UHT_STATICS Z_Construct_UScriptStruct_FFMODEventControlChannel_Statics
+struct UHT_STATICS
 {
-	if (!Z_Registration_Info_UScriptStruct_FFMODEventControlChannel.OuterSingleton)
-	{
-		Z_Registration_Info_UScriptStruct_FFMODEventControlChannel.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FFMODEventControlChannel, (UObject*)Z_Construct_UPackage__Script_FMODStudio(), TEXT("FMODEventControlChannel"));
-	}
-	return Z_Registration_Info_UScriptStruct_FFMODEventControlChannel.OuterSingleton;
-}
-struct Z_Construct_UScriptStruct_FFMODEventControlChannel_Statics
-{
+	static inline consteval int32 GetStructSize() { return DataSizeOf<FFMODEventControlChannel>(); }
+	static inline consteval int16 GetStructAlignment() { return alignof(FFMODEventControlChannel); }
 #if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "ModuleRelativePath", "Private/Sequencer/FMODEventControlSection.h" },
 	};
 #endif // WITH_METADATA
+
+// ********** Begin ScriptStruct FFMODEventControlChannel constinit property declarations **********
+// ********** End ScriptStruct FFMODEventControlChannel constinit property declarations ************
 	static void* NewStructOps()
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FFMODEventControlChannel>();
 	}
 	static const UECodeGen_Private::FStructParams StructParams;
-};
-const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FFMODEventControlChannel_Statics::StructParams = {
-	(UObject* (*)())Z_Construct_UPackage__Script_FMODStudio,
+}; // struct UHT_STATICS
+static_assert(std::is_polymorphic<FFMODEventControlChannel>() == std::is_polymorphic<FMovieSceneByteChannel>(), "USTRUCT FFMODEventControlChannel cannot be polymorphic unless super FMovieSceneByteChannel is polymorphic");
+const UECodeGen_Private::FStructParams UHT_STATICS::StructParams = {
+	(FTypeConstructFunc*)Z_Construct_UPackage__Script_FMODStudio,
 	Z_Construct_UScriptStruct_FMovieSceneByteChannel,
 	&NewStructOps,
 	"FMODEventControlChannel",
 	nullptr,
 	0,
-	sizeof(FFMODEventControlChannel),
+	DataSizeOf<FFMODEventControlChannel>(),
 	alignof(FFMODEventControlChannel),
 	RF_Public|RF_Transient|RF_MarkAsNative,
 	EStructFlags(0x00000001),
-	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFMODEventControlChannel_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FFMODEventControlChannel_Statics::Struct_MetaDataParams)
+	METADATA_PARAMS(UE_ARRAY_COUNT(UHT_STATICS::Type_MetaData), UHT_STATICS::Type_MetaData)
 };
-UScriptStruct* Z_Construct_UScriptStruct_FFMODEventControlChannel()
+static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FFMODEventControlChannel;
+UScriptStruct* Z_Construct_UScriptStruct_FFMODEventControlChannel(ETypeConstructPhase Phase)
 {
+	if (Phase == ETypeConstructPhase::Outer)
+	{
+		if (!Z_Registration_Info_UScriptStruct_FFMODEventControlChannel.OuterSingleton)
+		{
+			Z_Registration_Info_UScriptStruct_FFMODEventControlChannel.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FFMODEventControlChannel, (UObject*)Z_Construct_UPackage__Script_FMODStudio(ETypeConstructPhase::Outer), TEXT("FMODEventControlChannel"));
+		}
+		return Z_Registration_Info_UScriptStruct_FFMODEventControlChannel.OuterSingleton;
+	}
 	if (!Z_Registration_Info_UScriptStruct_FFMODEventControlChannel.InnerSingleton)
 	{
-		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_FFMODEventControlChannel.InnerSingleton, Z_Construct_UScriptStruct_FFMODEventControlChannel_Statics::StructParams);
+		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_FFMODEventControlChannel.InnerSingleton, UHT_STATICS::StructParams);
 	}
-	return Z_Registration_Info_UScriptStruct_FFMODEventControlChannel.InnerSingleton;
+	return CastChecked<UScriptStruct>(Z_Registration_Info_UScriptStruct_FFMODEventControlChannel.InnerSingleton);
 }
+#undef UHT_STATICS
 // ********** End ScriptStruct FFMODEventControlChannel ********************************************
 
 // ********** Begin Class UFMODEventControlSection *************************************************
-void UFMODEventControlSection::StaticRegisterNativesUFMODEventControlSection()
-{
-}
-FClassRegistrationInfo Z_Registration_Info_UClass_UFMODEventControlSection;
-UClass* UFMODEventControlSection::GetPrivateStaticClass()
-{
-	using TClass = UFMODEventControlSection;
-	if (!Z_Registration_Info_UClass_UFMODEventControlSection.InnerSingleton)
-	{
-		GetPrivateStaticClassBody(
-			StaticPackage(),
-			TEXT("FMODEventControlSection"),
-			Z_Registration_Info_UClass_UFMODEventControlSection.InnerSingleton,
-			StaticRegisterNativesUFMODEventControlSection,
-			sizeof(TClass),
-			alignof(TClass),
-			TClass::StaticClassFlags,
-			TClass::StaticClassCastFlags(),
-			TClass::StaticConfigName(),
-			(UClass::ClassConstructorType)InternalConstructor<TClass>,
-			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
-			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
-			&TClass::Super::StaticClass,
-			&TClass::WithinClass::StaticClass
-		);
-	}
-	return Z_Registration_Info_UClass_UFMODEventControlSection.InnerSingleton;
-}
-UClass* Z_Construct_UClass_UFMODEventControlSection_NoRegister()
-{
-	return UFMODEventControlSection::GetPrivateStaticClass();
-}
-struct Z_Construct_UClass_UFMODEventControlSection_Statics
+#ifdef UHT_STATICS
+#error UHT_STATICS already defined
+#endif
+#define UHT_STATICS Z_Construct_UClass_UFMODEventControlSection_Statics
+struct UHT_STATICS
 {
 #if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** FMOD Event control section */" },
 #endif
@@ -183,68 +175,109 @@ struct Z_Construct_UClass_UFMODEventControlSection_Statics
 #endif
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Class UFMODEventControlSection constinit property declarations *****************
 	static const UECodeGen_Private::FStructPropertyParams NewProp_ControlKeys;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-	static UObject* (*const DependentSingletons[])();
+// ********** End Class UFMODEventControlSection constinit property declarations *******************
+	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UFMODEventControlSection>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
+}; // struct UHT_STATICS
+
+// ********** Begin Class UFMODEventControlSection Property Definitions ****************************
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_ControlKeys = { "ControlKeys", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODEventControlSection, ControlKeys), Z_Construct_UScriptStruct_FFMODEventControlChannel, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ControlKeys_MetaData), NewProp_ControlKeys_MetaData) }; // 754bbff7f6cb83e8219237be1e42fda080b77c27
+const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_ControlKeys,
 };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UFMODEventControlSection_Statics::NewProp_ControlKeys = { "ControlKeys", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODEventControlSection, ControlKeys), Z_Construct_UScriptStruct_FFMODEventControlChannel, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ControlKeys_MetaData), NewProp_ControlKeys_MetaData) }; // 801298777
-const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UFMODEventControlSection_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODEventControlSection_Statics::NewProp_ControlKeys,
+static_assert(UE_ARRAY_COUNT(UHT_STATICS::PropPointers) < 2048);
+// ********** End Class UFMODEventControlSection Property Definitions ******************************
+FTypeConstructFunc* UHT_STATICS::DependentSingletons[] = {
+	(FTypeConstructFunc*)Z_Construct_UClass_UMovieSceneSection,
+	(FTypeConstructFunc*)Z_Construct_UPackage__Script_FMODStudio,
 };
-static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODEventControlSection_Statics::PropPointers) < 2048);
-UObject* (*const Z_Construct_UClass_UFMODEventControlSection_Statics::DependentSingletons[])() = {
-	(UObject* (*)())Z_Construct_UClass_UMovieSceneSection,
-	(UObject* (*)())Z_Construct_UPackage__Script_FMODStudio,
-};
-static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODEventControlSection_Statics::DependentSingletons) < 16);
-const UECodeGen_Private::FClassParams Z_Construct_UClass_UFMODEventControlSection_Statics::ClassParams = {
-	&UFMODEventControlSection::StaticClass,
+static_assert(UE_ARRAY_COUNT(UHT_STATICS::DependentSingletons) < 16);
+const UECodeGen_Private::FClassParams UHT_STATICS::ClassParams = {
+	&Z_Construct_UClass_UFMODEventControlSection,
 	nullptr,
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
 	nullptr,
-	Z_Construct_UClass_UFMODEventControlSection_Statics::PropPointers,
+	UHT_STATICS::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
 	0,
-	UE_ARRAY_COUNT(Z_Construct_UClass_UFMODEventControlSection_Statics::PropPointers),
+	UE_ARRAY_COUNT(UHT_STATICS::PropPointers),
 	0,
 	0x00A800A0u,
-	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODEventControlSection_Statics::Class_MetaDataParams), Z_Construct_UClass_UFMODEventControlSection_Statics::Class_MetaDataParams)
+	METADATA_PARAMS(UE_ARRAY_COUNT(UHT_STATICS::Type_MetaData), UHT_STATICS::Type_MetaData)
 };
-UClass* Z_Construct_UClass_UFMODEventControlSection()
+FClassRegistrationInfo Z_Registration_Info_UClass_UFMODEventControlSection;
+UClass* Z_Construct_UClass_UFMODEventControlSection(ETypeConstructPhase Phase)
 {
+	if (Phase == ETypeConstructPhase::Inner)
+	{
+		using TClass = UFMODEventControlSection;
+		if (!Z_Registration_Info_UClass_UFMODEventControlSection.InnerSingleton)
+		{
+			GetPrivateStaticClassBody(
+				TClass::StaticPackage(),
+				TEXT("FMODEventControlSection"),
+				Z_Registration_Info_UClass_UFMODEventControlSection.InnerSingleton,
+				nullptr,
+				DataSizeOf<TClass>(),
+				alignof(TClass),
+				TClass::StaticClassFlags,
+				TClass::StaticClassCastFlags(),
+				TClass::StaticConfigName(),
+				(UClass::ClassConstructorType)InternalConstructor<TClass>,
+				(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+				UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+				&TClass::Super::StaticClass,
+				&TClass::WithinClass::StaticClass
+			);
+		}
+		return Z_Registration_Info_UClass_UFMODEventControlSection.InnerSingleton;
+	}
 	if (!Z_Registration_Info_UClass_UFMODEventControlSection.OuterSingleton)
 	{
-		UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_UFMODEventControlSection.OuterSingleton, Z_Construct_UClass_UFMODEventControlSection_Statics::ClassParams);
+		UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_UFMODEventControlSection.OuterSingleton, UHT_STATICS::ClassParams);
 	}
 	return Z_Registration_Info_UClass_UFMODEventControlSection.OuterSingleton;
 }
-DEFINE_VTABLE_PTR_HELPER_CTOR(UFMODEventControlSection);
+#undef UHT_STATICS
+DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, UFMODEventControlSection);
 UFMODEventControlSection::~UFMODEventControlSection() {}
 // ********** End Class UFMODEventControlSection ***************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h__Script_FMODStudio_Statics
+#ifdef UHT_STATICS
+#error UHT_STATICS already defined
+#endif
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h__Script_FMODStudio_Statics
+struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ EFMODEventControlKey_StaticEnum, TEXT("EFMODEventControlKey"), &Z_Registration_Info_UEnum_EFMODEventControlKey, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4285387728U) },
+		{ Z_Construct_UEnum_FMODStudio_EFMODEventControlKey, TEXT("EFMODEventControlKey"), &ZRIE_EFMODEventControlKey, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1533158945U) },
 	};
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ FFMODEventControlChannel::StaticStruct, Z_Construct_UScriptStruct_FFMODEventControlChannel_Statics::NewStructOps, TEXT("FMODEventControlChannel"), &Z_Registration_Info_UScriptStruct_FFMODEventControlChannel, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODEventControlChannel), 801298777U) },
+		{ Z_Construct_UScriptStruct_FFMODEventControlChannel, Z_Construct_UScriptStruct_FFMODEventControlChannel_Statics::NewStructOps, TEXT("FMODEventControlChannel"),&Z_Registration_Info_UScriptStruct_FFMODEventControlChannel, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODEventControlChannel), 1967898615U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODEventControlSection, UFMODEventControlSection::StaticClass, TEXT("UFMODEventControlSection"), &Z_Registration_Info_UClass_UFMODEventControlSection, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODEventControlSection), 1216237236U) },
+		{ Z_Construct_UClass_UFMODEventControlSection, TEXT("UFMODEventControlSection"), &Z_Registration_Info_UClass_UFMODEventControlSection, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODEventControlSection), 3208189198U) },
 	};
+}; // UHT_STATICS 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h__Script_FMODStudio_932c2b5dca365554d39087ef1e99e5985953425e{
+	TEXT("/Script/FMODStudio"),
+	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
+	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),
+	UHT_STATICS::EnumInfo, UE_ARRAY_COUNT(UHT_STATICS::EnumInfo),
+	nullptr, 0,
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h__Script_FMODStudio_504652162(TEXT("/Script/FMODStudio"),
-	Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h__Script_FMODStudio_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h__Script_FMODStudio_Statics::ClassInfo),
-	Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h__Script_FMODStudio_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h__Script_FMODStudio_Statics::ScriptStructInfo),
-	Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h__Script_FMODStudio_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h__Script_FMODStudio_Statics::EnumInfo));
+#undef UHT_STATICS
 // ********** End Registration *********************************************************************
+#undef UHT_STRUCT_BASE
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -12,54 +12,62 @@
 #define FMODSTUDIO_FMODSettings_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
+#include "Templates/IsUEnumClass.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin ScriptStruct FCustomPoolSizes **************************************************
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_112_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FCustomPoolSizes_Statics; \
-	FMODSTUDIO_API static class UScriptStruct* StaticStruct();
+struct Z_Construct_UScriptStruct_FCustomPoolSizes_Statics;
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FCustomPoolSizes(ETypeConstructPhase);
+
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_112_GENERATED_BODY \
+	friend struct ::Z_Construct_UScriptStruct_FCustomPoolSizes_Statics; \
+	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FCustomPoolSizes(ETypeConstructPhase::Inner); }
 
 
 struct FCustomPoolSizes;
 // ********** End ScriptStruct FCustomPoolSizes ****************************************************
 
 // ********** Begin ScriptStruct FFMODPlatformSettings *********************************************
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_140_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FFMODPlatformSettings_Statics; \
-	FMODSTUDIO_API static class UScriptStruct* StaticStruct();
+struct Z_Construct_UScriptStruct_FFMODPlatformSettings_Statics;
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODPlatformSettings(ETypeConstructPhase);
+
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_140_GENERATED_BODY \
+	friend struct ::Z_Construct_UScriptStruct_FFMODPlatformSettings_Statics; \
+	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODPlatformSettings(ETypeConstructPhase::Inner); }
 
 
 struct FFMODPlatformSettings;
 // ********** End ScriptStruct FFMODPlatformSettings ***********************************************
 
 // ********** Begin ScriptStruct FFMODProjectLocale ************************************************
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_189_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FFMODProjectLocale_Statics; \
-	FMODSTUDIO_API static class UScriptStruct* StaticStruct();
+struct Z_Construct_UScriptStruct_FFMODProjectLocale_Statics;
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODProjectLocale(ETypeConstructPhase);
+
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_189_GENERATED_BODY \
+	friend struct ::Z_Construct_UScriptStruct_FFMODProjectLocale_Statics; \
+	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODProjectLocale(ETypeConstructPhase::Inner); }
 
 
 struct FFMODProjectLocale;
 // ********** End ScriptStruct FFMODProjectLocale **************************************************
 
 // ********** Begin Class UFMODSettings ************************************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODSettings_NoRegister();
+struct Z_Construct_UClass_UFMODSettings_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODSettings(ETypeConstructPhase);
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_213_INCLASS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_213_INCLASS \
 private: \
-	static void StaticRegisterNativesUFMODSettings(); \
-	friend struct Z_Construct_UClass_UFMODSettings_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODSettings_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODSettings_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODSettings(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODSettings, UObject, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODSettings_NoRegister) \
-	DECLARE_SERIALIZER(UFMODSettings) \
-	static const TCHAR* StaticConfigName() {return TEXT("Engine");} \
+	DECLARE_CLASS2(UFMODSettings, UObject, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODSettings) \
+	DECLARE_SERIALIZER(UFMODSettings)
 
 
-
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_213_STANDARD_CONSTRUCTORS \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_213_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UFMODSettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFMODSettings) \
@@ -71,12 +79,12 @@ public: \
 	NO_API virtual ~UFMODSettings();
 
 
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_210_PROLOG
-#define FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_213_GENERATED_BODY_LEGACY \
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_210_PROLOG
+#define FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_213_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_213_INCLASS \
-	FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_213_STANDARD_CONSTRUCTORS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_213_INCLASS \
+	FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_213_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -86,7 +94,7 @@ class UFMODSettings;
 // ********** End Class UFMODSettings **************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Github_Swiji_MyProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h
+#define CURRENT_FILE_ID FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h
 
 // ********** Begin Enum EFMODLogging **************************************************************
 #define FOREACH_ENUM_EFMODLOGGING(op) \
