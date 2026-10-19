@@ -1,0 +1,16 @@
+{
+	"SourceFiles": [
+		"C:\\Program Files\\Github\\Swiji\\Unreal_Fmod_Reaper 5.8\\Source\\MyProject\\MyProject.Build.cs",
+		"C:\\Program Files\\Github\\Swiji\\Unreal_Fmod_Reaper 5.8\\Plugins\\FMODStudioNiagara\\Source\\FMODStudioNiagara\\FMODStudioNiagara.Build.cs",
+		"C:\\Program Files\\Github\\Swiji\\Unreal_Fmod_Reaper 5.8\\Plugins\\FMODStudioOpenXR\\Source\\FMODStudioOpenXR\\FMODStudioOpenXR.Build.cs",
+		"C:\\Program Files\\Github\\Swiji\\Unreal_Fmod_Reaper 5.8\\Plugins\\FMODStudio\\Source\\FMODAudioLinkEditor\\FMODAudioLinkEditor.Build.cs",
+		"C:\\Program Files\\Github\\Swiji\\Unreal_Fmod_Reaper 5.8\\Plugins\\FMODStudio\\Source\\FMODAudioLink\\FMODAudioLink.Build.cs",
+		"C:\\Program Files\\Github\\Swiji\\Unreal_Fmod_Reaper 5.8\\Plugins\\FMODStudio\\Source\\FMODStudioEditor\\FMODStudioEditor.Build.cs",
+		"C:\\Program Files\\Github\\Swiji\\Unreal_Fmod_Reaper 5.8\\Plugins\\FMODStudio\\Source\\FMODStudio\\FMODStudio.Build.cs",
+		"C:\\Program Files\\Github\\Swiji\\Unreal_Fmod_Reaper 5.8\\Plugins\\ReaperUnrealBridge-main\\ReaperUnrealBridge\\Source\\ReaperUnrealBridgeEditor\\ReaperUnrealBridgeEditor.Build.cs",
+		"C:\\Program Files\\Github\\Swiji\\Unreal_Fmod_Reaper 5.8\\Plugins\\ReaperUnrealBridge-main\\ReaperUnrealBridge\\Source\\ReaperUnrealBridge\\ReaperUnrealBridge.Build.cs",
+		"C:\\Program Files\\Github\\Swiji\\Unreal_Fmod_Reaper 5.8\\Source\\MyProject.Target.cs",
+		"C:\\Program Files\\Github\\Swiji\\Unreal_Fmod_Reaper 5.8\\Source\\MyProjectEditor.Target.cs"
+	],
+	"EngineVersion": "5.8.3"
+}
