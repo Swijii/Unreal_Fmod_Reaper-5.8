@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper/Content/Audio/Content/Amb_split_Emitter.uasset",
+				"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper/Content/Audio/Content/Amb_Spot_Emitter.uasset",
+				"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper/Content/Audio/Content/Amb_OneShotters.uasset",
+				"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper/Content/Audio/Content/Att_Ambient_Spot_Emitter_From_Reaper.uasset"
+			]
+		}
+	]
+}
