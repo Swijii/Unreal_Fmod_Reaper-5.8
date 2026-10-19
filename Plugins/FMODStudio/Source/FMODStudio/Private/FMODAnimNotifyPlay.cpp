@@ -1,4 +1,3 @@
-
 #include "FMODAnimNotifyPlay.h"
 #include "FMODBlueprintStatics.h"
 #include "Components/SkeletalMeshComponent.h"
@@ -15,8 +14,10 @@ UFMODAnimNotifyPlay::UFMODAnimNotifyPlay()
 #endif // WITH_EDITORONLY_DATA
 }
 
-void UFMODAnimNotifyPlay::Notify(USkeletalMeshComponent *MeshComp, UAnimSequenceBase *AnimSeq)
+void UFMODAnimNotifyPlay::Notify(USkeletalMeshComponent* MeshComp, UAnimSequenceBase* Animation, const FAnimNotifyEventReference& EventReference)
 {
+    Super::Notify(MeshComp, Animation, EventReference);
+    
     if (Event)
     {
         if (bFollow)
