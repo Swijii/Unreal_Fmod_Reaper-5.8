@@ -1,0 +1,30 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\program files\\github\\swiji\\myproject\\plugins\\fmodstudio\\source\\fmodstudio\\private\\fmodevent.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\program files\\github\\swiji\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\program files\\github\\swiji\\myproject\\plugins\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fmodstudio\\definitions.fmodstudio.h",
+            "c:\\program files\\github\\swiji\\myproject\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodevent.h",
+            "c:\\program files\\github\\swiji\\myproject\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodasset.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\coreuobject\\public\\uobject\\assetregistrytagscontext.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\coreuobject\\public\\uobject\\cookenums.h",
+            "c:\\program files\\github\\swiji\\myproject\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodasset.generated.h",
+            "c:\\program files\\github\\swiji\\myproject\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodevent.generated.h",
+            "c:\\program files\\github\\swiji\\myproject\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmodstudiomodule.h",
+            "c:\\program files\\github\\swiji\\myproject\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_studio.hpp",
+            "c:\\program files\\github\\swiji\\myproject\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_studio_common.h",
+            "c:\\program files\\github\\swiji\\myproject\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod.h",
+            "c:\\program files\\github\\swiji\\myproject\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_common.h",
+            "c:\\program files\\github\\swiji\\myproject\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_codec.h",
+            "c:\\program files\\github\\swiji\\myproject\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_dsp.h",
+            "c:\\program files\\github\\swiji\\myproject\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_dsp_effects.h",
+            "c:\\program files\\github\\swiji\\myproject\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_output.h",
+            "c:\\program files\\github\\swiji\\myproject\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_studio.h",
+            "c:\\program files\\github\\swiji\\myproject\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod.hpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
