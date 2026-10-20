@@ -37,6 +37,7 @@
 			"FMODAudioLinkSourcePushed.cpp.obj",
 			"FMODAudioLinkSynchronizer.cpp.obj",
 			"FMODAmbientSound.cpp.obj",
+			"FMODAnimNotifyPlay.cpp.obj",
 			"FMODAsset.cpp.obj",
 			"FMODAssetLookup.cpp.obj",
 			"FMODAssetTable.cpp.obj",
@@ -58,8 +59,7 @@
 			"FMODEventControlSectionTemplate.cpp.obj",
 			"FMODEventControlTrack.cpp.obj",
 			"FMODEventParameterSectionTemplate.cpp.obj",
-			"FMODEventParameterTrack.cpp.obj",
-			"FMODAnimNotifyPlay.cpp.obj"
+			"FMODEventParameterTrack.cpp.obj"
 		]
 	}
 }
