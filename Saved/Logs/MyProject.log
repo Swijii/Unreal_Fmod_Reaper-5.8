@@ -2185,3 +2185,29 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.10.21-12.13.40:609][  8]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 6.433847
 [2026.10.21-12.13.40:611][  8]LogEOSSDK: LogEOS: SDK Config Data - Watermark: -1267564831
 [2026.10.21-12.13.40:611][  8]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6.433847, Update Interval: 359.877319
+[2026.10.21-12.15.14:360][481]LogSlate: Display: Synchronously lazy loading font file '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' with subface index 0 in Game thread.
+[2026.10.21-12.15.14:360][481]LogSlate: Display: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K) on Game thread.
+[2026.10.21-12.15.14:360][481]LogSlate: Display: Freetype font face in memory successfully created with synchronously loaded raw font file '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' subface 0 in Game thread.
+[2026.10.21-12.15.14:360][481]LogSlate: Display: Font face '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' subface index 0 successfully added to font face map in Game thread.
+[2026.10.21-12.15.20:970][245]LogSlate: Could not load file for Slate resource: [../../../Engine/Plugins/VirtualProduction/AccumulationDOF/Resources/Icon128.png] file: [../../../Engine/Plugins/VirtualProduction/AccumulationDOF/Resources/Icon128.png]
+[2026.10.21-12.15.20:971][245]LogSlate: Could not load file for Slate resource: [../../../Engine/Plugins/Runtime/ActorLayerUtilities/Resources/Icon128.png] file: [../../../Engine/Plugins/Runtime/ActorLayerUtilities/Resources/Icon128.png]
+[2026.10.21-12.15.20:972][245]LogSlate: Could not load file for Slate resource: [../../../Engine/Plugins/VirtualProduction/ActorModifier/Resources/Icon128.png] file: [../../../Engine/Plugins/VirtualProduction/ActorModifier/Resources/Icon128.png]
+[2026.10.21-12.15.20:972][245]LogSlate: Could not load file for Slate resource: [../../../Engine/Plugins/VirtualProduction/ActorModifierCore/Resources/Icon128.png] file: [../../../Engine/Plugins/VirtualProduction/ActorModifierCore/Resources/Icon128.png]
+[2026.10.21-12.15.22:262][397]LogSlate: Could not load file for Slate resource: [../../../Engine/Plugins/MovieScene/ActorSequence/Resources/Icon128.png] file: [../../../Engine/Plugins/MovieScene/ActorSequence/Resources/Icon128.png]
+[2026.10.21-12.15.22:839][466]LogSlate: Could not load file for Slate resource: [../../../../../Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/FMODStudioNiagara/Resources/Icon128.png] file: [../../../../../Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/FMODStudioNiagara/Resources/Icon128.png]
+[2026.10.21-12.15.22:839][466]LogSlate: Could not load file for Slate resource: [../../../../../Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/FMODStudioOpenXR/Resources/Icon128.png] file: [../../../../../Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/FMODStudioOpenXR/Resources/Icon128.png]
+[2026.10.21-12.15.25:053][731]LogSlate: Window 'Plugins' being destroyed
+[2026.10.21-12.15.25:057][731]LogSlate: Window 'Plugins' being destroyed
+[2026.10.21-12.15.25:057][731]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins' was aborted.
+[2026.10.21-12.15.42:532][214]LogDerivedDataCache: C:/Users/Almoh/Documents/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:16.183 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 9148 files in 9591 folders with total size 191 MiB.
+[2026.10.21-12.16.13:103][561]LogModuleManager: InternalLoadLibrary: 'ExternalImagePicker' ('C:/Program Files/Unreal Engine/UE_5.8/Engine/Binaries/Win64/UnrealEditor-ExternalImagePicker.dll')
+[2026.10.21-12.16.13:136][561]LogModuleManager: InternalLoadLibrary: 'LauncherServices' ('C:/Program Files/Unreal Engine/UE_5.8/Engine/Binaries/Win64/UnrealEditor-LauncherServices.dll')
+[2026.10.21-12.16.13:728][561]LogSlate: External Image Picker: DecompressImage failed
+[2026.10.21-12.16.36:479][613]LogSlate: Window 'Message' being destroyed
+[2026.10.21-12.16.36:483][613]Message dialog closed, result: Ok, title: Message, text: Duplicate name found.
+[2026.10.21-12.17.00:319][633]LogSlate: Window 'Message' being destroyed
+[2026.10.21-12.17.00:324][633]Message dialog closed, result: Ok, title: Message, text: Duplicate name found.
+[2026.10.21-12.17.05:787][ 36]LogSlate: Window 'Message' being destroyed
+[2026.10.21-12.17.05:791][ 36]Message dialog closed, result: Ok, title: Message, text: Duplicate name found.
+[2026.10.21-12.17.54:917][983]LogSlate: Window 'Project Settings' being destroyed
+[2026.10.21-12.17.54:922][983]LogSlate: Window 'Project Settings' being destroyed
