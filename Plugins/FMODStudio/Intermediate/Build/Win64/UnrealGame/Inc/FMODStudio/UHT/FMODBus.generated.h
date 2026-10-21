@@ -12,21 +12,21 @@
 #define FMODSTUDIO_FMODBus_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UFMODBus *****************************************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODBus_NoRegister();
+struct Z_Construct_UClass_UFMODBus_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODBus(ETypeConstructPhase);
 
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBus_h_14_INCLASS \
 private: \
-	static void StaticRegisterNativesUFMODBus(); \
-	friend struct Z_Construct_UClass_UFMODBus_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODBus_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODBus_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODBus(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODBus, UFMODAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODBus_NoRegister) \
+	DECLARE_CLASS2(UFMODBus, UFMODAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODBus) \
 	DECLARE_SERIALIZER(UFMODBus)
 
 

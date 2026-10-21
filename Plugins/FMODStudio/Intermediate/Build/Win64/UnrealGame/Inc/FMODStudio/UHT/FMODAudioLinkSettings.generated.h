@@ -12,21 +12,21 @@
 #define FMODSTUDIO_FMODAudioLinkSettings_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UFMODAudioLinkSettings ***************************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAudioLinkSettings_NoRegister();
+struct Z_Construct_UClass_UFMODAudioLinkSettings_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAudioLinkSettings(ETypeConstructPhase);
 
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_56_INCLASS_NO_PURE_DECLS \
 private: \
-	static void StaticRegisterNativesUFMODAudioLinkSettings(); \
-	friend struct Z_Construct_UClass_UFMODAudioLinkSettings_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAudioLinkSettings_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODAudioLinkSettings_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODAudioLinkSettings(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODAudioLinkSettings, UAudioLinkSettingsAbstract, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODAudioLinkSettings_NoRegister) \
+	DECLARE_CLASS2(UFMODAudioLinkSettings, UAudioLinkSettingsAbstract, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODAudioLinkSettings) \
 	DECLARE_SERIALIZER(UFMODAudioLinkSettings)
 
 

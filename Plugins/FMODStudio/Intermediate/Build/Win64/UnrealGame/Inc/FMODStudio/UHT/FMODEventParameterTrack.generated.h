@@ -12,23 +12,23 @@
 #define FMODSTUDIO_FMODEventParameterTrack_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UFMODEventParameterTrack *************************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventParameterTrack_NoRegister();
+struct Z_Construct_UClass_UFMODEventParameterTrack_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventParameterTrack(ETypeConstructPhase);
 
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_16_INCLASS \
 private: \
-	static void StaticRegisterNativesUFMODEventParameterTrack(); \
-	friend struct Z_Construct_UClass_UFMODEventParameterTrack_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventParameterTrack_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODEventParameterTrack_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODEventParameterTrack(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODEventParameterTrack, UMovieSceneNameableTrack, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODEventParameterTrack_NoRegister) \
+	DECLARE_CLASS2(UFMODEventParameterTrack, UMovieSceneNameableTrack, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODEventParameterTrack) \
 	DECLARE_SERIALIZER(UFMODEventParameterTrack) \
-	virtual UObject* _getUObject() const override { return const_cast<UFMODEventParameterTrack*>(this); }
+	[[deprecated("Do not call _getUObject(), use Cast.")]] virtual UObject* _getUObject() const override { return const_cast<UFMODEventParameterTrack*>(this); }
 
 
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_16_STANDARD_CONSTRUCTORS \

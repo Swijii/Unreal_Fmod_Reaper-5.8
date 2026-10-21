@@ -12,14 +12,18 @@
 #define FMODSTUDIO_FMODEventParameterSectionTemplate_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin ScriptStruct FFMODEventParameterSectionTemplate ********************************
+struct Z_Construct_UScriptStruct_FFMODEventParameterSectionTemplate_Statics;
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODEventParameterSectionTemplate(ETypeConstructPhase);
+
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterSectionTemplate_h_15_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FFMODEventParameterSectionTemplate_Statics; \
-	FMODSTUDIO_API static class UScriptStruct* StaticStruct(); \
+	friend struct ::Z_Construct_UScriptStruct_FFMODEventParameterSectionTemplate_Statics; \
+	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODEventParameterSectionTemplate(ETypeConstructPhase::Inner); } \
 	typedef FMovieSceneParameterSectionTemplate Super;
 
 

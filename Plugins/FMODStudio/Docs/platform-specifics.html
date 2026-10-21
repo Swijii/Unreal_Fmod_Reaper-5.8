@@ -87,6 +87,11 @@
 <li><a href="#live-update">Live Update</a></li>
 </ul>
 </li>
+<li><a href="#switch-2">Switch 2</a><ul>
+<li><a href="#packaging_9">Packaging</a></li>
+<li><a href="#live-update_1">Live Update</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="troubleshooting.html">Troubleshooting</a></li>
@@ -456,9 +461,27 @@ AudioMixerModuleName=
 <p>If Live Update has been enabled in the FMOD for Unreal Settings, the integration will attempt to open a port on the Dev Kit for FMOD Studio to connect to.</p>
 <p>If the integration is unsuccessful it will print out the reason to the logs, otherwise you will see the IP address used in the log:</p>
 <div class="highlight language-text"><pre><span></span>IP address: 192.168.1.189
+</pre></div>
+
+<h2 id="switch-2"><a href="#switch-2">8.10 Switch 2</a></h2>
+<h3 id="packaging_9"><a href="#packaging_9">8.10.1 Packaging</a></h3>
+<p>Banks for the Switch 2 are expected to be located in the <code>Switch2</code> sub-directory of the Studio built banks output directory. This sub-directory name is hardcoded in the integration so if you want to use a different location you would need to modify the integration source code.</p>
+<p>To package the Switch 2 specific banks add these lines to <code>Platforms\Switch2\Config\Switch2Game.ini</code>:</p>
+<div class="highlight language-text"><pre><span></span>[/Script/UnrealEd.ProjectPackagingSettings]
+-DirectoriesToAlwaysStageAsNonUFS=(Path=&quot;FMOD/Desktop&quot;)
++DirectoriesToAlwaysStageAsNonUFS=(Path=&quot;FMOD/Switch2&quot;)
+
+[Staging]
++WhitelistDirectories=MyGame/Content/FMOD/Switch2
+</pre></div>
+
+<h3 id="live-update_1"><a href="#live-update_1">8.10.2 Live Update</a></h3>
+<p>If Live Update has been enabled in the FMOD for Unreal Settings, the integration will attempt to open a port on the Dev Kit for FMOD Studio to connect to.</p>
+<p>If the integration is unsuccessful it will print out the reason to the logs, otherwise you will see the IP address used in the log:</p>
+<div class="highlight language-text"><pre><span></span>IP address: 192.168.1.189
 </pre></div></div>
 
-<p class="manual-footer">Unreal Integration 2.03.13 (2026-03-31). &copy; 2026 Firelight Technologies Pty Ltd.</p>
+<p class="manual-footer">Unreal Integration 2.03.15 (2026-09-21). &copy; 2026 Firelight Technologies Pty Ltd.</p>
 </div>
 </body>
 </html>

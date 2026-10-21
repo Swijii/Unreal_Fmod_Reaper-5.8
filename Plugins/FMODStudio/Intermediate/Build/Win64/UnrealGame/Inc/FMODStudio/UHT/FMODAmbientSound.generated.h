@@ -12,21 +12,21 @@
 #define FMODSTUDIO_FMODAmbientSound_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class AFMODAmbientSound ********************************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_AFMODAmbientSound_NoRegister();
+struct Z_Construct_UClass_AFMODAmbientSound_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_AFMODAmbientSound(ETypeConstructPhase);
 
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_INCLASS \
 private: \
-	static void StaticRegisterNativesAFMODAmbientSound(); \
-	friend struct Z_Construct_UClass_AFMODAmbientSound_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_AFMODAmbientSound_NoRegister(); \
+	friend struct ::Z_Construct_UClass_AFMODAmbientSound_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_AFMODAmbientSound(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(AFMODAmbientSound, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_AFMODAmbientSound_NoRegister) \
+	DECLARE_CLASS2(AFMODAmbientSound, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_AFMODAmbientSound) \
 	DECLARE_SERIALIZER(AFMODAmbientSound)
 
 

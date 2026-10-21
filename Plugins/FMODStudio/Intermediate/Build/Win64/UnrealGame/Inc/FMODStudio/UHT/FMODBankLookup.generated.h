@@ -12,14 +12,18 @@
 #define FMODSTUDIO_FMODBankLookup_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin ScriptStruct FFMODLocalizedBankRow *********************************************
+struct Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics;
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODLocalizedBankRow(ETypeConstructPhase);
+
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_12_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	friend struct ::Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics; \
+	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODLocalizedBankRow(ETypeConstructPhase::Inner); } \
 	typedef FTableRowBase Super;
 
 
@@ -27,9 +31,12 @@ struct FFMODLocalizedBankRow;
 // ********** End ScriptStruct FFMODLocalizedBankRow ***********************************************
 
 // ********** Begin ScriptStruct FFMODLocalizedBankTable *******************************************
+struct Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics;
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODLocalizedBankTable(ETypeConstructPhase);
+
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_20_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	friend struct ::Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics; \
+	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODLocalizedBankTable(ETypeConstructPhase::Inner); } \
 	typedef FTableRowBase Super;
 
 
@@ -37,16 +44,15 @@ struct FFMODLocalizedBankTable;
 // ********** End ScriptStruct FFMODLocalizedBankTable *********************************************
 
 // ********** Begin Class UFMODBankLookup **********************************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODBankLookup_NoRegister();
+struct Z_Construct_UClass_UFMODBankLookup_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODBankLookup(ETypeConstructPhase);
 
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_28_INCLASS \
 private: \
-	static void StaticRegisterNativesUFMODBankLookup(); \
-	friend struct Z_Construct_UClass_UFMODBankLookup_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODBankLookup_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODBankLookup_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODBankLookup(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODBankLookup, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODBankLookup_NoRegister) \
+	DECLARE_CLASS2(UFMODBankLookup, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODBankLookup) \
 	DECLARE_SERIALIZER(UFMODBankLookup)
 
 

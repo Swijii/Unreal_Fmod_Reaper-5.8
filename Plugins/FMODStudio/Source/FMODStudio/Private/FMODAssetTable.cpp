@@ -48,7 +48,7 @@ void FFMODAssetTable::Load()
     FString PackageName = PackagePath + BankLookupName();
     UPackage *Package = CreatePackage(*PackageName);
     Package->FullyLoad();
-    BankLookup = FindObject<UFMODBankLookup>(Package, *BankLookupName(), true);
+    BankLookup = FindObject<UFMODBankLookup>(Package, *BankLookupName(), EFindObjectFlags::ExactClass);
 
     if (BankLookup)
     {
@@ -72,7 +72,7 @@ void FFMODAssetTable::Load()
     PackageName = PackagePath + AssetLookupName();
     Package = CreatePackage(*PackageName);
     Package->FullyLoad();
-    AssetLookup = FindObject<UDataTable>(Package, *AssetLookupName(), true);
+    AssetLookup = FindObject<UDataTable>(Package, *AssetLookupName(), EFindObjectFlags::ExactClass);
 
     if (AssetLookup)
     {

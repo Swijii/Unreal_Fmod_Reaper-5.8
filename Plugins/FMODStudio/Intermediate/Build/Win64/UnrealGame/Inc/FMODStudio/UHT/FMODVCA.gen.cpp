@@ -8,72 +8,51 @@
 #include "FMODVCA.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_UOBJECT");
 void EmptyLinkFunctionForGeneratedCodeFMODVCA() {}
 
 // ********** Begin Cross Module References ********************************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAsset();
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODVCA();
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODVCA_NoRegister();
-UPackage* Z_Construct_UPackage__Script_FMODStudio();
 // ********** End Cross Module References **********************************************************
 
+// ********** Begin Same Module References *********************************************************
+UPackage* Z_Construct_UPackage__Script_FMODStudio(ETypeConstructPhase);
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAsset(ETypeConstructPhase);
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODVCA(ETypeConstructPhase);
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODVCA(ETypeConstructPhase);
+// ********** End Same Module References ***********************************************************
+#define UHT_STRUCT_BASE(INIT) UE::CodeGen::ConstInit::TCompiledInObjectPtr<const FStructBaseChain>(UE::Private::AsStructBaseChain(INIT))
+
 // ********** Begin Class UFMODVCA *****************************************************************
-void UFMODVCA::StaticRegisterNativesUFMODVCA()
-{
-}
-FClassRegistrationInfo Z_Registration_Info_UClass_UFMODVCA;
-UClass* UFMODVCA::GetPrivateStaticClass()
-{
-	using TClass = UFMODVCA;
-	if (!Z_Registration_Info_UClass_UFMODVCA.InnerSingleton)
-	{
-		GetPrivateStaticClassBody(
-			StaticPackage(),
-			TEXT("FMODVCA"),
-			Z_Registration_Info_UClass_UFMODVCA.InnerSingleton,
-			StaticRegisterNativesUFMODVCA,
-			sizeof(TClass),
-			alignof(TClass),
-			TClass::StaticClassFlags,
-			TClass::StaticClassCastFlags(),
-			TClass::StaticConfigName(),
-			(UClass::ClassConstructorType)InternalConstructor<TClass>,
-			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
-			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
-			&TClass::Super::StaticClass,
-			&TClass::WithinClass::StaticClass
-		);
-	}
-	return Z_Registration_Info_UClass_UFMODVCA.InnerSingleton;
-}
-UClass* Z_Construct_UClass_UFMODVCA_NoRegister()
-{
-	return UFMODVCA::GetPrivateStaticClass();
-}
-struct Z_Construct_UClass_UFMODVCA_Statics
+#ifdef UHT_STATICS
+#error UHT_STATICS already defined
+#endif
+#define UHT_STATICS Z_Construct_UClass_UFMODVCA_Statics
+struct UHT_STATICS
 {
 #if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Comment", "/**\n * FMOD VCA Asset.\n */" },
 		{ "IncludePath", "FMODVCA.h" },
 		{ "ModuleRelativePath", "Classes/FMODVCA.h" },
 		{ "ToolTip", "FMOD VCA Asset." },
 	};
 #endif // WITH_METADATA
-	static UObject* (*const DependentSingletons[])();
+
+// ********** Begin Class UFMODVCA constinit property declarations *********************************
+// ********** End Class UFMODVCA constinit property declarations ***********************************
+	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UFMODVCA>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
+}; // struct UHT_STATICS
+FTypeConstructFunc* UHT_STATICS::DependentSingletons[] = {
+	(FTypeConstructFunc*)Z_Construct_UClass_UFMODAsset,
+	(FTypeConstructFunc*)Z_Construct_UPackage__Script_FMODStudio,
 };
-UObject* (*const Z_Construct_UClass_UFMODVCA_Statics::DependentSingletons[])() = {
-	(UObject* (*)())Z_Construct_UClass_UFMODAsset,
-	(UObject* (*)())Z_Construct_UPackage__Script_FMODStudio,
-};
-static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODVCA_Statics::DependentSingletons) < 16);
-const UECodeGen_Private::FClassParams Z_Construct_UClass_UFMODVCA_Statics::ClassParams = {
-	&UFMODVCA::StaticClass,
+static_assert(UE_ARRAY_COUNT(UHT_STATICS::DependentSingletons) < 16);
+const UECodeGen_Private::FClassParams UHT_STATICS::ClassParams = {
+	&Z_Construct_UClass_UFMODVCA,
 	nullptr,
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
@@ -85,31 +64,66 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_UFMODVCA_Statics::Class
 	0,
 	0,
 	0x001000A0u,
-	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODVCA_Statics::Class_MetaDataParams), Z_Construct_UClass_UFMODVCA_Statics::Class_MetaDataParams)
+	METADATA_PARAMS(UE_ARRAY_COUNT(UHT_STATICS::Type_MetaData), UHT_STATICS::Type_MetaData)
 };
-UClass* Z_Construct_UClass_UFMODVCA()
+FClassRegistrationInfo Z_Registration_Info_UClass_UFMODVCA;
+UClass* Z_Construct_UClass_UFMODVCA(ETypeConstructPhase Phase)
 {
+	if (Phase == ETypeConstructPhase::Inner)
+	{
+		using TClass = UFMODVCA;
+		if (!Z_Registration_Info_UClass_UFMODVCA.InnerSingleton)
+		{
+			GetPrivateStaticClassBody(
+				TClass::StaticPackage(),
+				TEXT("FMODVCA"),
+				Z_Registration_Info_UClass_UFMODVCA.InnerSingleton,
+				nullptr,
+				DataSizeOf<TClass>(),
+				alignof(TClass),
+				TClass::StaticClassFlags,
+				TClass::StaticClassCastFlags(),
+				TClass::StaticConfigName(),
+				(UClass::ClassConstructorType)InternalConstructor<TClass>,
+				(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+				UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+				&TClass::Super::StaticClass,
+				&TClass::WithinClass::StaticClass
+			);
+		}
+		return Z_Registration_Info_UClass_UFMODVCA.InnerSingleton;
+	}
 	if (!Z_Registration_Info_UClass_UFMODVCA.OuterSingleton)
 	{
-		UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_UFMODVCA.OuterSingleton, Z_Construct_UClass_UFMODVCA_Statics::ClassParams);
+		UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_UFMODVCA.OuterSingleton, UHT_STATICS::ClassParams);
 	}
 	return Z_Registration_Info_UClass_UFMODVCA.OuterSingleton;
 }
-DEFINE_VTABLE_PTR_HELPER_CTOR(UFMODVCA);
+#undef UHT_STATICS
+DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, UFMODVCA);
 UFMODVCA::~UFMODVCA() {}
 // ********** End Class UFMODVCA *******************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODVCA_h__Script_FMODStudio_Statics
+#ifdef UHT_STATICS
+#error UHT_STATICS already defined
+#endif
+#define UHT_STATICS Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODVCA_h__Script_FMODStudio_Statics
+struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODVCA, UFMODVCA::StaticClass, TEXT("UFMODVCA"), &Z_Registration_Info_UClass_UFMODVCA, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODVCA), 1874676958U) },
+		{ Z_Construct_UClass_UFMODVCA, TEXT("UFMODVCA"), &Z_Registration_Info_UClass_UFMODVCA, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODVCA), 650232976U) },
 	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODVCA_h__Script_FMODStudio_4037615850(TEXT("/Script/FMODStudio"),
-	Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODVCA_h__Script_FMODStudio_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODVCA_h__Script_FMODStudio_Statics::ClassInfo),
+}; // UHT_STATICS 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODVCA_h__Script_FMODStudio_fed2f701a0a235114287dcc622aec846624e74ea{
+	TEXT("/Script/FMODStudio"),
+	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,
-	nullptr, 0);
+	nullptr, 0,
+	nullptr, 0,
+};
+#undef UHT_STATICS
 // ********** End Registration *********************************************************************
+#undef UHT_STRUCT_BASE
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

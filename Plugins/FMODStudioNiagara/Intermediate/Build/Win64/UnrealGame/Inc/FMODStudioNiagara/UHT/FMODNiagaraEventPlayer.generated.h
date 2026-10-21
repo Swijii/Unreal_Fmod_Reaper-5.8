@@ -12,21 +12,21 @@
 #define FMODSTUDIONIAGARA_FMODNiagaraEventPlayer_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UFMODNiagaraEventPlayer **************************************************
-FMODSTUDIONIAGARA_API UClass* Z_Construct_UClass_UFMODNiagaraEventPlayer_NoRegister();
+struct Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics;
+FMODSTUDIONIAGARA_API UClass* Z_Construct_UClass_UFMODNiagaraEventPlayer(ETypeConstructPhase);
 
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudioNiagara_HostProject_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_55_INCLASS \
 private: \
-	static void StaticRegisterNativesUFMODNiagaraEventPlayer(); \
-	friend struct Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIONIAGARA_API UClass* Z_Construct_UClass_UFMODNiagaraEventPlayer_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics; \
+	friend FMODSTUDIONIAGARA_API UClass* ::Z_Construct_UClass_UFMODNiagaraEventPlayer(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODNiagaraEventPlayer, UNiagaraDataInterface, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudioNiagara"), Z_Construct_UClass_UFMODNiagaraEventPlayer_NoRegister) \
+	DECLARE_CLASS2(UFMODNiagaraEventPlayer, UNiagaraDataInterface, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudioNiagara"), Z_Construct_UClass_UFMODNiagaraEventPlayer) \
 	DECLARE_SERIALIZER(UFMODNiagaraEventPlayer)
 
 

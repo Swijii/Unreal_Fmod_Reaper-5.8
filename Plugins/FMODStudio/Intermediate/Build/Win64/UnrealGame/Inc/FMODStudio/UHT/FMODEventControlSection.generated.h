@@ -12,14 +12,19 @@
 #define FMODSTUDIO_FMODEventControlSection_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
+#include "Templates/IsUEnumClass.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin ScriptStruct FFMODEventControlChannel ******************************************
+struct Z_Construct_UScriptStruct_FFMODEventControlChannel_Statics;
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODEventControlChannel(ETypeConstructPhase);
+
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_25_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FFMODEventControlChannel_Statics; \
-	FMODSTUDIO_API static class UScriptStruct* StaticStruct(); \
+	friend struct ::Z_Construct_UScriptStruct_FFMODEventControlChannel_Statics; \
+	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODEventControlChannel(ETypeConstructPhase::Inner); } \
 	typedef FMovieSceneByteChannel Super;
 
 
@@ -27,16 +32,15 @@ struct FFMODEventControlChannel;
 // ********** End ScriptStruct FFMODEventControlChannel ********************************************
 
 // ********** Begin Class UFMODEventControlSection *************************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventControlSection_NoRegister();
+struct Z_Construct_UClass_UFMODEventControlSection_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventControlSection(ETypeConstructPhase);
 
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_53_INCLASS \
 private: \
-	static void StaticRegisterNativesUFMODEventControlSection(); \
-	friend struct Z_Construct_UClass_UFMODEventControlSection_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventControlSection_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODEventControlSection_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODEventControlSection(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODEventControlSection, UMovieSceneSection, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODEventControlSection_NoRegister) \
+	DECLARE_CLASS2(UFMODEventControlSection, UMovieSceneSection, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODEventControlSection) \
 	DECLARE_SERIALIZER(UFMODEventControlSection)
 
 
@@ -77,7 +81,7 @@ class UFMODEventControlSection;
 
 enum class EFMODEventControlKey : uint8;
 template<> struct TIsUEnumClass<EFMODEventControlKey> { enum { Value = true }; };
-template<> FMODSTUDIO_API UEnum* StaticEnum<EFMODEventControlKey>();
+template<> UE_NODEBUG FMODSTUDIO_NON_ATTRIBUTED_API UEnum* StaticEnum<EFMODEventControlKey>();
 // ********** End Enum EFMODEventControlKey ********************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

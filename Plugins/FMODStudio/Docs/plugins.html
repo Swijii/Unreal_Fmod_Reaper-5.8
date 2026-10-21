@@ -20,13 +20,14 @@
 </li>
 <li><a href="#deploying-fmod-plugins">Deploying FMOD plugins</a></li>
 <li><a href="#fmod-haptics-setup">FMOD Haptics Setup</a><ul>
-<li><a href="#supported-devices">Supported Devices</a></li>
+<li><a href="#auditioning-in-editor">Auditioning In-Editor</a></li>
 <li><a href="#dependencies">Dependencies</a></li>
 <li><a href="#enable-fmod-studio-openxr-quest-only">Enable FMOD Studio OpenXR (Quest only)</a><ul>
 <li><a href="#dependencies_1">Dependencies</a></li>
 <li><a href="#apl-configuration">APL Configuration</a></li>
 </ul>
 </li>
+<li><a href="#enable-vr-psvr2-only">Enable VR (PSVR2 only)</a></li>
 </ul>
 </li>
 </ul>
@@ -187,13 +188,8 @@ The integration will now use the list of plugins from the FMOD Unreal Settings.<
 <p>The FMOD Haptics plugin can be used to generate haptic vibrations authored in <a href="https://developers.meta.com/horizon/resources/haptics-studio">Meta Haptics</a> Studio.<br />
 In order to enable the plugin, you’ll need to follow the <a href="plugins.html#dynamic-plugins">Dynamic Plugin</a> setup guide. For FMOD Haptics, navigate to Project Settings, select FMOD Studio under the Plugins section, then scroll to Advanced then finally Plugin Files. Click the Plus icon to add an entry and add “fmod_haptics”. You'll need to restart your editor to apply these changes.</p>
 <p><img alt="Loading the FMOD Haptics plugin from the Project settings" src="images/fmod-haptics-load.png" /></p>
-<p>If you have an Xbox or PS5 controller connected to your computer you can audition <a href="https://fmod.com/docs/2.03/studio/glossary.html#event">events</a> containing the <a href="https://fmod.com/docs/2.03/studio/instrument-reference.html#haptics-instrument">Haptics Instrument</a> in-editor. Meta Quest controllers cannot be auditioned in-editor, and require additional configuration for use in a built application. The above setup is sufficient for haptic vibrations on all other supported devices.</p>
-<h3 id="supported-devices"><a href="#supported-devices">4.3.1 Supported Devices</a></h3>
-<ul>
-<li>PS5 DualSense Wireless Controller</li>
-<li>Xbox Wireless Controller</li>
-<li>Meta Quest Touch, Touch Plus and Touch Pro controllers</li>
-</ul>
+<h3 id="auditioning-in-editor"><a href="#auditioning-in-editor">4.3.1 Auditioning In-Editor</a></h3>
+<p>Auditioning in-editor is supported with the same platform and device combinations specified in the <a href="https://fmod.com/docs/2.03/studio/instrument-reference.html#auditioning-support">Auditioning Support</a> section of the <a href="https://fmod.com/docs/2.03/studio/instrument-reference.html">FMOD Studio Instrument Reference</a>. Meta Quest controllers cannot be auditioned in-editor, and require additional configuration for use in a built application, which is covered below.</p>
 <h3 id="dependencies"><a href="#dependencies">4.3.2 Dependencies</a></h3>
 <ul>
 <li>Unreal Engine 5.4 or above</li>
@@ -228,9 +224,51 @@ In order to enable the plugin, you’ll need to follow the <a href="plugins.html
         <span class="nt">&lt;loadLibrary</span> <span class="na">name=</span><span class="s">&quot;fmod_haptics&quot;</span> <span class="na">failmsg=</span><span class="s">&quot;fmod_haptics not loaded and required!&quot;</span> <span class="nt">/&gt;</span>
     <span class="nt">&lt;/soLoadLibrary&gt;</span>
 <span class="nt">&lt;/root&gt;</span>
+</pre></div>
+
+<h3 id="enable-vr-psvr2-only"><a href="#enable-vr-psvr2-only">4.3.4 Enable VR (PSVR2 only)</a></h3>
+<p>PSVR requires an additional configuration step for use with FMOD Haptics. Create a new callback handler, following the steps in <a href="#static-plugins">Static Plugins</a>, and make a call to <code>FMOD_Haptics_VR_Configure</code>.</p>
+<div class="highlight language-cpp"><pre><span></span><span class="cp">#pragma once</span>
+<span class="cp">#include</span> <span class="cpf">&quot;CoreMinimal.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&quot;UObject/NoExportTypes.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;FMODCallbackHandler.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&quot;fmod_errors.h&quot;</span><span class="cp"></span>
+
+<span class="cp">#ifdef PLATFORM_PS5</span>
+<span class="n">FMOD_RESULT</span><span class="p">(</span><span class="o">*</span><span class="n">lib_FMOD_Haptics_VR_Configure</span><span class="p">)(</span><span class="n">FMOD_BOOL</span> <span class="n">enableVr</span><span class="p">);</span>
+<span class="n">FMOD_DSP_DESCRIPTION</span><span class="o">*</span><span class="p">(</span><span class="o">*</span><span class="n">lib_FMOD_Haptics_GetDSPDescription</span><span class="p">)();</span>
+<span class="cp">#endif</span>
+
+<span class="cp">#include</span> <span class="cpf">&quot;ConcreteFMODCallbackHandler.generated.h&quot;</span><span class="cp"></span>
+<span class="n">UCLASS</span><span class="p">()</span>
+<span class="k">class</span> <span class="nc">MYPROJECT_API</span> <span class="nl">UConcreteFMODCallbackHandler</span> <span class="p">:</span> <span class="k">public</span> <span class="n">UObject</span><span class="p">,</span> <span class="k">public</span> <span class="n">IFMODCallbackHandler</span>
+<span class="p">{</span>
+    <span class="n">GENERATED_BODY</span><span class="p">()</span>
+<span class="k">public</span><span class="o">:</span>
+    <span class="kt">void</span> <span class="n">PreInitialize</span><span class="p">(</span><span class="n">FMOD</span><span class="o">::</span><span class="n">Studio</span><span class="o">::</span><span class="n">System</span><span class="o">*</span> <span class="n">System</span><span class="p">)</span> <span class="k">override</span>
+    <span class="p">{</span>
+<span class="cp">#ifdef PLATFORM_PS5</span>
+        <span class="kt">void</span><span class="o">*</span> <span class="n">Lib</span> <span class="o">=</span> <span class="n">FPlatformProcess</span><span class="o">::</span><span class="n">GetDllHandle</span><span class="p">(</span><span class="n">TEXT</span><span class="p">(</span><span class="s">&quot;libfmod_haptics.prx&quot;</span><span class="p">));</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">Lib</span> <span class="o">!=</span> <span class="nb">NULL</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">lib_FMOD_Haptics_VR_Configure</span> <span class="o">=</span> <span class="p">(</span><span class="n">FMOD_RESULT</span><span class="p">(</span><span class="o">*</span><span class="p">)(</span><span class="n">FMOD_BOOL</span><span class="p">))</span><span class="n">FPlatformProcess</span><span class="o">::</span><span class="n">GetDllExport</span><span class="p">(</span><span class="n">Lib</span><span class="p">,</span> <span class="n">TEXT</span><span class="p">(</span><span class="s">&quot;FMOD_Haptics_VR_Configure&quot;</span><span class="p">));</span>
+            <span class="n">lib_FMOD_Haptics_GetDSPDescription</span> <span class="o">=</span> <span class="p">(</span><span class="n">FMOD_DSP_DESCRIPTION</span><span class="o">*</span><span class="p">(</span><span class="o">*</span><span class="p">)())</span><span class="n">FPlatformProcess</span><span class="o">::</span><span class="n">GetDllExport</span><span class="p">(</span><span class="n">Lib</span><span class="p">,</span> <span class="n">TEXT</span><span class="p">(</span><span class="s">&quot;FMOD_Haptics_GetDSPDescription&quot;</span><span class="p">));</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">lib_FMOD_Haptics_VR_Configure</span> <span class="o">&amp;&amp;</span> <span class="n">lib_FMOD_Haptics_GetDSPDescription</span><span class="p">)</span>
+            <span class="p">{</span>
+                <span class="n">lib_FMOD_Haptics_VR_Configure</span><span class="p">((</span><span class="n">FMOD_BOOL</span><span class="p">)</span><span class="mi">1</span><span class="p">);</span>
+                <span class="n">System</span><span class="o">-&gt;</span><span class="n">registerPlugin</span><span class="p">(</span><span class="n">lib_FMOD_Haptics_GetDSPDescription</span><span class="p">());</span>
+            <span class="p">}</span>
+            <span class="k">else</span>
+            <span class="p">{</span>
+                <span class="n">UE_LOG</span><span class="p">(</span><span class="n">LogTemp</span><span class="p">,</span> <span class="n">Warning</span><span class="p">,</span> <span class="n">TEXT</span><span class="p">(</span><span class="s">&quot;UConcreteFMODCallbackHandler::PreInitialize: Could not find FMOD_Haptics_VR_Configure&quot;</span><span class="p">));</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+<span class="cp">#endif</span>
+    <span class="p">}</span>
+<span class="p">};</span>
 </pre></div></div>
 
-<p class="manual-footer">Unreal Integration 2.03.13 (2026-03-31). &copy; 2026 Firelight Technologies Pty Ltd.</p>
+<p class="manual-footer">Unreal Integration 2.03.15 (2026-09-21). &copy; 2026 Firelight Technologies Pty Ltd.</p>
 </div>
 </body>
 </html>

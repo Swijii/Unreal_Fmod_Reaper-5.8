@@ -12,21 +12,21 @@
 #define FMODSTUDIO_FMODSnapshotReverb_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UFMODSnapshotReverb ******************************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODSnapshotReverb_NoRegister();
+struct Z_Construct_UClass_UFMODSnapshotReverb_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODSnapshotReverb(ETypeConstructPhase);
 
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshotReverb_h_15_INCLASS \
 private: \
-	static void StaticRegisterNativesUFMODSnapshotReverb(); \
-	friend struct Z_Construct_UClass_UFMODSnapshotReverb_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODSnapshotReverb_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODSnapshotReverb_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODSnapshotReverb(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODSnapshotReverb, UReverbEffect, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODSnapshotReverb_NoRegister) \
+	DECLARE_CLASS2(UFMODSnapshotReverb, UReverbEffect, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODSnapshotReverb) \
 	DECLARE_SERIALIZER(UFMODSnapshotReverb)
 
 
