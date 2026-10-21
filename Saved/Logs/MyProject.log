@@ -2211,3 +2211,297 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.10.21-12.17.05:791][ 36]Message dialog closed, result: Ok, title: Message, text: Duplicate name found.
 [2026.10.21-12.17.54:917][983]LogSlate: Window 'Project Settings' being destroyed
 [2026.10.21-12.17.54:922][983]LogSlate: Window 'Project Settings' being destroyed
+[2026.10.21-12.19.40:733][544]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 366.887054
+[2026.10.21-12.19.41:732][547]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.21-12.19.41:732][547]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 367.552765, Update Interval: 314.203918
+[2026.10.21-12.19.41:755][547]LogFMOD: BankLookup modified.
+
+[2026.10.21-12.19.41:755][547]LogFMOD: ===== BankLookup =====
+
+[2026.10.21-12.19.41:755][547]LogFMOD: GUID: {3C7A96C9-E543-073B-1615-32C7EC1032BF}
+
+[2026.10.21-12.19.41:755][547]LogFMOD:   Locale: <NON-LOCALIZED>   Path: AmbientFX.assets.bank
+
+[2026.10.21-12.19.41:755][547]LogFMOD: GUID: {8785C5B3-542A-470B-8C56-FA4A20BC377F}
+
+[2026.10.21-12.19.41:755][547]LogFMOD:   Locale: <NON-LOCALIZED>   Path: AmbientFX.bank
+
+[2026.10.21-12.19.41:755][547]LogFMOD: GUID: {26512FDA-156B-0F86-3030-2C682D73B301}
+
+[2026.10.21-12.19.41:755][547]LogFMOD:   Locale: <NON-LOCALIZED>   Path: Master.assets.bank
+
+[2026.10.21-12.19.41:755][547]LogFMOD: GUID: {9DAE7CA0-A402-4FB6-AA73-E4E5E1DFB6C1}
+
+[2026.10.21-12.19.41:755][547]LogFMOD:   Locale: <NON-LOCALIZED>   Path: Master.bank
+
+[2026.10.21-12.19.41:755][547]LogFMOD: GUID: {05B35C74-D579-03F4-2C3A-6E1B102CB059}
+
+[2026.10.21-12.19.41:755][547]LogFMOD:   Locale: <NON-LOCALIZED>   Path: Master.strings.bank
+
+[2026.10.21-12.19.41:755][547]LogFMOD: GUID: {E4D34522-8CBE-0FA2-02AE-2B449D7C4AC7}
+
+[2026.10.21-12.19.41:755][547]LogFMOD:   Locale: <NON-LOCALIZED>   Path: Music.assets.bank
+
+[2026.10.21-12.19.41:755][547]LogFMOD: GUID: {5F2C1658-3DD7-4F92-98ED-E3C951D04F07}
+
+[2026.10.21-12.19.41:755][547]LogFMOD:   Locale: <NON-LOCALIZED>   Path: Music.bank
+
+[2026.10.21-12.19.41:755][547]LogFMOD: GUID: {D2681666-2604-0B90-2A58-0B4A6F605489}
+
+[2026.10.21-12.19.41:755][547]LogFMOD:   Locale: <NON-LOCALIZED>   Path: SFX.assets.bank
+
+[2026.10.21-12.19.41:755][547]LogFMOD: GUID: {6997451C-976D-4BA0-B01B-C3C7A3CC5149}
+
+[2026.10.21-12.19.41:755][547]LogFMOD:   Locale: <NON-LOCALIZED>   Path: SFX.bank
+
+[2026.10.21-12.19.41:755][547]LogFMOD: GUID: {31A0687D-DBD4-02F1-30EC-564842005AA2}
+
+[2026.10.21-12.19.41:755][547]LogFMOD:   Locale: <NON-LOCALIZED>   Path: UI.assets.bank
+
+[2026.10.21-12.19.41:755][547]LogFMOD: GUID: {8A5F3B07-6ABD-42C1-AAAF-9EC58EAC5F62}
+
+[2026.10.21-12.19.41:755][547]LogFMOD:   Locale: <NON-LOCALIZED>   Path: UI.bank
+
+[2026.10.21-12.19.41:755][547]LogFMOD: GUID: {99A04009-69DE-0AB8-3EB5-3B7CBCAE98FB}
+
+[2026.10.21-12.19.41:755][547]LogFMOD:   Locale: <NON-LOCALIZED>   Path: VO.assets.bank
+
+[2026.10.21-12.19.41:755][547]LogFMOD: GUID: {225F1373-D8B7-4A88-A4F6-F3F170029D3B}
+
+[2026.10.21-12.19.41:755][547]LogFMOD:   Locale: <NON-LOCALIZED>   Path: VO.bank
+
+[2026.10.21-12.19.41:755][547]LogFMOD: Loading strings bank: ../../../../../Github/Swiji/Unreal_Fmod_Reaper 5.8/Content/FMOD/Desktop/Master.strings.bank
+[2026.10.21-12.19.41:756][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Fruits
+[2026.10.21-12.19.41:757][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Wind
+[2026.10.21-12.19.41:757][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Water
+[2026.10.21-12.19.41:757][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Chracters/Armors
+[2026.10.21-12.19.41:757][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Torche
+[2026.10.21-12.19.41:757][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences
+[2026.10.21-12.19.41:757][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/VO
+[2026.10.21-12.19.41:757][547]LogFMOD: 'Master.assets' cannot be used as a UE4 asset name. Name may not contain the following characters: .. Using 'Master_assets' instead.
+[2026.10.21-12.19.41:757][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/Master_assets
+[2026.10.21-12.19.41:757][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Trees
+[2026.10.21-12.19.41:757][547]LogFMOD: 'UI.assets' cannot be used as a UE4 asset name. Name may not contain the following characters: .. Using 'UI_assets' instead.
+[2026.10.21-12.19.41:758][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/UI_assets
+[2026.10.21-12.19.41:758][547]LogFMOD: 'AmbientFX.assets' cannot be used as a UE4 asset name. Name may not contain the following characters: .. Using 'AmbientFX_assets' instead.
+[2026.10.21-12.19.41:758][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/AmbientFX_assets
+[2026.10.21-12.19.41:758][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Insects
+[2026.10.21-12.19.41:758][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Rain
+[2026.10.21-12.19.41:758][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Room_Stone
+[2026.10.21-12.19.41:758][547]LogFMOD: Constructing snapshot reverb asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Room_Stone
+[2026.10.21-12.19.41:758][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Metal
+[2026.10.21-12.19.41:758][547]LogFMOD: Constructing snapshot reverb asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Metal
+[2026.10.21-12.19.41:758][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Forest
+[2026.10.21-12.19.41:759][547]LogFMOD: Constructing snapshot reverb asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Forest
+[2026.10.21-12.19.41:759][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/Music
+[2026.10.21-12.19.41:759][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/SFX
+[2026.10.21-12.19.41:759][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Chracters/Mutant
+[2026.10.21-12.19.41:759][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Combat/Weapons
+[2026.10.21-12.19.41:759][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Reverb_Bus
+[2026.10.21-12.19.41:759][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Frogs
+[2026.10.21-12.19.41:759][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env
+[2026.10.21-12.19.41:759][547]LogFMOD: Constructing snapshot reverb asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env
+[2026.10.21-12.19.41:759][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/UI
+[2026.10.21-12.19.41:759][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/AmbientFX
+[2026.10.21-12.19.41:760][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/UI
+[2026.10.21-12.19.41:760][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Room_Mausoleum
+[2026.10.21-12.19.41:760][547]LogFMOD: Constructing snapshot reverb asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Room_Mausoleum
+[2026.10.21-12.19.41:760][547]LogFMOD: 'VO.assets' cannot be used as a UE4 asset name. Name may not contain the following characters: .. Using 'VO_assets' instead.
+[2026.10.21-12.19.41:760][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/VO_assets
+[2026.10.21-12.19.41:760][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/Master
+[2026.10.21-12.19.41:760][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Music
+[2026.10.21-12.19.41:760][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Cave
+[2026.10.21-12.19.41:760][547]LogFMOD: Constructing snapshot reverb asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Cave
+[2026.10.21-12.19.41:760][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/DogBarks
+[2026.10.21-12.19.41:760][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/TownMarket
+[2026.10.21-12.19.41:760][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Events/Characters/LocomotionsAudioSystem/DynamicFootsteps/SFX_FS_Footsteps
+[2026.10.21-12.19.41:761][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Footsteps
+[2026.10.21-12.19.41:761][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Birds
+[2026.10.21-12.19.41:761][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Mountains
+[2026.10.21-12.19.41:761][547]LogFMOD: Constructing snapshot reverb asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Mountains
+[2026.10.21-12.19.41:761][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Combat
+[2026.10.21-12.19.41:761][547]LogFMOD: 'SFX.assets' cannot be used as a UE4 asset name. Name may not contain the following characters: .. Using 'SFX_assets' instead.
+[2026.10.21-12.19.41:761][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/SFX_assets
+[2026.10.21-12.19.41:761][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Chracters
+[2026.10.21-12.19.41:761][547]LogFMOD: 'Music.assets' cannot be used as a UE4 asset name. Name may not contain the following characters: .. Using 'Music_assets' instead.
+[2026.10.21-12.19.41:761][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/Music_assets
+[2026.10.21-12.19.41:761][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX
+[2026.10.21-12.19.41:762][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Chracters/Animals
+[2026.10.21-12.19.41:762][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Combat/Magic
+[2026.10.21-12.19.41:762][547]LogFMOD: Adding asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Tunnel
+[2026.10.21-12.19.41:762][547]LogFMOD: Constructing snapshot reverb asset: /C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Tunnel
+[2026.10.21-12.19.41:762][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/PrivateIntegrationData/BankLookup' is not a child of an existing mount point.
+[2026.10.21-12.19.41:762][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/PrivateIntegrationData/BankLookup' is not a child of an existing mount point.
+[2026.10.21-12.19.41:762][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Fruits' is not a child of an existing mount point.
+[2026.10.21-12.19.41:762][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Fruits' is not a child of an existing mount point.
+[2026.10.21-12.19.41:762][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Wind' is not a child of an existing mount point.
+[2026.10.21-12.19.41:762][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Wind' is not a child of an existing mount point.
+[2026.10.21-12.19.41:762][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Water' is not a child of an existing mount point.
+[2026.10.21-12.19.41:762][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Water' is not a child of an existing mount point.
+[2026.10.21-12.19.41:762][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Chracters/Armors' is not a child of an existing mount point.
+[2026.10.21-12.19.41:762][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Chracters/Armors' is not a child of an existing mount point.
+[2026.10.21-12.19.41:762][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Torche' is not a child of an existing mount point.
+[2026.10.21-12.19.41:762][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Torche' is not a child of an existing mount point.
+[2026.10.21-12.19.41:762][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences' is not a child of an existing mount point.
+[2026.10.21-12.19.41:762][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/VO' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/VO' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/Master_assets' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/Master_assets' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Trees' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Trees' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/UI_assets' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/UI_assets' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/AmbientFX_assets' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/AmbientFX_assets' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Insects' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Insects' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Rain' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Rain' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Room_Stone' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Room_Stone' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Room_Stone' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Room_Stone' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Metal' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Metal' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Metal' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Metal' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Forest' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Forest' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Forest' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Forest' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/Music' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/Music' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/SFX' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/SFX' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Chracters/Mutant' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Chracters/Mutant' is not a child of an existing mount point.
+[2026.10.21-12.19.41:763][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Combat/Weapons' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Combat/Weapons' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Reverb_Bus' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Reverb_Bus' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Frogs' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Frogs' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/UI' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/UI' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/AmbientFX' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/AmbientFX' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/UI' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/UI' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Room_Mausoleum' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Room_Mausoleum' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Room_Mausoleum' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Room_Mausoleum' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/VO_assets' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/VO_assets' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/Master' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/Master' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Music' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Music' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Cave' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Cave' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Cave' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Cave' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/DogBarks' is not a child of an existing mount point.
+[2026.10.21-12.19.41:764][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/DogBarks' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/TownMarket' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/TownMarket' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Events/Characters/LocomotionsAudioSystem/DynamicFootsteps/SFX_FS_Footsteps' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Events/Characters/LocomotionsAudioSystem/DynamicFootsteps/SFX_FS_Footsteps' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Footsteps' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Footsteps' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Birds' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Birds' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Mountains' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Mountains' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Mountains' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Mountains' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Combat' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Combat' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/SFX_assets' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/SFX_assets' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Chracters' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Chracters' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/Music_assets' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/Music_assets' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Chracters/Animals' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Chracters/Animals' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Combat/Magic' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Combat/Magic' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Tunnel' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Tunnel' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Tunnel' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Tunnel' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/PrivateIntegrationData/AssetLookup' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/PrivateIntegrationData/AssetLookup' is not a child of an existing mount point.
+[2026.10.21-12.19.41:765][547]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.19.41:804][547]LogFileHelpers: InternalPromptForCheckoutAndSave took 38.156 ms
+[2026.10.21-12.19.41:804][547]LogFMOD: Display: Loaded bank lookup
+[2026.10.21-12.19.41:804][547]LogFMOD: Display: Loaded asset lookup
+[2026.10.21-12.19.42:062][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/PrivateIntegrationData/BankLookup' is not a child of an existing mount point.
+[2026.10.21-12.19.42:062][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Fruits' is not a child of an existing mount point.
+[2026.10.21-12.19.42:062][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Wind' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Water' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Chracters/Armors' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Torche' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/VO' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/Master_assets' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Trees' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/UI_assets' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/AmbientFX_assets' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Insects' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Rain' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Room_Stone' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Room_Stone' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Metal' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Metal' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Forest' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Forest' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/Music' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/SFX' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Chracters/Mutant' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Combat/Weapons' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Reverb_Bus' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Frogs' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/UI' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/AmbientFX' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/UI' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Room_Mausoleum' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Room_Mausoleum' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/VO_assets' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/Master' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Music' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Cave' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Cave' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/DogBarks' is not a child of an existing mount point.
+[2026.10.21-12.19.42:063][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/TownMarket' is not a child of an existing mount point.
+[2026.10.21-12.19.42:064][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Events/Characters/LocomotionsAudioSystem/DynamicFootsteps/SFX_FS_Footsteps' is not a child of an existing mount point.
+[2026.10.21-12.19.42:064][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Footsteps' is not a child of an existing mount point.
+[2026.10.21-12.19.42:064][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/Ambiences/Birds' is not a child of an existing mount point.
+[2026.10.21-12.19.42:064][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Mountains' is not a child of an existing mount point.
+[2026.10.21-12.19.42:064][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Mountains' is not a child of an existing mount point.
+[2026.10.21-12.19.42:064][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Combat' is not a child of an existing mount point.
+[2026.10.21-12.19.42:064][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/SFX_assets' is not a child of an existing mount point.
+[2026.10.21-12.19.42:064][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Chracters' is not a child of an existing mount point.
+[2026.10.21-12.19.42:064][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Banks/Music_assets' is not a child of an existing mount point.
+[2026.10.21-12.19.42:064][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX' is not a child of an existing mount point.
+[2026.10.21-12.19.42:064][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Chracters/Animals' is not a child of an existing mount point.
+[2026.10.21-12.19.42:064][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Buses/SFX/Combat/Magic' is not a child of an existing mount point.
+[2026.10.21-12.19.42:064][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Tunnel' is not a child of an existing mount point.
+[2026.10.21-12.19.42:064][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Tunnel' is not a child of an existing mount point.
+[2026.10.21-12.19.42:064][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/PrivateIntegrationData/AssetLookup' is not a child of an existing mount point.
+[2026.10.21-12.20.38:065][716]LogFMOD: Loading strings bank: ../../../../../Github/Swiji/Unreal_Fmod_Reaper 5.8/Content/FMOD/Desktop/Master.strings.bank
+[2026.10.21-12.20.38:066][716]LogFMOD: Error: C:\buildagent2\work\c1c3f17eb167c494\studio_api\src\fmod_bankmodel.cpp(256) - Failed to open file '../../../../../Github/Swiji/Unreal_Fmod_Reaper 5.8/Content/FMOD/Desktop/Master.strings.bank'
+
+[2026.10.21-12.20.38:067][716]LogFMOD: Warning: Failed to load strings bank: ../../../../../Github/Swiji/Unreal_Fmod_Reaper 5.8/Content/FMOD/Desktop/Master.strings.bank
+[2026.10.21-12.20.38:067][716]LogFMOD: Display: Loaded bank lookup
+[2026.10.21-12.20.38:067][716]LogFMOD: Display: Loaded asset lookup
