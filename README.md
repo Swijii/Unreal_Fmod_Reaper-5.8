@@ -41,11 +41,3 @@ An interactive audio demonstration project built in Unreal Engine 5.8. This proj
 ### 3. Dynamic Interactive & Backward Reverb *(Planned)*
 - Real-time environmental acoustics dynamic routing.
 - Context-aware spatial reverb and reverse/backward reverb FX triggered dynamically based on gameplay events and geometry.
-
----
-
-## Project Setup & Installation
-
-1. **Clone the Repository:**
-   ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
