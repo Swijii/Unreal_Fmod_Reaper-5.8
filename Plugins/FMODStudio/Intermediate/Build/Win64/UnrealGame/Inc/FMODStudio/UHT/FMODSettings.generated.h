@@ -12,54 +12,50 @@
 #define FMODSTUDIO_FMODSettings_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
+#include "Templates/IsUEnumClass.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
-// ********** Begin ScriptStruct FCustomPoolSizes **************************************************
-#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_112_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FCustomPoolSizes_Statics; \
-	FMODSTUDIO_API static class UScriptStruct* StaticStruct();
-
-
-struct FCustomPoolSizes;
-// ********** End ScriptStruct FCustomPoolSizes ****************************************************
-
 // ********** Begin ScriptStruct FFMODPlatformSettings *********************************************
-#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_140_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FFMODPlatformSettings_Statics; \
-	FMODSTUDIO_API static class UScriptStruct* StaticStruct();
+struct Z_Construct_UScriptStruct_FFMODPlatformSettings_Statics;
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODPlatformSettings(ETypeConstructPhase);
+
+#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_112_GENERATED_BODY \
+	friend struct ::Z_Construct_UScriptStruct_FFMODPlatformSettings_Statics; \
+	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODPlatformSettings(ETypeConstructPhase::Inner); }
 
 
 struct FFMODPlatformSettings;
 // ********** End ScriptStruct FFMODPlatformSettings ***********************************************
 
 // ********** Begin ScriptStruct FFMODProjectLocale ************************************************
-#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_189_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FFMODProjectLocale_Statics; \
-	FMODSTUDIO_API static class UScriptStruct* StaticStruct();
+struct Z_Construct_UScriptStruct_FFMODProjectLocale_Statics;
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODProjectLocale(ETypeConstructPhase);
+
+#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_161_GENERATED_BODY \
+	friend struct ::Z_Construct_UScriptStruct_FFMODProjectLocale_Statics; \
+	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODProjectLocale(ETypeConstructPhase::Inner); }
 
 
 struct FFMODProjectLocale;
 // ********** End ScriptStruct FFMODProjectLocale **************************************************
 
 // ********** Begin Class UFMODSettings ************************************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODSettings_NoRegister();
+struct Z_Construct_UClass_UFMODSettings_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODSettings(ETypeConstructPhase);
 
-#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_213_INCLASS \
+#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_186_INCLASS \
 private: \
-	static void StaticRegisterNativesUFMODSettings(); \
-	friend struct Z_Construct_UClass_UFMODSettings_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODSettings_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODSettings_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODSettings(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODSettings, UObject, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODSettings_NoRegister) \
-	DECLARE_SERIALIZER(UFMODSettings) \
-	static const TCHAR* StaticConfigName() {return TEXT("Engine");} \
+	DECLARE_CLASS2(UFMODSettings, UObject, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODSettings) \
+	DECLARE_SERIALIZER(UFMODSettings)
 
 
-
-#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_213_STANDARD_CONSTRUCTORS \
+#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_186_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UFMODSettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFMODSettings) \
@@ -71,12 +67,12 @@ public: \
 	NO_API virtual ~UFMODSettings();
 
 
-#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_210_PROLOG
-#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_213_GENERATED_BODY_LEGACY \
+#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_183_PROLOG
+#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_186_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_213_INCLASS \
-	FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_213_STANDARD_CONSTRUCTORS \
+	FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_186_INCLASS \
+	FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_186_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

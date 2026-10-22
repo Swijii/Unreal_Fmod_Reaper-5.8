@@ -12,23 +12,23 @@
 #define FMODSTUDIO_FMODEventControlTrack_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UFMODEventControlTrack ***************************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventControlTrack_NoRegister();
+struct Z_Construct_UClass_UFMODEventControlTrack_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventControlTrack(ETypeConstructPhase);
 
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlTrack_h_15_INCLASS \
 private: \
-	static void StaticRegisterNativesUFMODEventControlTrack(); \
-	friend struct Z_Construct_UClass_UFMODEventControlTrack_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODEventControlTrack_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODEventControlTrack_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODEventControlTrack(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODEventControlTrack, UMovieSceneNameableTrack, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODEventControlTrack_NoRegister) \
+	DECLARE_CLASS2(UFMODEventControlTrack, UMovieSceneNameableTrack, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODEventControlTrack) \
 	DECLARE_SERIALIZER(UFMODEventControlTrack) \
-	virtual UObject* _getUObject() const override { return const_cast<UFMODEventControlTrack*>(this); }
+	[[deprecated("Do not call _getUObject(), use Cast.")]] virtual UObject* _getUObject() const override { return const_cast<UFMODEventControlTrack*>(this); }
 
 
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlTrack_h_15_STANDARD_CONSTRUCTORS \

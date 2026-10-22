@@ -12,14 +12,18 @@
 #define FMODSTUDIO_FMODAssetLookup_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin ScriptStruct FFMODAssetLookupRow ***********************************************
+struct Z_Construct_UScriptStruct_FFMODAssetLookupRow_Statics;
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODAssetLookupRow(ETypeConstructPhase);
+
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_FMODAssetLookup_h_12_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FFMODAssetLookupRow_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	friend struct ::Z_Construct_UScriptStruct_FFMODAssetLookupRow_Statics; \
+	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODAssetLookupRow(ETypeConstructPhase::Inner); } \
 	typedef FTableRowBase Super;
 
 

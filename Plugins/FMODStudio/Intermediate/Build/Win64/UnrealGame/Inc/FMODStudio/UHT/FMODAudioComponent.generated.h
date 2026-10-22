@@ -12,57 +12,36 @@
 #define FMODSTUDIO_FMODAudioComponent_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
+#include "Templates/IsUEnumClass.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
 class UFMODEvent;
 
 // ********** Begin ScriptStruct FFMODAttenuationDetails *******************************************
+struct Z_Construct_UScriptStruct_FFMODAttenuationDetails_Statics;
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODAttenuationDetails(ETypeConstructPhase);
+
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_67_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FFMODAttenuationDetails_Statics; \
-	FMODSTUDIO_API static class UScriptStruct* StaticStruct();
+	friend struct ::Z_Construct_UScriptStruct_FFMODAttenuationDetails_Statics; \
+	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODAttenuationDetails(ETypeConstructPhase::Inner); }
 
 
 struct FFMODAttenuationDetails;
 // ********** End ScriptStruct FFMODAttenuationDetails *********************************************
 
 // ********** Begin ScriptStruct FFMODOcclusionDetails *********************************************
+struct Z_Construct_UScriptStruct_FFMODOcclusionDetails_Statics;
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODOcclusionDetails(ETypeConstructPhase);
+
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_90_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FFMODOcclusionDetails_Statics; \
-	FMODSTUDIO_API static class UScriptStruct* StaticStruct();
+	friend struct ::Z_Construct_UScriptStruct_FFMODOcclusionDetails_Statics; \
+	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODOcclusionDetails(ETypeConstructPhase::Inner); }
 
 
 struct FFMODOcclusionDetails;
 // ********** End ScriptStruct FFMODOcclusionDetails ***********************************************
-
-// ********** Begin Delegate FOnEventStopped *******************************************************
-#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_109_DELEGATE \
-FMODSTUDIO_API void FOnEventStopped_DelegateWrapper(const FMulticastScriptDelegate& OnEventStopped);
-
-
-// ********** End Delegate FOnEventStopped *********************************************************
-
-// ********** Begin Delegate FOnSoundStopped *******************************************************
-#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_111_DELEGATE \
-FMODSTUDIO_API void FOnSoundStopped_DelegateWrapper(const FMulticastScriptDelegate& OnSoundStopped);
-
-
-// ********** End Delegate FOnSoundStopped *********************************************************
-
-// ********** Begin Delegate FOnTimelineMarker *****************************************************
-#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_113_DELEGATE \
-FMODSTUDIO_API void FOnTimelineMarker_DelegateWrapper(const FMulticastScriptDelegate& OnTimelineMarker, const FString& Name, int32 Position);
-
-
-// ********** End Delegate FOnTimelineMarker *******************************************************
-
-// ********** Begin Delegate FOnTimelineBeat *******************************************************
-#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_116_DELEGATE \
-FMODSTUDIO_API void FOnTimelineBeat_DelegateWrapper(const FMulticastScriptDelegate& OnTimelineBeat, int32 Bar, int32 Beat, int32 Position, float Tempo, int32 TimeSignatureUpper, int32 TimeSignatureLower);
-
-
-// ********** End Delegate FOnTimelineBeat *********************************************************
 
 // ********** Begin Class UFMODAudioComponent ******************************************************
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_139_RPC_WRAPPERS \
@@ -87,16 +66,15 @@ FMODSTUDIO_API void FOnTimelineBeat_DelegateWrapper(const FMulticastScriptDelega
 	DECLARE_FUNCTION(execSetEvent);
 
 
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAudioComponent_NoRegister();
+struct Z_Construct_UClass_UFMODAudioComponent_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAudioComponent(ETypeConstructPhase);
 
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_139_INCLASS \
 private: \
-	static void StaticRegisterNativesUFMODAudioComponent(); \
-	friend struct Z_Construct_UClass_UFMODAudioComponent_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAudioComponent_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODAudioComponent_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODAudioComponent(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODAudioComponent, USceneComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODAudioComponent_NoRegister) \
+	DECLARE_CLASS2(UFMODAudioComponent, USceneComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODAudioComponent) \
 	DECLARE_SERIALIZER(UFMODAudioComponent)
 
 

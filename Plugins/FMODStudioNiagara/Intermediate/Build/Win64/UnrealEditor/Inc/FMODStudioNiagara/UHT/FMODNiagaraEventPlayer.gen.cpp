@@ -33,35 +33,23 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Audio" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** This Data Interface can be used to play one-shot audio effects driven by particle data. */" },
-#endif
 		{ "DisplayName", "FMOD Event Player" },
 		{ "IncludePath", "FMODNiagaraEventPlayer.h" },
 		{ "ModuleRelativePath", "Public/FMODNiagaraEventPlayer.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This Data Interface can be used to play one-shot audio effects driven by particle data." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EventToPlay_MetaData[] = {
 		{ "Category", "Audio" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Reference to the audio asset to play */" },
-#endif
 		{ "ModuleRelativePath", "Public/FMODNiagaraEventPlayer.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Reference to the audio asset to play" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ParameterNames_MetaData[] = {
 		{ "Category", "Parameters" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** A set of parameter names that can be referenced via index when setting sound cue parameters on persistent audio */" },
-#endif
 		{ "ModuleRelativePath", "Public/FMODNiagaraEventPlayer.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A set of parameter names that can be referenced via index when setting sound cue parameters on persistent audio" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bLimitPlaysPerTick_MetaData[] = {
 		{ "Category", "Audio" },
@@ -71,36 +59,24 @@ struct UHT_STATICS
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaxPlaysPerTick_MetaData[] = {
 		{ "Category", "Audio" },
 		{ "ClampMin", "0" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** This sets the max number of sounds played each tick.\n     *  If more particles try to play a sound in a given tick, then it will play sounds until the limit is reached and discard the rest.\n     *  The particles to discard when over the limit are *not* chosen in a deterministic way. */" },
-#endif
 		{ "EditCondition", "bLimitPlaysPerTick" },
 		{ "ModuleRelativePath", "Public/FMODNiagaraEventPlayer.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This sets the max number of sounds played each tick.\nIf more particles try to play a sound in a given tick, then it will play sounds until the limit is reached and discard the rest.\nThe particles to discard when over the limit are *not* chosen in a deterministic way." },
-#endif
 		{ "UIMin", "0" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bStopWhenComponentIsDestroyed_MetaData[] = {
 		{ "Category", "Audio" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If false then it the audio component keeps playing after the niagara component was destroyed. Looping sounds are always stopped when the component is destroyed. */" },
-#endif
 		{ "ModuleRelativePath", "Public/FMODNiagaraEventPlayer.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If false then it the audio component keeps playing after the niagara component was destroyed. Looping sounds are always stopped when the component is destroyed." },
-#endif
 	};
 #if WITH_EDITORONLY_DATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bOnlyActiveDuringGameplay_MetaData[] = {
 		{ "Category", "Audio" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If true then this data interface only processes sounds during active gameplay. This is useful when you are working in the preview window and the sounds annoy you.\n     *  Currently the FMOD Niagara integration will not play in Editor.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Public/FMODNiagaraEventPlayer.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If true then this data interface only processes sounds during active gameplay. This is useful when you are working in the preview window and the sounds annoy you.\nCurrently the FMOD Niagara integration will not play in Editor." },
-#endif
 	};
 #endif // WITH_EDITORONLY_DATA
 #endif // WITH_METADATA
@@ -221,14 +197,14 @@ UFMODNiagaraEventPlayer::~UFMODNiagaraEventPlayer() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h__Script_FMODStudioNiagara_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudioNiagara_HostProject_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h__Script_FMODStudioNiagara_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODNiagaraEventPlayer, TEXT("UFMODNiagaraEventPlayer"), &Z_Registration_Info_UClass_UFMODNiagaraEventPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODNiagaraEventPlayer), 2884857530U) },
+		{ Z_Construct_UClass_UFMODNiagaraEventPlayer, TEXT("UFMODNiagaraEventPlayer"), &Z_Registration_Info_UClass_UFMODNiagaraEventPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODNiagaraEventPlayer), 3859202577U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h__Script_FMODStudioNiagara_bce9c1a09848c72da23f41f02e0b2f86132c6d04{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudioNiagara_HostProject_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h__Script_FMODStudioNiagara_4b03aea1559e4a627f6b1db10c14a19c1bb21600{
 	TEXT("/Script/FMODStudioNiagara"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

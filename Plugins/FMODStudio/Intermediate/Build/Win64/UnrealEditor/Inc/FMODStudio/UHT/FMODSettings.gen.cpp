@@ -21,7 +21,6 @@ COREUOBJECT_API UClass* Z_Construct_UClass_UObject(ETypeConstructPhase);
 
 // ********** Begin Same Module References *********************************************************
 UPackage* Z_Construct_UPackage__Script_FMODStudio(ETypeConstructPhase);
-FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FCustomPoolSizes(ETypeConstructPhase);
 FMODSTUDIO_API UEnum* Z_Construct_UEnum_FMODStudio_EFMODCodec(ETypeConstructPhase);
 FMODSTUDIO_API UEnum* Z_Construct_UEnum_FMODStudio_EFMODLogging(ETypeConstructPhase);
 FMODSTUDIO_API UEnum* Z_Construct_UEnum_FMODStudio_EFMODOutput(ETypeConstructPhase);
@@ -415,139 +414,6 @@ UEnum* Z_Construct_UEnum_FMODStudio_EFMODCodec(ETypeConstructPhase Phase)
 #undef UHT_STATICS
 // ********** End Enum EFMODCodec ******************************************************************
 
-// ********** Begin ScriptStruct FCustomPoolSizes **************************************************
-#ifdef UHT_STATICS
-#error UHT_STATICS already defined
-#endif
-#define UHT_STATICS Z_Construct_UScriptStruct_FCustomPoolSizes_Statics
-struct UHT_STATICS
-{
-	static inline consteval int32 GetStructSize() { return DataSizeOf<FCustomPoolSizes>(); }
-	static inline consteval int16 GetStructAlignment() { return alignof(FCustomPoolSizes); }
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
-		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Desktop_MetaData[] = {
-		{ "Category", "InitSettings" },
-		{ "ClampMin", "0" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Default = 0 (Disabled) units in bytes*/" },
-#endif
-		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Default = 0 (Disabled) units in bytes" },
-#endif
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Mobile_MetaData[] = {
-		{ "Category", "InitSettings" },
-		{ "ClampMin", "0" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Default = 0 (Disabled) units in bytes*/" },
-#endif
-		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Default = 0 (Disabled) units in bytes" },
-#endif
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PS4_MetaData[] = {
-		{ "Category", "InitSettings" },
-		{ "ClampMin", "0" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Default = 0 (Disabled) units in bytes*/" },
-#endif
-		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Default = 0 (Disabled) units in bytes" },
-#endif
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Switch_MetaData[] = {
-		{ "Category", "InitSettings" },
-		{ "ClampMin", "0" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Default = 0 (Disabled) units in bytes*/" },
-#endif
-		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Default = 0 (Disabled) units in bytes" },
-#endif
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_XboxOne_MetaData[] = {
-		{ "Category", "InitSettings" },
-		{ "ClampMin", "0" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Default = 0 (Disabled) units in bytes*/" },
-#endif
-		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Default = 0 (Disabled) units in bytes" },
-#endif
-	};
-#endif // WITH_METADATA
-
-// ********** Begin ScriptStruct FCustomPoolSizes constinit property declarations ******************
-	static const UECodeGen_Private::FIntPropertyParams NewProp_Desktop;
-	static const UECodeGen_Private::FIntPropertyParams NewProp_Mobile;
-	static const UECodeGen_Private::FIntPropertyParams NewProp_PS4;
-	static const UECodeGen_Private::FIntPropertyParams NewProp_Switch;
-	static const UECodeGen_Private::FIntPropertyParams NewProp_XboxOne;
-	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-// ********** End ScriptStruct FCustomPoolSizes constinit property declarations ********************
-	static void* NewStructOps()
-	{
-		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FCustomPoolSizes>();
-	}
-	static const UECodeGen_Private::FStructParams StructParams;
-}; // struct UHT_STATICS
-
-// ********** Begin ScriptStruct FCustomPoolSizes Property Definitions *****************************
-const UECodeGen_Private::FIntPropertyParams UHT_STATICS::NewProp_Desktop = { "Desktop", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Int, nullptr, nullptr, 1, STRUCT_OFFSET(FCustomPoolSizes, Desktop), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Desktop_MetaData), NewProp_Desktop_MetaData) };
-const UECodeGen_Private::FIntPropertyParams UHT_STATICS::NewProp_Mobile = { "Mobile", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Int, nullptr, nullptr, 1, STRUCT_OFFSET(FCustomPoolSizes, Mobile), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Mobile_MetaData), NewProp_Mobile_MetaData) };
-const UECodeGen_Private::FIntPropertyParams UHT_STATICS::NewProp_PS4 = { "PS4", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Int, nullptr, nullptr, 1, STRUCT_OFFSET(FCustomPoolSizes, PS4), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PS4_MetaData), NewProp_PS4_MetaData) };
-const UECodeGen_Private::FIntPropertyParams UHT_STATICS::NewProp_Switch = { "Switch", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Int, nullptr, nullptr, 1, STRUCT_OFFSET(FCustomPoolSizes, Switch), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Switch_MetaData), NewProp_Switch_MetaData) };
-const UECodeGen_Private::FIntPropertyParams UHT_STATICS::NewProp_XboxOne = { "XboxOne", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Int, nullptr, nullptr, 1, STRUCT_OFFSET(FCustomPoolSizes, XboxOne), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_XboxOne_MetaData), NewProp_XboxOne_MetaData) };
-const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Desktop,
-	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Mobile,
-	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_PS4,
-	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Switch,
-	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_XboxOne,
-};
-static_assert(UE_ARRAY_COUNT(UHT_STATICS::PropPointers) < 2048);
-// ********** End ScriptStruct FCustomPoolSizes Property Definitions *******************************
-const UECodeGen_Private::FStructParams UHT_STATICS::StructParams = {
-	(FTypeConstructFunc*)Z_Construct_UPackage__Script_FMODStudio,
-	nullptr,
-	&NewStructOps,
-	"CustomPoolSizes",
-	UHT_STATICS::PropPointers,
-	UE_ARRAY_COUNT(UHT_STATICS::PropPointers),
-	DataSizeOf<FCustomPoolSizes>(),
-	alignof(FCustomPoolSizes),
-	RF_Public|RF_Transient|RF_MarkAsNative,
-	EStructFlags(0x00000001),
-	METADATA_PARAMS(UE_ARRAY_COUNT(UHT_STATICS::Type_MetaData), UHT_STATICS::Type_MetaData)
-};
-static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FCustomPoolSizes;
-UScriptStruct* Z_Construct_UScriptStruct_FCustomPoolSizes(ETypeConstructPhase Phase)
-{
-	if (Phase == ETypeConstructPhase::Outer)
-	{
-		if (!Z_Registration_Info_UScriptStruct_FCustomPoolSizes.OuterSingleton)
-		{
-			Z_Registration_Info_UScriptStruct_FCustomPoolSizes.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FCustomPoolSizes, (UObject*)Z_Construct_UPackage__Script_FMODStudio(ETypeConstructPhase::Outer), TEXT("CustomPoolSizes"));
-		}
-		return Z_Registration_Info_UScriptStruct_FCustomPoolSizes.OuterSingleton;
-	}
-	if (!Z_Registration_Info_UScriptStruct_FCustomPoolSizes.InnerSingleton)
-	{
-		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_FCustomPoolSizes.InnerSingleton, UHT_STATICS::StructParams);
-	}
-	return CastChecked<UScriptStruct>(Z_Registration_Info_UScriptStruct_FCustomPoolSizes.InnerSingleton);
-}
-#undef UHT_STATICS
-// ********** End ScriptStruct FCustomPoolSizes ****************************************************
-
 // ********** Begin ScriptStruct FFMODPlatformSettings *********************************************
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
@@ -564,77 +430,50 @@ struct UHT_STATICS
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RealChannelCount_MetaData[] = {
 		{ "Category", "PlatformSettings" },
 		{ "ClampMin", "0" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Real Channel Count\n" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Real Channel Count" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SampleRate_MetaData[] = {
 		{ "Category", "PlatformSettings" },
 		{ "ClampMin", "0" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Sample rate to use, or 0 to match system rate.\n    * eg. 0, 22050, 24000, 32000, 44100, 48000.\n    */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sample rate to use, or 0 to match system rate.\neg. 0, 22050, 24000, 32000, 44100, 48000." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpeakerMode_MetaData[] = {
 		{ "Category", "PlatformSettings" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Project Output Format, should match the mode set up for the Studio project.\n    */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Project Output Format, should match the mode set up for the Studio project." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OutputType_MetaData[] = {
 		{ "Category", "PlatformSettings" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Built-in output types that can be used to run the mixer.\n    */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Built-in output types that can be used to run the mixer." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CustomPoolSize_MetaData[] = {
 		{ "Category", "PlatformSettings" },
 		{ "ClampMin", "0" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Use specified memory pool size, units in bytes. Disabled by default.\n     * FMOD may become unstable if the limit is exceeded!\n     */" },
-#endif
+		{ "DisplayName", "Memory Pool Size" },
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use specified memory pool size, units in bytes. Disabled by default.\nFMOD may become unstable if the limit is exceeded!" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Codecs_MetaData[] = {
 		{ "Category", "PlatformSettings" },
 		{ "ClampMin", "0" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Codecs\n    */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Codecs" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CallbackHandler_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Callback handler implementing IFMODCallbackHandler for calling into system at specific points in the integration's lifecycle.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
 		{ "MustImplement", "/Script/FMODStudio.FMODCallbackHandler" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Callback handler implementing IFMODCallbackHandler for calling into system at specific points in the integration's lifecycle." },
-#endif
 	};
 #endif // WITH_METADATA
 
@@ -728,33 +567,21 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LocaleName_MetaData[] = {
 		{ "Category", "Localization" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Human readable locale name, displayed in Blueprints.\n    */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Human readable locale name, displayed in Blueprints." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LocaleCode_MetaData[] = {
 		{ "Category", "Localization" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Locale code. Must correspond to project locale codes in FMOD Studio project.\n    */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Locale code. Must correspond to project locale codes in FMOD Studio project." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bDefault_MetaData[] = {
 		{ "Category", "Localization" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Default locale at startup. Only one locale should be marked as default.\n    */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Default locale at startup. Only one locale should be marked as default." },
-#endif
 	};
 #endif // WITH_METADATA
 
@@ -833,402 +660,254 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bLoadAllBanks_MetaData[] = {
 		{ "Category", "Basic" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Whether to load all banks at startup.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to load all banks at startup." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bLoadAllSampleData_MetaData[] = {
 		{ "Category", "Basic" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Whether to load all bank sample data into memory at startup.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to load all bank sample data into memory at startup." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bEnableLiveUpdate_MetaData[] = {
 		{ "Category", "Basic" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Enable live update in non-final builds.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enable live update in non-final builds." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bEnableEditorLiveUpdate_MetaData[] = {
 		{ "Category", "Basic" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Enable live update in Editor for Auditioning. *Requires Restart*\n    */" },
-#endif
 		{ "ConfigRestartRequired", "TRUE" },
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enable live update in Editor for Auditioning. *Requires Restart*" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BankOutputDirectory_MetaData[] = {
 		{ "Category", "Basic" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Path to find your studio bank output directory, relative to Content directory.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
 		{ "RelativeToGameContentDir", "" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Path to find your studio bank output directory, relative to Content directory." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OutputFormat_MetaData[] = {
 		{ "Category", "Basic" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Project Output Format, should match the mode set up for the Studio project. */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Project Output Format, should match the mode set up for the Studio project." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OutputType_MetaData[] = {
 		{ "Category", "Basic" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Built-in output types that can be used to run the mixer.\n    */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Built-in output types that can be used to run the mixer." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Locales_MetaData[] = {
 		{ "Category", "Localization" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Locales for localized banks. These should match the project locales configured in the FMOD Studio project.\n    */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Locales for localized banks. These should match the project locales configured in the FMOD Studio project." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Vol0VirtualLevel_MetaData[] = {
 		{ "Category", "InitSettings" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * The signal level at which channels are virtualized. Virtual channels are processed, but do not produce any output.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The signal level at which channels are virtualized. Virtual channels are processed, but do not produce any output." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SampleRate_MetaData[] = {
 		{ "Category", "InitSettings" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Sample rate to use, or 0 to match system rate.\n     * eg. 0, 22050, 24000, 32000, 44100, 48000.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sample rate to use, or 0 to match system rate.\neg. 0, 22050, 24000, 32000, 44100, 48000." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bMatchHardwareSampleRate_MetaData[] = {
 		{ "Category", "InitSettings" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Whether to match hardware sample rate where reasonable (44.1kHz to 48kHz).\n    */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to match hardware sample rate where reasonable (44.1kHz to 48kHz)." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RealChannelCount_MetaData[] = {
 		{ "Category", "InitSettings" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Number of actual software voices that can be used at once.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Number of actual software voices that can be used at once." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TotalChannelCount_MetaData[] = {
 		{ "Category", "InitSettings" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Total number of voices available that can be either real or virtual.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Total number of voices available that can be either real or virtual." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DSPBufferLength_MetaData[] = {
 		{ "Category", "InitSettings" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * DSP mixer buffer length (eg. 512, 1024) or 0 for system default.\n     * When changing the Buffer Length, Buffer Count also needs to be set.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DSP mixer buffer length (eg. 512, 1024) or 0 for system default.\nWhen changing the Buffer Length, Buffer Count also needs to be set." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DSPBufferCount_MetaData[] = {
 		{ "Category", "InitSettings" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * DSP mixer buffer count (eg. 2, 4) or 0 for system default.\n     * When changing the Buffer Count, Buffer Length also needs to be set.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DSP mixer buffer count (eg. 2, 4) or 0 for system default.\nWhen changing the Buffer Count, Buffer Length also needs to be set." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FileBufferSize_MetaData[] = {
 		{ "Category", "InitSettings" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * File buffer size in bytes (2048 by default).\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "File buffer size in bytes (2048 by default)." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StudioUpdatePeriod_MetaData[] = {
 		{ "Category", "InitSettings" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Studio update period in milliseconds, or 0 for default (which means 20ms).\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Studio update period in milliseconds, or 0 for default (which means 20ms)." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InitialOutputDriverName_MetaData[] = {
 		{ "Category", "InitSettings" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Output device to choose at system start up, or empty for default.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Output device to choose at system start up, or empty for default." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bLockAllBuses_MetaData[] = {
 		{ "Category", "InitSettings" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Lock all mixer buses at startup, making sure they are created up front.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Lock all mixer buses at startup, making sure they are created up front." },
-#endif
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MemoryPoolSizes_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MemoryPoolSize_MetaData[] = {
 		{ "Category", "InitSettings" },
-#if !UE_BUILD_SHIPPING
+		{ "ClampMin", "0" },
 		{ "Comment", "/**\n     * Use specified memory pool size for platform, units in bytes. Disabled by default.\n     * FMOD may become unstable if the limit is exceeded!\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use specified memory pool size for platform, units in bytes. Disabled by default.\nFMOD may become unstable if the limit is exceeded!" },
-#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Codecs_MetaData[] = {
+		{ "Category", "InitSettings" },
+		{ "ClampMin", "0" },
+		{ "Comment", "/**\n     * Codecs\n    */" },
+		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
+		{ "ToolTip", "Codecs" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CallbackHandler_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Callback handler implementing IFMODCallbackHandler for calling into system at specific points in the integration's lifecycle.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
 		{ "MustImplement", "/Script/FMODStudio.FMODCallbackHandler" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Callback handler implementing IFMODCallbackHandler for calling into system at specific points in the integration's lifecycle." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LiveUpdatePort_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Live update port to use, or 0 for default.\n     */" },
-#endif
 		{ "EditCondition", "bEnableLiveUpdate" },
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Live update port to use, or 0 for default." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EditorLiveUpdatePort_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Live update port to use while in editor for auditioning. *Requires Restart*\n    */" },
-#endif
 		{ "ConfigRestartRequired", "TRUE" },
 		{ "EditCondition", "bEnableEditorLiveUpdate" },
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Live update port to use while in editor for auditioning. *Requires Restart*" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReloadBanksDelay_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Delay in seconds before automatically reloading modified banks from disk. This can be extended if building\n    * banks takes a long time and UE4 tries to reload banks before building is completed.\n    * Set to 0 to disable automatic bank reloading.\n    */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Delay in seconds before automatically reloading modified banks from disk. This can be extended if building\nbanks takes a long time and UE4 tries to reload banks before building is completed.\nSet to 0 to disable automatic bank reloading." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bEnableAPIErrorLogging_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Will log internal API errors when enabled.\n     */" },
-#endif
 		{ "DisplayName", "Enable API Error Logging" },
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Will log internal API errors when enabled." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bEnableMemoryTracking_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Enable memory tracking.\n    */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enable memory tracking." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PluginFiles_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Extra plugin files to load.\n     * The plugin files should sit alongside the FMOD dynamic libraries in the ThirdParty directory.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Extra plugin files to load.\nThe plugin files should sit alongside the FMOD dynamic libraries in the ThirdParty directory." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ContentBrowserPrefix_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Directory for content to appear in content window. Be careful changing this!\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Directory for content to appear in content window. Be careful changing this!" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ForcePlatformName_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Force platform directory name, or leave empty for automatic (Desktop/Mobile/PS4/XBoxOne)\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Force platform directory name, or leave empty for automatic (Desktop/Mobile/PS4/XBoxOne)" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MasterBankName_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Name of master bank.  The default in Studio is \"Master Bank\".\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Name of master bank.  The default in Studio is \"Master Bank\"." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SkipLoadBankName_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Skip bank files of the given name.\n     * Can be used to load all banks except for a certain set, such as localization banks.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Skip bank files of the given name.\nCan be used to load all banks except for a certain set, such as localization banks." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StudioBankKey_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Specify the key for loading sounds from encrypted banks.\n     */" },
-#endif
 		{ "DisplayName", "Encryption Key" },
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Specify the key for loading sounds from encrypted banks." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WavWriterPath_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Force wav writer output, for debugging only.  Setting this will prevent normal sound output!\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Force wav writer output, for debugging only.  Setting this will prevent normal sound output!" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LoggingLevel_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Specify the logging level to use in a debug/development build.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Specify the logging level to use in a debug/development build." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OcclusionParameter_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Name of the parameter used in Studio to control Occlusion effects.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Name of the parameter used in Studio to control Occlusion effects." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AmbientVolumeParameter_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Name of the parameter used in Studio to control Ambient volume.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Name of the parameter used in Studio to control Ambient volume." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AmbientLPFParameter_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Name of the parameter used in Studio to control Ambient LPF effects.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Name of the parameter used in Studio to control Ambient LPF effects." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bFMODAudioLinkEnabled_MetaData[] = {
 		{ "Category", "Advanced" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Enables/Disables the FMODAudioLink modules.\n    */" },
-#endif
 		{ "ConfigRestartRequired", "TRUE" },
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enables/Disables the FMODAudioLink modules." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Platforms_MetaData[] = {
 		{ "Category", "PlatformSettings" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/*\n    * Used to specify platform specific settings.\n    */" },
-#endif
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Used to specify platform specific settings." },
-#endif
 	};
 #endif // WITH_METADATA
 
@@ -1277,7 +956,10 @@ struct UHT_STATICS
 		((UFMODSettings*)Obj)->bLockAllBuses = 1;
 	}
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_bLockAllBuses;
-	static const UECodeGen_Private::FStructPropertyParams NewProp_MemoryPoolSizes;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_MemoryPoolSize;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_Codecs_ValueProp;
+	static const UECodeGen_Private::FBytePropertyParams NewProp_Codecs_Key_KeyProp;
+	static const UECodeGen_Private::FMapPropertyParams NewProp_Codecs;
 	static const UECodeGen_Private::FSoftClassPropertyParams NewProp_CallbackHandler;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_LiveUpdatePort;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_EditorLiveUpdatePort;
@@ -1329,8 +1011,8 @@ const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_bEnableEditorL
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_BankOutputDirectory = { "BankOutputDirectory", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, BankOutputDirectory), Z_Construct_UScriptStruct_FDirectoryPath, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BankOutputDirectory_MetaData), NewProp_BankOutputDirectory_MetaData) }; // a9ea974572ee54d1b93cb49a6434fdbad40b6bf5
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_OutputFormat = { "OutputFormat", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, OutputFormat), Z_Construct_UEnum_FMODStudio_EFMODSpeakerMode, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OutputFormat_MetaData), NewProp_OutputFormat_MetaData) }; // 3bc84319b75f7d1c34bfdcf945ca4d40aedb6c66
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_OutputType = { "OutputType", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, OutputType), Z_Construct_UEnum_FMODStudio_EFMODOutput, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OutputType_MetaData), NewProp_OutputType_MetaData) }; // c668a1b04a7dce2283278672efed29192233fe53
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Locales_Inner = { "Locales", nullptr, (EPropertyFlags)0x0000000000004000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FFMODProjectLocale, METADATA_PARAMS(0, nullptr) }; // 67d1ccb1dc01ab1b2575ff50c086de53dc993309
-const UECodeGen_Private::FArrayPropertyParams UHT_STATICS::NewProp_Locales = { "Locales", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Array, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, Locales), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Locales_MetaData), NewProp_Locales_MetaData) }; // 67d1ccb1dc01ab1b2575ff50c086de53dc993309
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Locales_Inner = { "Locales", nullptr, (EPropertyFlags)0x0000000000004000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FFMODProjectLocale, METADATA_PARAMS(0, nullptr) }; // 988e36221b3c0724d4f992f81f713226d536db5a
+const UECodeGen_Private::FArrayPropertyParams UHT_STATICS::NewProp_Locales = { "Locales", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Array, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, Locales), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Locales_MetaData), NewProp_Locales_MetaData) }; // 988e36221b3c0724d4f992f81f713226d536db5a
 const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_Vol0VirtualLevel = { "Vol0VirtualLevel", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, Vol0VirtualLevel), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Vol0VirtualLevel_MetaData), NewProp_Vol0VirtualLevel_MetaData) };
 const UECodeGen_Private::FIntPropertyParams UHT_STATICS::NewProp_SampleRate = { "SampleRate", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Int, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, SampleRate), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SampleRate_MetaData), NewProp_SampleRate_MetaData) };
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_bMatchHardwareSampleRate = { "bMatchHardwareSampleRate", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(UFMODSettings), &UHT_STATICS::NewProp_bMatchHardwareSampleRate_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bMatchHardwareSampleRate_MetaData), NewProp_bMatchHardwareSampleRate_MetaData) };
@@ -1342,7 +1024,10 @@ const UECodeGen_Private::FIntPropertyParams UHT_STATICS::NewProp_FileBufferSize 
 const UECodeGen_Private::FIntPropertyParams UHT_STATICS::NewProp_StudioUpdatePeriod = { "StudioUpdatePeriod", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Int, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, StudioUpdatePeriod), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_StudioUpdatePeriod_MetaData), NewProp_StudioUpdatePeriod_MetaData) };
 const UECodeGen_Private::FStrPropertyParams UHT_STATICS::NewProp_InitialOutputDriverName = { "InitialOutputDriverName", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Str, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, InitialOutputDriverName), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_InitialOutputDriverName_MetaData), NewProp_InitialOutputDriverName_MetaData) };
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_bLockAllBuses = { "bLockAllBuses", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(UFMODSettings), &UHT_STATICS::NewProp_bLockAllBuses_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bLockAllBuses_MetaData), NewProp_bLockAllBuses_MetaData) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_MemoryPoolSizes = { "MemoryPoolSizes", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, MemoryPoolSizes), Z_Construct_UScriptStruct_FCustomPoolSizes, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MemoryPoolSizes_MetaData), NewProp_MemoryPoolSizes_MetaData) }; // 67cd8a071a1077da92f188249ecdcd94a118d08f
+const UECodeGen_Private::FIntPropertyParams UHT_STATICS::NewProp_MemoryPoolSize = { "MemoryPoolSize", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Int, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, MemoryPoolSize), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MemoryPoolSize_MetaData), NewProp_MemoryPoolSize_MetaData) };
+const UECodeGen_Private::FIntPropertyParams UHT_STATICS::NewProp_Codecs_ValueProp = { "Codecs", nullptr, (EPropertyFlags)0x0000000000004001, UECodeGen_Private::EPropertyGenFlags::Int, nullptr, nullptr, 1, 1, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_Codecs_Key_KeyProp = { "Codecs_Key", nullptr, (EPropertyFlags)0x0000000000004001, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, Z_Construct_UEnum_FMODStudio_EFMODCodec, METADATA_PARAMS(0, nullptr) }; // 49f3f4ec67e8927d715cc94d07e0fcd97b6f7549
+const UECodeGen_Private::FMapPropertyParams UHT_STATICS::NewProp_Codecs = { "Codecs", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Map, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, Codecs), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Codecs_MetaData), NewProp_Codecs_MetaData) }; // 49f3f4ec67e8927d715cc94d07e0fcd97b6f7549
 const UECodeGen_Private::FSoftClassPropertyParams UHT_STATICS::NewProp_CallbackHandler = { "CallbackHandler", nullptr, (EPropertyFlags)0x0014000000004001, UECodeGen_Private::EPropertyGenFlags::SoftClass, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, CallbackHandler), Z_Construct_UClass_UObject, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CallbackHandler_MetaData), NewProp_CallbackHandler_MetaData) };
 const UECodeGen_Private::FIntPropertyParams UHT_STATICS::NewProp_LiveUpdatePort = { "LiveUpdatePort", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Int, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, LiveUpdatePort), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LiveUpdatePort_MetaData), NewProp_LiveUpdatePort_MetaData) };
 const UECodeGen_Private::FIntPropertyParams UHT_STATICS::NewProp_EditorLiveUpdatePort = { "EditorLiveUpdatePort", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Int, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, EditorLiveUpdatePort), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EditorLiveUpdatePort_MetaData), NewProp_EditorLiveUpdatePort_MetaData) };
@@ -1362,9 +1047,9 @@ const UECodeGen_Private::FStrPropertyParams UHT_STATICS::NewProp_OcclusionParame
 const UECodeGen_Private::FStrPropertyParams UHT_STATICS::NewProp_AmbientVolumeParameter = { "AmbientVolumeParameter", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Str, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, AmbientVolumeParameter), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AmbientVolumeParameter_MetaData), NewProp_AmbientVolumeParameter_MetaData) };
 const UECodeGen_Private::FStrPropertyParams UHT_STATICS::NewProp_AmbientLPFParameter = { "AmbientLPFParameter", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Str, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, AmbientLPFParameter), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AmbientLPFParameter_MetaData), NewProp_AmbientLPFParameter_MetaData) };
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_bFMODAudioLinkEnabled = { "bFMODAudioLinkEnabled", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(UFMODSettings), &UHT_STATICS::NewProp_bFMODAudioLinkEnabled_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bFMODAudioLinkEnabled_MetaData), NewProp_bFMODAudioLinkEnabled_MetaData) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Platforms_ValueProp = { "Platforms", nullptr, (EPropertyFlags)0x0000000000004001, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FFMODPlatformSettings, METADATA_PARAMS(0, nullptr) }; // 31409df4630660edcaf87d95eb7b5fbb44e29607
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Platforms_ValueProp = { "Platforms", nullptr, (EPropertyFlags)0x0000000000004001, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FFMODPlatformSettings, METADATA_PARAMS(0, nullptr) }; // ed7a9bfaab95485a0d11493c1d45d64531607d25
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_Platforms_Key_KeyProp = { "Platforms_Key", nullptr, (EPropertyFlags)0x0000000000004001, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, Z_Construct_UEnum_FMODStudio_EFMODPlatforms, METADATA_PARAMS(0, nullptr) }; // eab275d1ffbf47f784d8d83f7922aa9036692f95
-const UECodeGen_Private::FMapPropertyParams UHT_STATICS::NewProp_Platforms = { "Platforms", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Map, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, Platforms), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Platforms_MetaData), NewProp_Platforms_MetaData) }; // eab275d1ffbf47f784d8d83f7922aa9036692f95 31409df4630660edcaf87d95eb7b5fbb44e29607
+const UECodeGen_Private::FMapPropertyParams UHT_STATICS::NewProp_Platforms = { "Platforms", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Map, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSettings, Platforms), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Platforms_MetaData), NewProp_Platforms_MetaData) }; // eab275d1ffbf47f784d8d83f7922aa9036692f95 ed7a9bfaab95485a0d11493c1d45d64531607d25
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_bLoadAllBanks,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_bLoadAllSampleData,
@@ -1386,7 +1071,10 @@ const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] 
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_StudioUpdatePeriod,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_InitialOutputDriverName,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_bLockAllBuses,
-	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_MemoryPoolSizes,
+	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_MemoryPoolSize,
+	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Codecs_ValueProp,
+	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Codecs_Key_KeyProp,
+	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Codecs,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_CallbackHandler,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_LiveUpdatePort,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_EditorLiveUpdatePort,
@@ -1474,7 +1162,7 @@ UFMODSettings::~UFMODSettings() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h__Script_FMODStudio_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h__Script_FMODStudio_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
@@ -1485,15 +1173,14 @@ struct UHT_STATICS
 		{ Z_Construct_UEnum_FMODStudio_EFMODCodec, TEXT("EFMODCodec"), &ZRIE_EFMODCodec, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1240724716U) },
 	};
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ Z_Construct_UScriptStruct_FCustomPoolSizes, Z_Construct_UScriptStruct_FCustomPoolSizes_Statics::NewStructOps, TEXT("CustomPoolSizes"),&Z_Registration_Info_UScriptStruct_FCustomPoolSizes, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCustomPoolSizes), 1741523463U) },
-		{ Z_Construct_UScriptStruct_FFMODPlatformSettings, Z_Construct_UScriptStruct_FFMODPlatformSettings_Statics::NewStructOps, TEXT("FMODPlatformSettings"),&Z_Registration_Info_UScriptStruct_FFMODPlatformSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODPlatformSettings), 826318324U) },
-		{ Z_Construct_UScriptStruct_FFMODProjectLocale, Z_Construct_UScriptStruct_FFMODProjectLocale_Statics::NewStructOps, TEXT("FMODProjectLocale"),&Z_Registration_Info_UScriptStruct_FFMODProjectLocale, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODProjectLocale), 1741802673U) },
+		{ Z_Construct_UScriptStruct_FFMODPlatformSettings, Z_Construct_UScriptStruct_FFMODPlatformSettings_Statics::NewStructOps, TEXT("FMODPlatformSettings"),&Z_Registration_Info_UScriptStruct_FFMODPlatformSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODPlatformSettings), 3984235514U) },
+		{ Z_Construct_UScriptStruct_FFMODProjectLocale, Z_Construct_UScriptStruct_FFMODProjectLocale_Statics::NewStructOps, TEXT("FMODProjectLocale"),&Z_Registration_Info_UScriptStruct_FFMODProjectLocale, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODProjectLocale), 2559456802U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODSettings, TEXT("UFMODSettings"), &Z_Registration_Info_UClass_UFMODSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODSettings), 4233322780U) },
+		{ Z_Construct_UClass_UFMODSettings, TEXT("UFMODSettings"), &Z_Registration_Info_UClass_UFMODSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODSettings), 4114480446U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h__Script_FMODStudio_31b2ca1e3ed5c9cc7901a70f662f0127cfe3f742{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h__Script_FMODStudio_7b8fd7e892192cfb7ed7339e3564dd714df1c678{
 	TEXT("/Script/FMODStudio"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

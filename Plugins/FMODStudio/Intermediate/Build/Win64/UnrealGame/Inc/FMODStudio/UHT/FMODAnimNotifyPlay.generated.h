@@ -12,21 +12,21 @@
 #define FMODSTUDIO_FMODAnimNotifyPlay_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UFMODAnimNotifyPlay ******************************************************
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAnimNotifyPlay_NoRegister();
+struct Z_Construct_UClass_UFMODAnimNotifyPlay_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAnimNotifyPlay(ETypeConstructPhase);
 
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_10_INCLASS_NO_PURE_DECLS \
 private: \
-	static void StaticRegisterNativesUFMODAnimNotifyPlay(); \
-	friend struct Z_Construct_UClass_UFMODAnimNotifyPlay_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAnimNotifyPlay_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODAnimNotifyPlay_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODAnimNotifyPlay(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODAnimNotifyPlay, UAnimNotify, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODAnimNotifyPlay_NoRegister) \
+	DECLARE_CLASS2(UFMODAnimNotifyPlay, UAnimNotify, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODAnimNotifyPlay) \
 	DECLARE_SERIALIZER(UFMODAnimNotifyPlay)
 
 

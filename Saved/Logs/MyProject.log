@@ -2499,3 +2499,9 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.10.21-12.19.42:064][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Snapshots/Snap_Env_Tunnel' is not a child of an existing mount point.
 [2026.10.21-12.19.42:064][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/Reverbs/Snap_Env_Tunnel' is not a child of an existing mount point.
 [2026.10.21-12.19.42:064][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '/C__Program_Files_Github_P1Games_P1TeamCapybara_Assets_FMODBanks_Desktop/PrivateIntegrationData/AssetLookup' is not a child of an existing mount point.
+[2026.10.21-12.20.38:065][716]LogFMOD: Loading strings bank: ../../../../../Github/Swiji/Unreal_Fmod_Reaper 5.8/Content/FMOD/Desktop/Master.strings.bank
+[2026.10.21-12.20.38:066][716]LogFMOD: Error: C:\buildagent2\work\c1c3f17eb167c494\studio_api\src\fmod_bankmodel.cpp(256) - Failed to open file '../../../../../Github/Swiji/Unreal_Fmod_Reaper 5.8/Content/FMOD/Desktop/Master.strings.bank'
+
+[2026.10.21-12.20.38:067][716]LogFMOD: Warning: Failed to load strings bank: ../../../../../Github/Swiji/Unreal_Fmod_Reaper 5.8/Content/FMOD/Desktop/Master.strings.bank
+[2026.10.21-12.20.38:067][716]LogFMOD: Display: Loaded bank lookup
+[2026.10.21-12.20.38:067][716]LogFMOD: Display: Loaded asset lookup

@@ -34,8 +34,9 @@ FFMODAssetBuilder::~FFMODAssetBuilder()
 
 void FFMODAssetBuilder::Create()
 {
+    // We cannot grab a System from IFMODStudioModule::GetStudioSystem() because this class may be called from the commandlet.
     verifyfmod(FMOD::Studio::System::create(&StudioSystem));
-    FMOD::System *lowLevelSystem = nullptr;
+    FMOD::System* lowLevelSystem = nullptr;
     verifyfmod(StudioSystem->getCoreSystem(&lowLevelSystem));
     verifyfmod(lowLevelSystem->setOutput(FMOD_OUTPUTTYPE_NOSOUND_NRT));
     verifyfmod(StudioSystem->initialize(1, FMOD_STUDIO_INIT_ALLOW_MISSING_PLUGINS | FMOD_STUDIO_INIT_SYNCHRONOUS_UPDATE, FMOD_INIT_MIX_FROM_UPDATE,
@@ -129,7 +130,7 @@ void FFMODAssetBuilder::BuildAssets(const UFMODSettings& InSettings, const FStri
             bool bAssetLookupCreated = false;
             bool bAssetLookupModified = false;
 
-            UDataTable *AssetLookup = FindObject<UDataTable>(AssetLookupPackage, *AssetLookupName, true);
+            UDataTable *AssetLookup = FindObject<UDataTable>(AssetLookupPackage, *AssetLookupName, EFindObjectFlags::ExactClass);
 
             if (!AssetLookup)
             {
@@ -220,7 +221,7 @@ void FFMODAssetBuilder::BuildBankLookup(const FString &AssetName, const FString 
     bool bCreated = false;
     bool bModified = false;
 
-    BankLookup = FindObject<UFMODBankLookup>(Package, *AssetName, true);
+    BankLookup = FindObject<UFMODBankLookup>(Package, *AssetName, EFindObjectFlags::ExactClass);
 
     if (!BankLookup)
     {
@@ -582,7 +583,7 @@ UFMODAsset *FFMODAssetBuilder::CreateAsset(const AssetCreateInfo& CreateInfo, TA
         UPackage *ReverbPackage = CreatePackage(*ReverbPackagePath);
         ReverbPackage->FullyLoad();
 
-        UFMODSnapshotReverb *AssetReverb = FindObject<UFMODSnapshotReverb>(ReverbPackage, *SanitizedAssetName, true);
+        UFMODSnapshotReverb *AssetReverb = FindObject<UFMODSnapshotReverb>(ReverbPackage, *SanitizedAssetName, EFindObjectFlags::ExactClass);
         bCreated = false;
         bModified = false;
 

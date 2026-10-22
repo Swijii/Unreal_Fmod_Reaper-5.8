@@ -12,10 +12,11 @@
 #define FMODSTUDIO_FMODBlueprintStatics_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
+#include "Templates/IsUEnumClass.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
 class UFMODAsset;
 class UFMODAudioComponent;
 class UFMODBank;
@@ -27,9 +28,12 @@ class USceneComponent;
 struct FFMODEventInstance;
 
 // ********** Begin ScriptStruct FFMODEventInstance ************************************************
+struct Z_Construct_UScriptStruct_FFMODEventInstance_Statics;
+FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODEventInstance(ETypeConstructPhase);
+
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_28_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FFMODEventInstance_Statics; \
-	FMODSTUDIO_API static class UScriptStruct* StaticStruct();
+	friend struct ::Z_Construct_UScriptStruct_FFMODEventInstance_Statics; \
+	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODEventInstance(ETypeConstructPhase::Inner); }
 
 
 struct FFMODEventInstance;
@@ -79,16 +83,15 @@ struct FFMODEventInstance;
 	DECLARE_FUNCTION(execPlayEvent2D);
 
 
-FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODBlueprintStatics_NoRegister();
+struct Z_Construct_UClass_UFMODBlueprintStatics_Statics;
+FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODBlueprintStatics(ETypeConstructPhase);
 
 #define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_INCLASS \
 private: \
-	static void StaticRegisterNativesUFMODBlueprintStatics(); \
-	friend struct Z_Construct_UClass_UFMODBlueprintStatics_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODBlueprintStatics_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UFMODBlueprintStatics_Statics; \
+	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODBlueprintStatics(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UFMODBlueprintStatics, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODBlueprintStatics_NoRegister) \
+	DECLARE_CLASS2(UFMODBlueprintStatics, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), Z_Construct_UClass_UFMODBlueprintStatics) \
 	DECLARE_SERIALIZER(UFMODBlueprintStatics)
 
 
