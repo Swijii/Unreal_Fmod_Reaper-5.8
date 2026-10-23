@@ -32,16 +32,24 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * FMOD Event Asset.\n */" },
+#endif
 		{ "HideCategories", "object" },
 		{ "IncludePath", "FMODSnapshotReverb.h" },
 		{ "ModuleRelativePath", "Classes/FMODSnapshotReverb.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "FMOD Event Asset." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AssetGuid_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The unique Guid, which matches the one exported from FMOD Studio */" },
+#endif
 		{ "ModuleRelativePath", "Classes/FMODSnapshotReverb.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The unique Guid, which matches the one exported from FMOD Studio" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -125,14 +133,14 @@ UFMODSnapshotReverb::~UFMODSnapshotReverb() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshotReverb_h__Script_FMODStudio_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshotReverb_h__Script_FMODStudio_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODSnapshotReverb, TEXT("UFMODSnapshotReverb"), &Z_Registration_Info_UClass_UFMODSnapshotReverb, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODSnapshotReverb), 2537464085U) },
+		{ Z_Construct_UClass_UFMODSnapshotReverb, TEXT("UFMODSnapshotReverb"), &Z_Registration_Info_UClass_UFMODSnapshotReverb, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODSnapshotReverb), 1071556896U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshotReverb_h__Script_FMODStudio_3bbe3da1c0cd3b44fecc707288b59eabed3d13bc{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshotReverb_h__Script_FMODStudio_6061072d58aba9336b3dc653901e4b2f3e4aec68{
 	TEXT("/Script/FMODStudio"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

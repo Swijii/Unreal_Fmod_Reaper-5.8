@@ -33,15 +33,23 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * FMOD Asset.\n */" },
+#endif
 		{ "IncludePath", "FMODAsset.h" },
 		{ "ModuleRelativePath", "Classes/FMODAsset.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "FMOD Asset." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AssetGuid_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The unique Guid, which matches the one exported from FMOD Studio */" },
+#endif
 		{ "ModuleRelativePath", "Classes/FMODAsset.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The unique Guid, which matches the one exported from FMOD Studio" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -125,14 +133,14 @@ UFMODAsset::~UFMODAsset() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAsset_h__Script_FMODStudio_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAsset_h__Script_FMODStudio_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODAsset, TEXT("UFMODAsset"), &Z_Registration_Info_UClass_UFMODAsset, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAsset), 1326899166U) },
+		{ Z_Construct_UClass_UFMODAsset, TEXT("UFMODAsset"), &Z_Registration_Info_UClass_UFMODAsset, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAsset), 1789148450U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAsset_h__Script_FMODStudio_ccfa490b0a6bab6e4eeef367e3aba79e5c97e3ce{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAsset_h__Script_FMODStudio_112af94eeb3c4ca0a9b611367f28c67e271b088d{
 	TEXT("/Script/FMODStudio"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

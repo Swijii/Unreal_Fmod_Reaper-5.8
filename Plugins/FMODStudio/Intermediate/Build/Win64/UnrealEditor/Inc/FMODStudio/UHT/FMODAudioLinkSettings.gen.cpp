@@ -41,26 +41,42 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bShouldClearBufferOnReceipt_MetaData[] = {
 		{ "Category", "default" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If this is set, the receiving code will clear the buffer after it's read, so it's not rendered by Unreal. Only applies if running both renderers at once.  */" },
+#endif
 		{ "ModuleRelativePath", "" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If this is set, the receiving code will clear the buffer after it's read, so it's not rendered by Unreal. Only applies if running both renderers at once." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ProducerToConsumerBufferRatio_MetaData[] = {
 		{ "Category", "default" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** This is the ratio of producer to consumer buffer size, 2.0 means its twice as big as the consumer buffer.  */" },
+#endif
 		{ "ModuleRelativePath", "" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This is the ratio of producer to consumer buffer size, 2.0 means its twice as big as the consumer buffer." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InitialSilenceFillRatio_MetaData[] = {
 		{ "Category", "default" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Ratio of initial buffer to fill with silence ahead of consumption. Adjusting this can resolve starvation at the cost of added latency. */" },
+#endif
 		{ "ModuleRelativePath", "" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Ratio of initial buffer to fill with silence ahead of consumption. Adjusting this can resolve starvation at the cost of added latency." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LinkEventResolved_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Once the SoftObjectReference has been resolved, attach the reference here so it's owned. */" },
+#endif
 		{ "ModuleRelativePath", "" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Once the SoftObjectReference has been resolved, attach the reference here so it's owned." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -161,14 +177,14 @@ UFMODAudioLinkSettings::~UFMODAudioLinkSettings() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h__Script_FMODStudio_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h__Script_FMODStudio_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODAudioLinkSettings, TEXT("UFMODAudioLinkSettings"), &Z_Registration_Info_UClass_UFMODAudioLinkSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAudioLinkSettings), 543684047U) },
+		{ Z_Construct_UClass_UFMODAudioLinkSettings, TEXT("UFMODAudioLinkSettings"), &Z_Registration_Info_UClass_UFMODAudioLinkSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAudioLinkSettings), 4138409433U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h__Script_FMODStudio_e7f8c53a95a5fa1a239d8a737b4bfd4f5db8659f{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h__Script_FMODStudio_0cdc7d0c7e2040e93a2453d0cb0f8d3998d0207f{
 	TEXT("/Script/FMODStudio"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

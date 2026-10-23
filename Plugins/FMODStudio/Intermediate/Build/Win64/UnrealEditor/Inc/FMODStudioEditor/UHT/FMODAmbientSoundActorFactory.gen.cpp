@@ -31,11 +31,15 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** FMOD Ambient Sound Actor Factory.\n*/" },
+#endif
 		{ "HideCategories", "Object Object" },
 		{ "IncludePath", "FMODAmbientSoundActorFactory.h" },
 		{ "ModuleRelativePath", "Classes/FMODAmbientSoundActorFactory.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "FMOD Ambient Sound Actor Factory." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -109,14 +113,14 @@ UFMODAmbientSoundActorFactory::~UFMODAmbientSoundActorFactory() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h__Script_FMODStudioEditor_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h__Script_FMODStudioEditor_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODAmbientSoundActorFactory, TEXT("UFMODAmbientSoundActorFactory"), &Z_Registration_Info_UClass_UFMODAmbientSoundActorFactory, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAmbientSoundActorFactory), 2280044095U) },
+		{ Z_Construct_UClass_UFMODAmbientSoundActorFactory, TEXT("UFMODAmbientSoundActorFactory"), &Z_Registration_Info_UClass_UFMODAmbientSoundActorFactory, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAmbientSoundActorFactory), 298159U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h__Script_FMODStudioEditor_8500a170052d0fb84a467e58f35cd35619c5bf67{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h__Script_FMODStudioEditor_6863a7a75c2a015bd9482b6092b85ebe774d0f54{
 	TEXT("/Script/FMODStudioEditor"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,
