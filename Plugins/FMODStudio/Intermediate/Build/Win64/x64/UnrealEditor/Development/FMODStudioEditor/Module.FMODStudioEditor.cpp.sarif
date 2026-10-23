@@ -53,6 +53,31 @@
                             }
                         }
                     ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'FEditorViewportClient::DropObjectsAtCoordinates': Use the overload that takes FDropObjectOptions instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/FMODStudio/Intermediate/Build/Win64/x64/UnrealEditor/Development/FMODStudioEditor/Module.FMODStudioEditor.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Program Files/Unreal Engine/UE_5.8/Engine/Source/Editor/UnrealEd/Public/LevelEditorViewport.h"
+                                },
+                                "region": {
+                                    "startLine": 472,
+                                    "startColumn": 28,
+                                    "snippet": {
+                                        "text": "\tUNREALED_API virtual bool DropObjectsAtCoordinates(int32 MouseX, int32 MouseY, const TArray<UObject*>& DroppedObjects, TArray<AActor*>& OutNewActors, bool bOnlyDropOnTarget = false, bool bCreateDropPreview = false, bool bSelectActors = true, UActorFactory* FactoryToUse = NULL) override;"
+                                    }
+                                }
+                            }
+                        }
+                    ]
                 }
             ],
             "tool": {
