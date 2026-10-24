@@ -34,27 +34,19 @@ struct UHT_STATICS
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "AutoExpandCategories", "Audio" },
 		{ "ClassGroupNames", "Sounds" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** FMOD Ambient Sound.\n*/" },
-#endif
 		{ "HideCategories", "Collision Input" },
 		{ "IncludePath", "FMODAmbientSound.h" },
 		{ "ModuleRelativePath", "Classes/FMODAmbientSound.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "FMOD Ambient Sound." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AudioComponent_MetaData[] = {
 		{ "Category", "Sound" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The Audio component for this actor */" },
-#endif
 		{ "EditInline", "true" },
 		{ "ExposeFunctionCategories", "Sound" },
 		{ "ModuleRelativePath", "Classes/FMODAmbientSound.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Audio component for this actor" },
-#endif
 	};
 #endif // WITH_METADATA
 
@@ -138,14 +130,14 @@ AFMODAmbientSound::~AFMODAmbientSound() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h__Script_FMODStudio_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h__Script_FMODStudio_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AFMODAmbientSound, TEXT("AFMODAmbientSound"), &Z_Registration_Info_UClass_AFMODAmbientSound, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFMODAmbientSound), 1780666904U) },
+		{ Z_Construct_UClass_AFMODAmbientSound, TEXT("AFMODAmbientSound"), &Z_Registration_Info_UClass_AFMODAmbientSound, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFMODAmbientSound), 289821784U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h__Script_FMODStudio_ae4bef75b6a1a9ff2631c7afc1be77fd54f3413b{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h__Script_FMODStudio_38a9b500dca79d72e04a7cead2c9331c94de5b9a{
 	TEXT("/Script/FMODStudio"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

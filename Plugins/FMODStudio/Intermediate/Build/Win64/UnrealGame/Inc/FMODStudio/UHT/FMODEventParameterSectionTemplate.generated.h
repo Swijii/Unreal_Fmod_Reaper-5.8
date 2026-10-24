@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UScriptStruct_FFMODEventParameterSectionTemplate_Statics;
 FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODEventParameterSectionTemplate(ETypeConstructPhase);
 
-#define FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterSectionTemplate_h_15_GENERATED_BODY \
+#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterSectionTemplate_h_15_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FFMODEventParameterSectionTemplate_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODEventParameterSectionTemplate(ETypeConstructPhase::Inner); } \
 	typedef FMovieSceneParameterSectionTemplate Super;
@@ -31,6 +31,6 @@ struct FFMODEventParameterSectionTemplate;
 // ********** End ScriptStruct FFMODEventParameterSectionTemplate **********************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterSectionTemplate_h
+#define CURRENT_FILE_ID FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterSectionTemplate_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

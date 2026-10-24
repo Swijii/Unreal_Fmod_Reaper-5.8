@@ -407,128 +407,6 @@ DEFINE_FUNCTION(UFMODBlueprintStatics::execBusStopAllEvents)
 }
 // ********** End Class UFMODBlueprintStatics Function BusStopAllEvents ****************************
 
-// ********** Begin Class UFMODBlueprintStatics Function EventInstanceAddAudioTableKey *************
-#ifdef UHT_STATICS
-#error UHT_STATICS already defined
-#endif
-#define UHT_STATICS Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceAddAudioTableKey_Statics
-struct UHT_STATICS
-{
-	struct FMODBlueprintStatics_eventEventInstanceAddAudioTableKey_Parms
-	{
-		FFMODEventInstance EventInstance;
-		FString Key;
-	};
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
-		{ "Category", "Audio|FMOD|EventInstance" },
-		{ "Comment", "/** Adds an Audio Table Key to an FMOD Event Instance.\n     * @param EventInstance - Event instance\n     * @param Key - Key to add\n     */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Adds an Audio Table Key to an FMOD Event Instance.\n@param EventInstance - Event instance\n@param Key - Key to add" },
-		{ "UnsafeDuringActorConstruction", "true" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Key_MetaData[] = {
-		{ "NativeConst", "" },
-	};
-#endif // WITH_METADATA
-
-// ********** Begin Function EventInstanceAddAudioTableKey constinit property declarations *********
-	static const UECodeGen_Private::FStructPropertyParams NewProp_EventInstance;
-	static const UECodeGen_Private::FStrPropertyParams NewProp_Key;
-	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-// ********** End Function EventInstanceAddAudioTableKey constinit property declarations ***********
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-
-// ********** Begin Function EventInstanceAddAudioTableKey Property Definitions ********************
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceAddAudioTableKey_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // ffb060e91189bfa448a87031e586dab160baf288
-const UECodeGen_Private::FStrPropertyParams UHT_STATICS::NewProp_Key = { "Key", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceAddAudioTableKey_Parms, Key), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Key_MetaData), NewProp_Key_MetaData) };
-const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_EventInstance,
-	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Key,
-};
-static_assert(UE_ARRAY_COUNT(UHT_STATICS::PropPointers) < 2048);
-// ********** End Function EventInstanceAddAudioTableKey Property Definitions **********************
-const UECodeGen_Private::FFunctionParams UHT_STATICS::FuncParams = { { (FTypeConstructFunc*)Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceAddAudioTableKey", UHT_STATICS::PropPointers, UE_ARRAY_COUNT(UHT_STATICS::PropPointers), DataSizeOf<UHT_STATICS::FMODBlueprintStatics_eventEventInstanceAddAudioTableKey_Parms>(), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(UHT_STATICS::Type_MetaData), UHT_STATICS::Type_MetaData)},  };
-static_assert(sizeof(UHT_STATICS::FMODBlueprintStatics_eventEventInstanceAddAudioTableKey_Parms) < MAX_uint16);
-UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceAddAudioTableKey(ETypeConstructPhase Phase)
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, UHT_STATICS::FuncParams);
-	}
-	return ReturnFunction;
-}
-#undef UHT_STATICS
-DEFINE_FUNCTION(UFMODBlueprintStatics::execEventInstanceAddAudioTableKey)
-{
-	P_GET_STRUCT(FFMODEventInstance,Z_Param_EventInstance);
-	P_GET_PROPERTY(FStrProperty,Z_Param_Key);
-	P_FINISH;
-	P_NATIVE_BEGIN;
-	UFMODBlueprintStatics::EventInstanceAddAudioTableKey(Z_Param_EventInstance,Z_Param_Key);
-	P_NATIVE_END;
-}
-// ********** End Class UFMODBlueprintStatics Function EventInstanceAddAudioTableKey ***************
-
-// ********** Begin Class UFMODBlueprintStatics Function EventInstanceClearAudioTableKeys **********
-#ifdef UHT_STATICS
-#error UHT_STATICS already defined
-#endif
-#define UHT_STATICS Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceClearAudioTableKeys_Statics
-struct UHT_STATICS
-{
-	struct FMODBlueprintStatics_eventEventInstanceClearAudioTableKeys_Parms
-	{
-		FFMODEventInstance EventInstance;
-	};
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
-		{ "Category", "Audio|FMOD|EventInstance" },
-		{ "Comment", "/** Clear all Audio Table Keys on an FMOD Event Instance.\n     * @param EventInstance - Event instance\n     * @param Key - Key to add\n     */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Clear all Audio Table Keys on an FMOD Event Instance.\n@param EventInstance - Event instance\n@param Key - Key to add" },
-		{ "UnsafeDuringActorConstruction", "true" },
-	};
-#endif // WITH_METADATA
-
-// ********** Begin Function EventInstanceClearAudioTableKeys constinit property declarations ******
-	static const UECodeGen_Private::FStructPropertyParams NewProp_EventInstance;
-	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-// ********** End Function EventInstanceClearAudioTableKeys constinit property declarations ********
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-
-// ********** Begin Function EventInstanceClearAudioTableKeys Property Definitions *****************
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceClearAudioTableKeys_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // ffb060e91189bfa448a87031e586dab160baf288
-const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_EventInstance,
-};
-static_assert(UE_ARRAY_COUNT(UHT_STATICS::PropPointers) < 2048);
-// ********** End Function EventInstanceClearAudioTableKeys Property Definitions *******************
-const UECodeGen_Private::FFunctionParams UHT_STATICS::FuncParams = { { (FTypeConstructFunc*)Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceClearAudioTableKeys", UHT_STATICS::PropPointers, UE_ARRAY_COUNT(UHT_STATICS::PropPointers), DataSizeOf<UHT_STATICS::FMODBlueprintStatics_eventEventInstanceClearAudioTableKeys_Parms>(), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(UHT_STATICS::Type_MetaData), UHT_STATICS::Type_MetaData)},  };
-static_assert(sizeof(UHT_STATICS::FMODBlueprintStatics_eventEventInstanceClearAudioTableKeys_Parms) < MAX_uint16);
-UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceClearAudioTableKeys(ETypeConstructPhase Phase)
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, UHT_STATICS::FuncParams);
-	}
-	return ReturnFunction;
-}
-#undef UHT_STATICS
-DEFINE_FUNCTION(UFMODBlueprintStatics::execEventInstanceClearAudioTableKeys)
-{
-	P_GET_STRUCT(FFMODEventInstance,Z_Param_EventInstance);
-	P_FINISH;
-	P_NATIVE_BEGIN;
-	UFMODBlueprintStatics::EventInstanceClearAudioTableKeys(Z_Param_EventInstance);
-	P_NATIVE_END;
-}
-// ********** End Class UFMODBlueprintStatics Function EventInstanceClearAudioTableKeys ************
-
 // ********** Begin Class UFMODBlueprintStatics Function EventInstanceGetParameter *****************
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
@@ -799,13 +677,11 @@ struct UHT_STATICS
 	struct FMODBlueprintStatics_eventEventInstancePlay_Parms
 	{
 		FFMODEventInstance EventInstance;
-		bool Release;
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Audio|FMOD|EventInstance" },
 		{ "Comment", "/** Plays an FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n\x09 */" },
-		{ "CPP_Default_Release", "true" },
 		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
 		{ "ToolTip", "Plays an FMOD Event Instance.\n@param EventInstance - Event instance" },
 		{ "UnsafeDuringActorConstruction", "true" },
@@ -814,11 +690,6 @@ struct UHT_STATICS
 
 // ********** Begin Function EventInstancePlay constinit property declarations *********************
 	static const UECodeGen_Private::FStructPropertyParams NewProp_EventInstance;
-	static void NewProp_Release_SetBit(void* Obj)
-	{
-		((FMODBlueprintStatics_eventEventInstancePlay_Parms*)Obj)->Release = 1;
-	}
-	static const UECodeGen_Private::FBoolPropertyParams NewProp_Release;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 // ********** End Function EventInstancePlay constinit property declarations ***********************
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -826,10 +697,8 @@ struct UHT_STATICS
 
 // ********** Begin Function EventInstancePlay Property Definitions ********************************
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstancePlay_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // ffb060e91189bfa448a87031e586dab160baf288
-const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_Release = { "Release", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(FMODBlueprintStatics_eventEventInstancePlay_Parms), &UHT_STATICS::NewProp_Release_SetBit, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_EventInstance,
-	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Release,
 };
 static_assert(UE_ARRAY_COUNT(UHT_STATICS::PropPointers) < 2048);
 // ********** End Function EventInstancePlay Property Definitions **********************************
@@ -848,10 +717,9 @@ UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay(ETypeCo
 DEFINE_FUNCTION(UFMODBlueprintStatics::execEventInstancePlay)
 {
 	P_GET_STRUCT(FFMODEventInstance,Z_Param_EventInstance);
-	P_GET_UBOOL(Z_Param_Release);
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	UFMODBlueprintStatics::EventInstancePlay(Z_Param_EventInstance,Z_Param_Release);
+	UFMODBlueprintStatics::EventInstancePlay(Z_Param_EventInstance);
 	P_NATIVE_END;
 }
 // ********** End Class UFMODBlueprintStatics Function EventInstancePlay ***************************
@@ -2871,8 +2739,6 @@ struct UHT_STATICS
 		{ .NameUTF8 = UTF8TEXT("BusSetPaused"), .Pointer = &UFMODBlueprintStatics::execBusSetPaused },
 		{ .NameUTF8 = UTF8TEXT("BusSetVolume"), .Pointer = &UFMODBlueprintStatics::execBusSetVolume },
 		{ .NameUTF8 = UTF8TEXT("BusStopAllEvents"), .Pointer = &UFMODBlueprintStatics::execBusStopAllEvents },
-		{ .NameUTF8 = UTF8TEXT("EventInstanceAddAudioTableKey"), .Pointer = &UFMODBlueprintStatics::execEventInstanceAddAudioTableKey },
-		{ .NameUTF8 = UTF8TEXT("EventInstanceClearAudioTableKeys"), .Pointer = &UFMODBlueprintStatics::execEventInstanceClearAudioTableKeys },
 		{ .NameUTF8 = UTF8TEXT("EventInstanceGetParameter"), .Pointer = &UFMODBlueprintStatics::execEventInstanceGetParameter },
 		{ .NameUTF8 = UTF8TEXT("EventInstanceGetParameterValue"), .Pointer = &UFMODBlueprintStatics::execEventInstanceGetParameterValue },
 		{ .NameUTF8 = UTF8TEXT("EventInstanceIsValid"), .Pointer = &UFMODBlueprintStatics::execEventInstanceIsValid },
@@ -2916,13 +2782,11 @@ struct UHT_STATICS
 		{ &Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused, "BusSetPaused" }, // 43a738697f548989c2438232c26b17a6a48d4697
 		{ &Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume, "BusSetVolume" }, // cfc7b2fdaf322dba61d826e115630975e742b4c7
 		{ &Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents, "BusStopAllEvents" }, // 0ee39d1f2db03f66ee2427e0039b3f613ba6fd6a
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceAddAudioTableKey, "EventInstanceAddAudioTableKey" }, // 1baccdd6294e7497e662fae356ac34f06cb62e16
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceClearAudioTableKeys, "EventInstanceClearAudioTableKeys" }, // 078f4c9467a7383ad9720095d2a7cb21e5b427a5
 		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter, "EventInstanceGetParameter" }, // b0acaaaa2a7a6cc656bb61e4401751efe329b7d7
 		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue, "EventInstanceGetParameterValue" }, // d49bdfc1c80cddb147a32d6759e9c7d75ac97e23
 		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid, "EventInstanceIsValid" }, // d472efdd263db143ffd969e6f5e41826b047f834
 		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff, "EventInstanceKeyOff" }, // 9993b1dd205af2124ad65227ac98ce594905237a
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay, "EventInstancePlay" }, // b570a5e5ed971eb05ba22a078e5cd0a5d2318959
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay, "EventInstancePlay" }, // 35d026743cfd27b84bf9e1cbb6ff2f0660a5a682
 		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease, "EventInstanceRelease" }, // a8f6bef2d533aeabf4928a97f4b8fa897789af68
 		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter, "EventInstanceSetParameter" }, // d4d11e82a0f104ebfc68feb106bf05fd923fecf3
 		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused, "EventInstanceSetPaused" }, // 5ec31bb99fbffb78db26c0f9565583cf47a6a32f
@@ -3028,7 +2892,7 @@ UFMODBlueprintStatics::~UFMODBlueprintStatics() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h__Script_FMODStudio_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h__Script_FMODStudio_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
@@ -3038,10 +2902,10 @@ struct UHT_STATICS
 		{ Z_Construct_UScriptStruct_FFMODEventInstance, Z_Construct_UScriptStruct_FFMODEventInstance_Statics::NewStructOps, TEXT("FMODEventInstance"),&Z_Registration_Info_UScriptStruct_FFMODEventInstance, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODEventInstance), 4289749225U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODBlueprintStatics, TEXT("UFMODBlueprintStatics"), &Z_Registration_Info_UClass_UFMODBlueprintStatics, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODBlueprintStatics), 281556266U) },
+		{ Z_Construct_UClass_UFMODBlueprintStatics, TEXT("UFMODBlueprintStatics"), &Z_Registration_Info_UClass_UFMODBlueprintStatics, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODBlueprintStatics), 3981098337U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h__Script_FMODStudio_9b3bac950d114e57fcb4681751f95d881a1e4ace{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h__Script_FMODStudio_d4a6a57d480cfa9ee3500c4dd28d667d4fcc0bcb{
 	TEXT("/Script/FMODStudio"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

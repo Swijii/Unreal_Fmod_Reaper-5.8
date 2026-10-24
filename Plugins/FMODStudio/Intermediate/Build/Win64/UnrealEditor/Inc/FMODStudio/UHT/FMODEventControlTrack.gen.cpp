@@ -33,24 +33,16 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Handles control of an FMOD Event */" },
-#endif
 		{ "IncludePath", "Sequencer/FMODEventControlTrack.h" },
 		{ "ModuleRelativePath", "Private/Sequencer/FMODEventControlTrack.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Handles control of an FMOD Event" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ControlSections_MetaData[] = {
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List of all event control sections. */" },
-#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Private/Sequencer/FMODEventControlTrack.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of all event control sections." },
-#endif
 	};
 #endif // WITH_METADATA
 
@@ -141,14 +133,14 @@ UFMODEventControlTrack::~UFMODEventControlTrack() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlTrack_h__Script_FMODStudio_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlTrack_h__Script_FMODStudio_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODEventControlTrack, TEXT("UFMODEventControlTrack"), &Z_Registration_Info_UClass_UFMODEventControlTrack, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODEventControlTrack), 2825926651U) },
+		{ Z_Construct_UClass_UFMODEventControlTrack, TEXT("UFMODEventControlTrack"), &Z_Registration_Info_UClass_UFMODEventControlTrack, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODEventControlTrack), 186864610U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlTrack_h__Script_FMODStudio_abf73b5119d45f261f8fc80b871ef022f1652133{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlTrack_h__Script_FMODStudio_0031d6d8f00b43dacd5b7f29a5cf306028ecccd9{
 	TEXT("/Script/FMODStudio"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

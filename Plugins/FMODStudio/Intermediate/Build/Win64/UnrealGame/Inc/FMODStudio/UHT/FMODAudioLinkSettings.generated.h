@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_UFMODAudioLinkSettings_Statics;
 FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAudioLinkSettings(ETypeConstructPhase);
 
-#define FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_56_INCLASS_NO_PURE_DECLS \
+#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_56_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UFMODAudioLinkSettings_Statics; \
 	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODAudioLinkSettings(ETypeConstructPhase); \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UFMODAudioLinkSettings)
 
 
-#define FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_56_ENHANCED_CONSTRUCTORS \
+#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_56_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UFMODAudioLinkSettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -42,12 +42,12 @@ public: \
 	NO_API virtual ~UFMODAudioLinkSettings();
 
 
-#define FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_53_PROLOG
-#define FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_56_GENERATED_BODY \
+#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_53_PROLOG
+#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_56_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_56_INCLASS_NO_PURE_DECLS \
-	FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_56_ENHANCED_CONSTRUCTORS \
+	FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_56_INCLASS_NO_PURE_DECLS \
+	FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_56_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -57,6 +57,6 @@ class UFMODAudioLinkSettings;
 // ********** End Class UFMODAudioLinkSettings *****************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h
+#define CURRENT_FILE_ID FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

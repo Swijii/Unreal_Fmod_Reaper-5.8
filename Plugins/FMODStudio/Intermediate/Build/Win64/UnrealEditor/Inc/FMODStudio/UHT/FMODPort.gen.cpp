@@ -31,14 +31,10 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * FMOD Port Asset.\n */" },
-#endif
 		{ "IncludePath", "FMODPort.h" },
 		{ "ModuleRelativePath", "Classes/FMODPort.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "FMOD Port Asset." },
-#endif
 	};
 #endif // WITH_METADATA
 
@@ -112,14 +108,14 @@ UFMODPort::~UFMODPort() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODPort_h__Script_FMODStudio_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODPort_h__Script_FMODStudio_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODPort, TEXT("UFMODPort"), &Z_Registration_Info_UClass_UFMODPort, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODPort), 2638951616U) },
+		{ Z_Construct_UClass_UFMODPort, TEXT("UFMODPort"), &Z_Registration_Info_UClass_UFMODPort, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODPort), 4036280059U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Swiji_Unreal_Fmod_Reaper_5_8_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODPort_h__Script_FMODStudio_82e73ff65e389f64ded4b5062b21ac28c565c5ef{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODPort_h__Script_FMODStudio_adf056a46f80ffe770ab93e4fb8c691c259ce3d9{
 	TEXT("/Script/FMODStudio"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

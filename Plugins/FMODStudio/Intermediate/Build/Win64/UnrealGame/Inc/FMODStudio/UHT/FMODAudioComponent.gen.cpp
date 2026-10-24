@@ -22,7 +22,6 @@ FMODSTUDIO_API UEnum* Z_Construct_UEnum_FMODStudio_EFMODEventProperty(ETypeConst
 FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODAttenuationDetails(ETypeConstructPhase);
 FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAudioComponent(ETypeConstructPhase);
 FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODOcclusionDetails(ETypeConstructPhase);
-FMODSTUDIO_API UFunction* Z_Construct_UDelegateFunction_FMODStudio_OnAssetMarker__DelegateSignature(ETypeConstructPhase);
 FMODSTUDIO_API UFunction* Z_Construct_UDelegateFunction_FMODStudio_OnEventStopped__DelegateSignature(ETypeConstructPhase);
 FMODSTUDIO_API UFunction* Z_Construct_UDelegateFunction_FMODStudio_OnSoundStopped__DelegateSignature(ETypeConstructPhase);
 FMODSTUDIO_API UFunction* Z_Construct_UDelegateFunction_FMODStudio_OnTimelineBeat__DelegateSignature(ETypeConstructPhase);
@@ -376,61 +375,6 @@ UFunction* Z_Construct_UDelegateFunction_FMODStudio_OnSoundStopped__DelegateSign
 }
 #undef UHT_STATICS
 // ********** End Delegate FOnSoundStopped *********************************************************
-
-// ********** Begin Delegate FOnAssetMarker ********************************************************
-#ifdef UHT_STATICS
-#error UHT_STATICS already defined
-#endif
-#define UHT_STATICS Z_Construct_UDelegateFunction_FMODStudio_OnAssetMarker__DelegateSignature_Statics
-struct UHT_STATICS
-{
-	struct _Script_FMODStudio_eventOnAssetMarker_Parms
-	{
-		FString Name;
-		int32 Position;
-		int32 index;
-	};
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
-		{ "Comment", "/** called when one of an EventInstance's internal Channels passes an asset marker */" },
-		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
-		{ "ToolTip", "called when one of an EventInstance's internal Channels passes an asset marker" },
-	};
-#endif // WITH_METADATA
-
-// ********** Begin Delegate FOnAssetMarker constinit property declarations ************************
-	static const UECodeGen_Private::FStrPropertyParams NewProp_Name;
-	static const UECodeGen_Private::FIntPropertyParams NewProp_Position;
-	static const UECodeGen_Private::FIntPropertyParams NewProp_index;
-	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-// ********** End Delegate FOnAssetMarker constinit property declarations **************************
-	static const UECodeGen_Private::FDelegateFunctionParams FuncParams;
-};
-
-// ********** Begin Delegate FOnAssetMarker Property Definitions ***********************************
-const UECodeGen_Private::FStrPropertyParams UHT_STATICS::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_FMODStudio_eventOnAssetMarker_Parms, Name), METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FIntPropertyParams UHT_STATICS::NewProp_Position = { "Position", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_FMODStudio_eventOnAssetMarker_Parms, Position), METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FIntPropertyParams UHT_STATICS::NewProp_index = { "index", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_FMODStudio_eventOnAssetMarker_Parms, index), METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Name,
-	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Position,
-	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_index,
-};
-static_assert(UE_ARRAY_COUNT(UHT_STATICS::PropPointers) < 2048);
-// ********** End Delegate FOnAssetMarker Property Definitions *************************************
-const UECodeGen_Private::FDelegateFunctionParams UHT_STATICS::FuncParams = { { (FTypeConstructFunc*)Z_Construct_UPackage__Script_FMODStudio, nullptr, "OnAssetMarker__DelegateSignature", UHT_STATICS::PropPointers, UE_ARRAY_COUNT(UHT_STATICS::PropPointers), DataSizeOf<UHT_STATICS::_Script_FMODStudio_eventOnAssetMarker_Parms>(), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(UHT_STATICS::Type_MetaData), UHT_STATICS::Type_MetaData)},  };
-static_assert(sizeof(UHT_STATICS::_Script_FMODStudio_eventOnAssetMarker_Parms) < MAX_uint16);
-UFunction* Z_Construct_UDelegateFunction_FMODStudio_OnAssetMarker__DelegateSignature(ETypeConstructPhase Phase)
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUDelegateFunction(&ReturnFunction, UHT_STATICS::FuncParams);
-	}
-	return ReturnFunction;
-}
-#undef UHT_STATICS
-// ********** End Delegate FOnAssetMarker **********************************************************
 
 // ********** Begin Delegate FOnTimelineMarker *****************************************************
 #ifdef UHT_STATICS
@@ -1653,11 +1597,6 @@ struct UHT_STATICS
 		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
 		{ "ToolTip", "Called when a sound stops." },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnAssetMarker_MetaData[] = {
-		{ "Comment", "/** Called when one of an EventInstance's internal Channels passes an asset marker. */" },
-		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
-		{ "ToolTip", "Called when one of an EventInstance's internal Channels passes an asset marker." },
-	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnTimelineMarker_MetaData[] = {
 		{ "Comment", "/** Called when we reach a named marker (if bEnableTimelineCallbacks is true). */" },
 		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
@@ -1708,7 +1647,6 @@ struct UHT_STATICS
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_bStopWhenOwnerDestroyed;
 	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnEventStopped;
 	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnSoundStopped;
-	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnAssetMarker;
 	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnTimelineMarker;
 	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnTimelineBeat;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_AttenuationDetails;
@@ -1779,7 +1717,6 @@ const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_bAutoDestroy =
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_bStopWhenOwnerDestroyed = { "bStopWhenOwnerDestroyed", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Bool, nullptr, nullptr, 1, sizeof(uint8), sizeof(UFMODAudioComponent), &UHT_STATICS::NewProp_bStopWhenOwnerDestroyed_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bStopWhenOwnerDestroyed_MetaData), NewProp_bStopWhenOwnerDestroyed_MetaData) };
 const UECodeGen_Private::FMulticastDelegatePropertyParams UHT_STATICS::NewProp_OnEventStopped = { "OnEventStopped", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioComponent, OnEventStopped), Z_Construct_UDelegateFunction_FMODStudio_OnEventStopped__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnEventStopped_MetaData), NewProp_OnEventStopped_MetaData) }; // d95f4adbec8db3c68b3e91fb39a055b55c7f2d97
 const UECodeGen_Private::FMulticastDelegatePropertyParams UHT_STATICS::NewProp_OnSoundStopped = { "OnSoundStopped", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioComponent, OnSoundStopped), Z_Construct_UDelegateFunction_FMODStudio_OnSoundStopped__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnSoundStopped_MetaData), NewProp_OnSoundStopped_MetaData) }; // ba8fc6703d3e439171d3f31f59cccded443d53aa
-const UECodeGen_Private::FMulticastDelegatePropertyParams UHT_STATICS::NewProp_OnAssetMarker = { "OnAssetMarker", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioComponent, OnAssetMarker), Z_Construct_UDelegateFunction_FMODStudio_OnAssetMarker__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnAssetMarker_MetaData), NewProp_OnAssetMarker_MetaData) }; // fdaf2e606df0f5bf911efbb1a086e36e862be23b
 const UECodeGen_Private::FMulticastDelegatePropertyParams UHT_STATICS::NewProp_OnTimelineMarker = { "OnTimelineMarker", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioComponent, OnTimelineMarker), Z_Construct_UDelegateFunction_FMODStudio_OnTimelineMarker__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnTimelineMarker_MetaData), NewProp_OnTimelineMarker_MetaData) }; // 4660f1115afe518918cc5b0e14eb76ae233fab99
 const UECodeGen_Private::FMulticastDelegatePropertyParams UHT_STATICS::NewProp_OnTimelineBeat = { "OnTimelineBeat", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioComponent, OnTimelineBeat), Z_Construct_UDelegateFunction_FMODStudio_OnTimelineBeat__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnTimelineBeat_MetaData), NewProp_OnTimelineBeat_MetaData) }; // a1a62802eda8e0386c2cd7666f6da0256d5fe30c
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_AttenuationDetails = { "AttenuationDetails", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioComponent, AttenuationDetails), Z_Construct_UScriptStruct_FFMODAttenuationDetails, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttenuationDetails_MetaData), NewProp_AttenuationDetails_MetaData) }; // 9136aaf24d6964e22fd34b0ce3b245accf3f7c5d
@@ -1798,7 +1735,6 @@ const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] 
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_bStopWhenOwnerDestroyed,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_OnEventStopped,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_OnSoundStopped,
-	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_OnAssetMarker,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_OnTimelineMarker,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_OnTimelineBeat,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_AttenuationDetails,
@@ -1873,7 +1809,7 @@ UFMODAudioComponent::~UFMODAudioComponent() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h__Script_FMODStudio_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h__Script_FMODStudio_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
@@ -1884,10 +1820,10 @@ struct UHT_STATICS
 		{ Z_Construct_UScriptStruct_FFMODOcclusionDetails, Z_Construct_UScriptStruct_FFMODOcclusionDetails_Statics::NewStructOps, TEXT("FMODOcclusionDetails"),&Z_Registration_Info_UScriptStruct_FFMODOcclusionDetails, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODOcclusionDetails), 428452428U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODAudioComponent, TEXT("UFMODAudioComponent"), &Z_Registration_Info_UClass_UFMODAudioComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAudioComponent), 2947067556U) },
+		{ Z_Construct_UClass_UFMODAudioComponent, TEXT("UFMODAudioComponent"), &Z_Registration_Info_UClass_UFMODAudioComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAudioComponent), 719267672U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h__Script_FMODStudio_52d57258efa6e38b892c5eec12829304496a69e3{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h__Script_FMODStudio_fdfc5bbb5100edeb538fc85cf39e47add575d262{
 	TEXT("/Script/FMODStudio"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

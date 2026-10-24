@@ -31,7 +31,7 @@ struct FFMODEventInstance;
 struct Z_Construct_UScriptStruct_FFMODEventInstance_Statics;
 FMODSTUDIO_API UScriptStruct* Z_Construct_UScriptStruct_FFMODEventInstance(ETypeConstructPhase);
 
-#define FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_28_GENERATED_BODY \
+#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_28_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FFMODEventInstance_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FFMODEventInstance(ETypeConstructPhase::Inner); }
 
@@ -40,15 +40,13 @@ struct FFMODEventInstance;
 // ********** End ScriptStruct FFMODEventInstance **************************************************
 
 // ********** Begin Class UFMODBlueprintStatics ****************************************************
-#define FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_RPC_WRAPPERS \
+#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_RPC_WRAPPERS \
 	DECLARE_FUNCTION(execSetLocale); \
 	DECLARE_FUNCTION(execMixerResume); \
 	DECLARE_FUNCTION(execMixerSuspend); \
 	DECLARE_FUNCTION(execSetOutputDriverByIndex); \
 	DECLARE_FUNCTION(execSetOutputDriverByName); \
 	DECLARE_FUNCTION(execGetOutputDrivers); \
-	DECLARE_FUNCTION(execEventInstanceClearAudioTableKeys); \
-	DECLARE_FUNCTION(execEventInstanceAddAudioTableKey); \
 	DECLARE_FUNCTION(execEventInstanceSetTransform); \
 	DECLARE_FUNCTION(execEventInstanceKeyOff); \
 	DECLARE_FUNCTION(execEventInstanceRelease); \
@@ -88,7 +86,7 @@ struct FFMODEventInstance;
 struct Z_Construct_UClass_UFMODBlueprintStatics_Statics;
 FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODBlueprintStatics(ETypeConstructPhase);
 
-#define FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_INCLASS \
+#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_INCLASS \
 private: \
 	friend struct ::Z_Construct_UClass_UFMODBlueprintStatics_Statics; \
 	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODBlueprintStatics(ETypeConstructPhase); \
@@ -97,7 +95,7 @@ public: \
 	DECLARE_SERIALIZER(UFMODBlueprintStatics)
 
 
-#define FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_STANDARD_CONSTRUCTORS \
+#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UFMODBlueprintStatics(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFMODBlueprintStatics) \
@@ -109,13 +107,13 @@ public: \
 	NO_API virtual ~UFMODBlueprintStatics();
 
 
-#define FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_40_PROLOG
-#define FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_GENERATED_BODY_LEGACY \
+#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_40_PROLOG
+#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_RPC_WRAPPERS \
-	FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_INCLASS \
-	FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_STANDARD_CONSTRUCTORS \
+	FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_RPC_WRAPPERS \
+	FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_INCLASS \
+	FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -125,7 +123,7 @@ class UFMODBlueprintStatics;
 // ********** End Class UFMODBlueprintStatics ******************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h
+#define CURRENT_FILE_ID FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h
 
 // ********** Begin Enum EFMOD_STUDIO_STOP_MODE ****************************************************
 #define FOREACH_ENUM_EFMOD_STUDIO_STOP_MODE(op) \
