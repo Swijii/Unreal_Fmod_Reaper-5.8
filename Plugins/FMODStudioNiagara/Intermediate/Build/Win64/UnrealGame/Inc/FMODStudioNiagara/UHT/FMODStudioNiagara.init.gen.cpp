@@ -18,7 +18,7 @@ static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compi
 			nullptr,
 			0,
 			PKG_CompiledIn | 0x00000000,
-			0x74C901AE,
+			0x610F3624,
 			0xDE753EB9,
 			METADATA_PARAMS(0, nullptr)
 		};
@@ -26,5 +26,5 @@ static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compi
 	}
 	return Z_Registration_Info_UPackage__Script_FMODStudioNiagara.OuterSingleton;
 }
-static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_FMODStudioNiagara(Z_Construct_UPackage__Script_FMODStudioNiagara, TEXT("/Script/FMODStudioNiagara"), Z_Registration_Info_UPackage__Script_FMODStudioNiagara, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x74C901AE, 0xDE753EB9));
+static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_FMODStudioNiagara(Z_Construct_UPackage__Script_FMODStudioNiagara, TEXT("/Script/FMODStudioNiagara"), Z_Registration_Info_UPackage__Script_FMODStudioNiagara, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x610F3624, 0xDE753EB9));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

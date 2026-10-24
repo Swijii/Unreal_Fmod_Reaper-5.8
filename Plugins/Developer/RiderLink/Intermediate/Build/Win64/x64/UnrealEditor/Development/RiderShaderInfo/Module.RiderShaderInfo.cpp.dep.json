@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\program files\\github\\swiji\\unreal_fmod_reaper 5.8\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ridershaderinfo\\module.ridershaderinfo.cpp",
+        "Source": "c:\\program files\\github\\swiji\\unreal_fmod_reaper-5.8\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ridershaderinfo\\module.ridershaderinfo.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\program files\\github\\swiji\\unreal_fmod_reaper 5.8\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ridershaderinfo\\definitions.h",
-            "c:\\program files\\github\\swiji\\unreal_fmod_reaper 5.8\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ridershaderinfo\\permoduleinline.gen.cpp",
+            "c:\\program files\\github\\swiji\\unreal_fmod_reaper-5.8\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ridershaderinfo\\definitions.h",
+            "c:\\program files\\github\\swiji\\unreal_fmod_reaper-5.8\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ridershaderinfo\\permoduleinline.gen.cpp",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\coreglobals.h",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\containers\\unrealstring.h",
@@ -341,8 +341,8 @@
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\tracelog\\public\\trace\\detail\\logscope.h",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\tracelog\\public\\trace\\detail\\writer.inl",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\modules\\visualizerdebuggingstate.h",
-            "c:\\program files\\github\\swiji\\unreal_fmod_reaper 5.8\\plugins\\developer\\riderlink\\source\\ridershaderinfo\\ridershaderinfo.cpp",
-            "c:\\program files\\github\\swiji\\unreal_fmod_reaper 5.8\\plugins\\developer\\riderlink\\source\\ridershaderinfo\\ridershaderinfo.h",
+            "c:\\program files\\github\\swiji\\unreal_fmod_reaper-5.8\\plugins\\developer\\riderlink\\source\\ridershaderinfo\\ridershaderinfo.cpp",
+            "c:\\program files\\github\\swiji\\unreal_fmod_reaper-5.8\\plugins\\developer\\riderlink\\source\\ridershaderinfo\\ridershaderinfo.h",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\modules\\moduleinterface.h",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\hal\\filemanager.h",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\misc\\datetime.h",

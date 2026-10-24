@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_UFMODAnimNotifyPlay_Statics;
 FMODSTUDIO_API UClass* Z_Construct_UClass_UFMODAnimNotifyPlay(ETypeConstructPhase);
 
-#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_10_INCLASS_NO_PURE_DECLS \
+#define FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_10_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UFMODAnimNotifyPlay_Statics; \
 	friend FMODSTUDIO_API UClass* ::Z_Construct_UClass_UFMODAnimNotifyPlay(ETypeConstructPhase); \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UFMODAnimNotifyPlay)
 
 
-#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_10_ENHANCED_CONSTRUCTORS \
+#define FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_10_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UFMODAnimNotifyPlay(UFMODAnimNotifyPlay&&) = delete; \
 	UFMODAnimNotifyPlay(const UFMODAnimNotifyPlay&) = delete; \
@@ -40,12 +40,12 @@ public: \
 	NO_API virtual ~UFMODAnimNotifyPlay();
 
 
-#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_7_PROLOG
-#define FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_10_GENERATED_BODY \
+#define FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_7_PROLOG
+#define FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_10_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_10_INCLASS_NO_PURE_DECLS \
-	FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_10_ENHANCED_CONSTRUCTORS \
+	FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_10_INCLASS_NO_PURE_DECLS \
+	FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,6 +55,6 @@ class UFMODAnimNotifyPlay;
 // ********** End Class UFMODAnimNotifyPlay ********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BuildAgent1_work_c1c3f17eb167c494_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h
+#define CURRENT_FILE_ID FID_BuildAgent1_work_9e39292ae975f8fb_build_staging_FMODStudio_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

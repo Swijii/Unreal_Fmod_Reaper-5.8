@@ -13,15 +13,15 @@
 			"FMODBankUpdateNotifier.cpp.obj",
 			"FMODEventEditor.cpp.obj",
 			"FMODGenerateAssetsCommandlet.cpp.obj",
+			"FMODSettingsCustomization.cpp.obj",
+			"FMODStudioEditorModule.cpp.obj",
 			"FMODStudioStyle.cpp.obj",
 			"FMODChannelEditors.cpp.obj",
 			"FMODEventControlTrackEditor.cpp.obj",
 			"FMODEventParameterTrackEditor.cpp.obj",
 			"FMODParameterSection.cpp.obj",
 			"SFMODEventEditorPanel.cpp.obj",
-			"FMODAssetBuilder.cpp.obj",
-			"FMODSettingsCustomization.cpp.obj",
-			"FMODStudioEditorModule.cpp.obj"
+			"FMODAssetBuilder.cpp.obj"
 		]
 	}
 }

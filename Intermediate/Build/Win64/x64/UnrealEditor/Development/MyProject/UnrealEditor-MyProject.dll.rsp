@@ -38,9 +38,9 @@
 /NOEXP
 /NATVIS:"../Intermediate/Build/Win64/x64/UnrealEditor/Development/AIModule/AIModule.natvis"
 /NATVIS:"../Plugins/Runtime/StateTree/Intermediate/Build/Win64/x64/UnrealEditor/Development/StateTreeModule/StateTree.natvis"
-"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
-"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Module.MyProject.cpp.obj"
-"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Default.rc2.res"
+"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Module.MyProject.cpp.obj"
+"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Default.rc2.res"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/Engine/UnrealEditor-Engine.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/AIModule/UnrealEditor-AIModule.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/UMG/UnrealEditor-UMG.lib"
@@ -76,6 +76,6 @@
 "synchronization.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Binaries/Win64/UnrealEditor-MyProject.dll"
-/PDB:"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Binaries/Win64/UnrealEditor-MyProject.pdb"
+/OUT:"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Binaries/Win64/UnrealEditor-MyProject.dll"
+/PDB:"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Binaries/Win64/UnrealEditor-MyProject.pdb"
 /ignore:4078

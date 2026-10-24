@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\program files\\github\\swiji\\unreal_fmod_reaper 5.8\\plugins\\developer\\riderlink\\source\\rideragenttools\\private\\rideragentbridgelibrary.cpp",
+        "Source": "c:\\program files\\github\\swiji\\unreal_fmod_reaper-5.8\\plugins\\developer\\riderlink\\source\\rideragenttools\\private\\rideragentbridgelibrary.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\program files\\github\\swiji\\unreal_fmod_reaper 5.8\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rideragenttools\\definitions.h",
-            "c:\\program files\\github\\swiji\\unreal_fmod_reaper 5.8\\plugins\\developer\\riderlink\\source\\rideragenttools\\private\\rideragentbridgelibrary.h",
+            "c:\\program files\\github\\swiji\\unreal_fmod_reaper-5.8\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rideragenttools\\definitions.h",
+            "c:\\program files\\github\\swiji\\unreal_fmod_reaper-5.8\\plugins\\developer\\riderlink\\source\\rideragenttools\\private\\rideragentbridgelibrary.h",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\coreminimal.h",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\coretypes.h",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\hal\\platform.h",
@@ -643,7 +643,7 @@
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\coreuobject\\public\\uobject\\fieldpathproperty.h",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyoptional.h",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\blueprintfunctionlibrary.generated.h",
-            "c:\\program files\\github\\swiji\\unreal_fmod_reaper 5.8\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\unrealeditor\\inc\\rideragenttools\\uht\\rideragentbridgelibrary.generated.h",
+            "c:\\program files\\github\\swiji\\unreal_fmod_reaper-5.8\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\unrealeditor\\inc\\rideragenttools\\uht\\rideragentbridgelibrary.generated.h",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\hal\\iconsolemanager.h",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\misc\\accessdetection.h",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\features\\imodularfeature.h",

@@ -1,10 +1,10 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\program files\\github\\swiji\\unreal_fmod_reaper 5.8\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rd\\permoduleinline.gen.cpp",
+        "Source": "c:\\program files\\github\\swiji\\unreal_fmod_reaper-5.8\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rd\\permoduleinline.gen.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\program files\\github\\swiji\\unreal_fmod_reaper 5.8\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rd\\definitions.h",
+            "c:\\program files\\github\\swiji\\unreal_fmod_reaper-5.8\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rd\\definitions.h",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\coreglobals.h",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\containers\\unrealstring.h",

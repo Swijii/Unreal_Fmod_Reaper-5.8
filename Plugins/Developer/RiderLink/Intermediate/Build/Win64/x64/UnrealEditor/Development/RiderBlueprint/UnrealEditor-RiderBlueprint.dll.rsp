@@ -37,11 +37,11 @@
 /NOIMPLIB
 /NOEXP
 /NATVIS:"../Intermediate/Build/Win64/x64/UnrealEditor/Development/AssetRegistry/AssetRegistry.natvis"
-"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderBlueprint/Module.RiderBlueprint.cpp.obj"
-"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderBlueprint/Default.rc2.res"
+"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderBlueprint/Module.RiderBlueprint.cpp.obj"
+"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderBlueprint/Default.rc2.res"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/Core/UnrealEditor-Core.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/SlateCore/UnrealEditor-SlateCore.lib"
-"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLink/UnrealEditor-RiderLink.lib"
+"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLink/UnrealEditor-RiderLink.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/Slate/UnrealEditor-Slate.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/AssetRegistry/UnrealEditor-AssetRegistry.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/MessagingCommon/UnrealEditor-MessagingCommon.lib"
@@ -50,7 +50,7 @@
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/Engine/UnrealEditor-Engine.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/CoreUObject/UnrealEditor-CoreUObject.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/BlueprintGraph/UnrealEditor-BlueprintGraph.lib"
-"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RD/UnrealEditor-RD.lib"
+"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RD/UnrealEditor-RD.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -76,6 +76,6 @@
 "synchronization.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderBlueprint.dll"
-/PDB:"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderBlueprint.pdb"
+/OUT:"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderBlueprint.dll"
+/PDB:"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderBlueprint.pdb"
 /ignore:4078

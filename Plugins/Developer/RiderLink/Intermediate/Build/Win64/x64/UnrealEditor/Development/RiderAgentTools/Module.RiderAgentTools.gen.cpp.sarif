@@ -10,7 +10,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderAgentTools/Module.RiderAgentTools.gen.cpp"
+                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderAgentTools/Module.RiderAgentTools.gen.cpp"
                     },
                     "locations": [
                         {
@@ -35,7 +35,7 @@
                         "text": "'UStruct::ActivateTrackingPropertyValueFlag': This API is internal to the engine. As such, there is no guarantee that it won't change or be removed in future releases. Please use at your own risk."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderAgentTools/Module.RiderAgentTools.gen.cpp"
+                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderAgentTools/Module.RiderAgentTools.gen.cpp"
                     },
                     "locations": [
                         {
@@ -60,7 +60,7 @@
                         "text": "'UStruct::IsTrackingPropertyValueFlag': This API is internal to the engine. As such, there is no guarantee that it won't change or be removed in future releases. Please use at your own risk."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderAgentTools/Module.RiderAgentTools.gen.cpp"
+                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderAgentTools/Module.RiderAgentTools.gen.cpp"
                     },
                     "locations": [
                         {
@@ -85,7 +85,7 @@
                         "text": "'UStruct::HasPropertyValueFlag': This API is internal to the engine. As such, there is no guarantee that it won't change or be removed in future releases. Please use at your own risk."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderAgentTools/Module.RiderAgentTools.gen.cpp"
+                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderAgentTools/Module.RiderAgentTools.gen.cpp"
                     },
                     "locations": [
                         {
@@ -110,7 +110,7 @@
                         "text": "'UStruct::SetPropertyValueFlag': This API is internal to the engine. As such, there is no guarantee that it won't change or be removed in future releases. Please use at your own risk."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderAgentTools/Module.RiderAgentTools.gen.cpp"
+                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderAgentTools/Module.RiderAgentTools.gen.cpp"
                     },
                     "locations": [
                         {
@@ -135,7 +135,7 @@
                         "text": "'UStruct::ResetPropertyValueFlags': This API is internal to the engine. As such, there is no guarantee that it won't change or be removed in future releases. Please use at your own risk."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderAgentTools/Module.RiderAgentTools.gen.cpp"
+                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderAgentTools/Module.RiderAgentTools.gen.cpp"
                     },
                     "locations": [
                         {
@@ -160,7 +160,7 @@
                         "text": "'UStruct::SerializePropertyValueFlags': This API is internal to the engine. As such, there is no guarantee that it won't change or be removed in future releases. Please use at your own risk."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderAgentTools/Module.RiderAgentTools.gen.cpp"
+                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderAgentTools/Module.RiderAgentTools.gen.cpp"
                     },
                     "locations": [
                         {

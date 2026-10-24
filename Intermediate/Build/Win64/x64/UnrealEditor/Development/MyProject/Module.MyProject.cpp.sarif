@@ -10,7 +10,7 @@
                         "text": "'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Module.MyProject.cpp"
+                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Module.MyProject.cpp"
                     },
                     "locations": [
                         {

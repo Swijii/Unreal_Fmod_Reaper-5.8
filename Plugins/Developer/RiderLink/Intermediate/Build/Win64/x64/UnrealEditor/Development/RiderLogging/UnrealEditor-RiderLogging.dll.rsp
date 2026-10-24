@@ -36,12 +36,12 @@
 /FUNCTIONPADMIN:6
 /NOIMPLIB
 /NOEXP
-"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLogging/Module.RiderLogging.cpp.obj"
-"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLogging/Default.rc2.res"
+"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLogging/Module.RiderLogging.cpp.obj"
+"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLogging/Default.rc2.res"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/Core/UnrealEditor-Core.lib"
-"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RD/UnrealEditor-RD.lib"
-"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLink/UnrealEditor-RiderLink.lib"
-"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderBlueprint/UnrealEditor-RiderBlueprint.lib"
+"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RD/UnrealEditor-RD.lib"
+"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLink/UnrealEditor-RiderLink.lib"
+"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderBlueprint/UnrealEditor-RiderBlueprint.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -67,6 +67,6 @@
 "synchronization.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLogging.dll"
-/PDB:"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLogging.pdb"
+/OUT:"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLogging.dll"
+/PDB:"C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLogging.pdb"
 /ignore:4078

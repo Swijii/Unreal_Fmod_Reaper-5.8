@@ -10,7 +10,7 @@
                         "text": "'USoundWave::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/FMODStudioNiagara/Intermediate/Build/Win64/x64/UnrealEditor/Development/FMODStudioNiagara/Module.FMODStudioNiagara.cpp"
+                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/FMODStudioNiagara/Intermediate/Build/Win64/x64/UnrealEditor/Development/FMODStudioNiagara/Module.FMODStudioNiagara.cpp"
                     },
                     "locations": [
                         {
@@ -35,7 +35,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/FMODStudioNiagara/Intermediate/Build/Win64/x64/UnrealEditor/Development/FMODStudioNiagara/Module.FMODStudioNiagara.cpp"
+                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/FMODStudioNiagara/Intermediate/Build/Win64/x64/UnrealEditor/Development/FMODStudioNiagara/Module.FMODStudioNiagara.cpp"
                     },
                     "locations": [
                         {
@@ -60,7 +60,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/FMODStudioNiagara/Intermediate/Build/Win64/x64/UnrealEditor/Development/FMODStudioNiagara/Module.FMODStudioNiagara.cpp"
+                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/FMODStudioNiagara/Intermediate/Build/Win64/x64/UnrealEditor/Development/FMODStudioNiagara/Module.FMODStudioNiagara.cpp"
                     },
                     "locations": [
                         {
@@ -85,13 +85,13 @@
                         "text": "'UNiagaraDataInterface::GetFunctions': GetFunctions() should be renamed GetFunctionsInternal() and guarded with WITH_EDITORONLY_DATA. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/FMODStudioNiagara/Intermediate/Build/Win64/x64/UnrealEditor/Development/FMODStudioNiagara/Module.FMODStudioNiagara.cpp"
+                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/FMODStudioNiagara/Intermediate/Build/Win64/x64/UnrealEditor/Development/FMODStudioNiagara/Module.FMODStudioNiagara.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/FMODStudioNiagara/Source/FMODStudioNiagara/Public/FMODNiagaraEventPlayer.h"
+                                    "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/FMODStudioNiagara/Source/FMODStudioNiagara/Public/FMODNiagaraEventPlayer.h"
                                 },
                                 "region": {
                                     "startLine": 97,
@@ -110,7 +110,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/FMODStudioNiagara/Intermediate/Build/Win64/x64/UnrealEditor/Development/FMODStudioNiagara/Module.FMODStudioNiagara.cpp"
+                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/FMODStudioNiagara/Intermediate/Build/Win64/x64/UnrealEditor/Development/FMODStudioNiagara/Module.FMODStudioNiagara.cpp"
                     },
                     "locations": [
                         {
@@ -135,7 +135,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/FMODStudioNiagara/Intermediate/Build/Win64/x64/UnrealEditor/Development/FMODStudioNiagara/Module.FMODStudioNiagara.cpp"
+                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/FMODStudioNiagara/Intermediate/Build/Win64/x64/UnrealEditor/Development/FMODStudioNiagara/Module.FMODStudioNiagara.cpp"
                     },
                     "locations": [
                         {

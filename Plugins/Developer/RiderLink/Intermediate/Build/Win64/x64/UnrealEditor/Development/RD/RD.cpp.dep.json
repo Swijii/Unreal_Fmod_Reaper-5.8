@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\program files\\github\\swiji\\unreal_fmod_reaper 5.8\\plugins\\developer\\riderlink\\source\\rd\\rd.cpp",
+        "Source": "c:\\program files\\github\\swiji\\unreal_fmod_reaper-5.8\\plugins\\developer\\riderlink\\source\\rd\\rd.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\program files\\github\\swiji\\unreal_fmod_reaper 5.8\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rd\\definitions.h",
-            "c:\\program files\\github\\swiji\\unreal_fmod_reaper 5.8\\plugins\\developer\\riderlink\\source\\rd\\rd.h",
+            "c:\\program files\\github\\swiji\\unreal_fmod_reaper-5.8\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rd\\definitions.h",
+            "c:\\program files\\github\\swiji\\unreal_fmod_reaper-5.8\\plugins\\developer\\riderlink\\source\\rd\\rd.h",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\logging\\logmacros.h",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\concepts\\chartype.h",
             "c:\\program files\\unreal engine\\ue_5.8\\engine\\source\\runtime\\core\\public\\traits\\ischartype.h",

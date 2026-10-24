@@ -10,7 +10,7 @@
                         "text": "'USoundWave::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper 5.8/Plugins/FMODStudio/Intermediate/Build/Win64/x64/UnrealEditor/Development/FMODStudio/Module.FMODStudio.cpp"
+                        "uri": "file:///C:/Program Files/Github/Swiji/Unreal_Fmod_Reaper-5.8/Plugins/FMODStudio/Intermediate/Build/Win64/x64/UnrealEditor/Development/FMODStudio/Module.FMODStudio.cpp"
                     },
                     "locations": [
                         {
